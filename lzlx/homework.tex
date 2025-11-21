@@ -1,0 +1,335 @@
+\documentclass{article}
+\usepackage{bm}
+\usepackage{amsmath}
+
+\begin{document}
+\section{Oct 20 HW}
+Oct 20 homework: Proov 3 equation 
+
+1.$[p_x , \psi(x)]=-i\bar h \frac{\partial \psi}{\partial x}$
+
+2.$[p_x^2 , \psi(x)]=-2i\bar h \frac{\partial \psi}{\partial x}p_x-{\bar h}^2\frac{\partial^2 \psi}{\partial x^2}$
+
+3.$[x,y(p(x))]=i\bar h \frac{\partial y(p(x))}{\partial p(x)}$
+
+proov now:
+
+
+1:$[p_x , \psi]\psi = p_x[\psi^2]-\psi p_x[\psi]=-i\bar h 2 \psi \partial_x \psi + i\bar h\psi\partial_x\psi=-i\bar h \partial_x\psi \psi$
+
+2:$[p_x^2,\psi]=-{\bar h}^2\partial_x\partial_x\psi^2+{\bar h}^2\psi\partial_x\partial_x\psi=-2{\bar h}i\partial_x\psi\times p_x\psi-{\bar h}^2\psi\partial_x\partial_x\psi=(-2{\bar h}i\partial_x\psi p_x-{\bar h}^2\partial_x\partial_x\psi)\psi$
+
+3:$[x,y(p(x))]$ and$ y(p(x))=\Sigma_nC_np(x)^n$ so $\Sigma_nC_n[x,p_x^n]=[x,y(p(x))]$ and $[x,p_x^n]\psi=x\times p_x^n\psi-p_x^n(x\psi)=in\bar hp_x^{n-1}\psi$=$\Sigma_nC_n[x,p_x^n]=[x,\Sigma_nc_np_x^n]=i\bar h \Sigma_nC_n n p_x^{n-1}\psi=i\bar h \partial_{p_x}y(p_x)\psi$
+
+$p_x^n(x\psi)=p_x^{n-1}(c\psi+x\partial_x\psi)=cp_x^{n-1}\psi+p_x^{n-2}(c\partial\psi+xp_x^2\psi)$ so $=ncp_x^{n-1}\psi+p_x^n\psi$and$c=-i\bar h$
+
+$p_x[x\psi]=-i\bar h \psi + xp_x\psi$
+
+D O N E .
+
+\section{Oct 23HW part2}
+
+PROOF:$e^{a\frac d{dt}}\psi=\psi(x+a)$
+
+$e^{a\frac d{dt}}\psi=\Sigma_n\frac{a^n}{n!}\frac{d^n}{dt^n}\psi;\psi(x+y)=\Sigma_n\frac{\frac{d^n\psi}{dt^n}|_{y=0}}{n!}y^n$consider y=a:$\Sigma_n\frac{\frac{d^n\psi(x)}{dt^n}}{n!}a^n=\Sigma_n\frac{a^n}{n!}\frac{d^n}{dt^n}=e^{a\frac d{dt}}\psi$
+
+DONE.
+
+\section{Oct 28HW}
+
+A:
+
+let $l_{\pm}=l_x\pm il_y$
+
+PROOF:
+
+(a).$[l_z,l_\pm]=\pm\bar hl_\pm$
+
+(b).$l_\pm l_\mp=l^2-l{_z^2}\pm\bar hl_z$
+
+(c).$[l_+,l_-]=2\bar hl_z$
+
+proof a:
+
+$[l_z,l_\pm]=[l_z,l_x]\pm i[l_z,l_y]=i\bar hl_y\pm i(-i\bar hl_x)=i\bar hl_y\pm \bar hl_x=\pm\bar hl_\pm$
+
+proof b:
+
+$l_\pm l_\mp=(l_x\pm il_y)(l_x\mp il_y)=l_x^2\mp il_xl_y\pm il_yl_x+l_y^2=l_x^2+l_y^2\pm i(l_yl_x-l_xl_y)=l^2-l_z^2\pm i[l_y,l_x]=l^2-l_z^2\pm\bar hl_z$
+
+proof c:
+
+$l_+l_--l_-l_+=(l_x+il_y)(l_x-il_y)-(l_x-il_y)(l_x+il_y)=-il_xl_y+il_yl_x-il_xl_y+il_yl_x=2i[l_y,l_x]=2\bar hl_z$
+
+B:
+
+PROOF:
+
+(a) $p\times l +l\times p = 2i\bar h p$
+
+(b)$i\bar h(p\times l -l\times p)=[l^2,p]$
+
+proof a:
+
+$(p_1l_2-p_2l_1)k+(p_2l_3-p_3l_2)i+(p_3l_1-p_1l_3)j+(l_1p_2-l_2p_1)k+(l_2p_3-l_3p_2)i+(l_3p_1-l_1p_3)j=$
+
+$([p_1,l_2]+[l_1,p_2])k+([p_2,l_3]+[l_2,p_3])i+([p_3,l_1]+l_3,p_1)j$
+
+$(i2\bar hp_3)k+(i2\bar hp_1)i+(i2\bar hp_2)j=i2\bar h\bm{p}$
+
+proof b:
+
+$i\bar h(p\times l-l\times p)=(p_1l_2-p_2l_1-l_1p_2+l_2p_1)k+(p_2l_3-p_3l_2-l_2p_3+l_3p_2)i+(p_3l_1-p_1l_3-l_3p_1+l_1p_3)j$
+
+$[l^2,p]=[l^2,p]=[l_x^2+l_y^2+l_z^2,p]$
+
+$[l_x^2,p]=l_x[l_x,p]+[l_x,p]l_x=l_x(i\bar h(p_zj-p_yk))+(i\bar h(p_zj-p_yk))l_x=i\bar h(l_xp_z+p_zl_x)j-i\bar h(l_xp_y+p_yl_x)k$
+
+$[l_y^2,p]=l_y[l_y,p]+[l_y,p]l_y=l_y(i\bar h(p_xk-p_zi))+(i\bar h(p_xk-p_zi))l_y=i\bar h(l_yp_x+p_xl_y)k-i\bar h(l_yp_z+p_zl_y)i$
+
+$[l_z^2,p]=l_z[l_z,p]+[l_z,p]l_z=l_z{i\bar h(p_yi-p_xj)}+i\bar h(p_yi-p_xj)l_z=i\bar h(l_zp_y+p_yl_z)i-i\bar h(l_zp_x+p_xl_z)j$
+
+$[l^2,p]=i\bar h(l_yp_x+p_xl_y-l_xp_y-p_yl_x)k+i\bar h(l_zp_y+p_yl_z-l_yp_z-p_zl_y)i+i\bar h(l_xp_z+p_zl_x-l_zp_x-p_xl_z)j$
+
+so we have $i\bar h(p\times l-l\times p)=[l^2,p]$
+
+\section{Oct 30 HW}
+
+$\psi_n=A_ne^{-\alpha^2x^2/2}H_n(\alpha x)$
+
+2.7
+
+(1)
+
+$H_n(\alpha x)=\frac1{2\alpha x}(H_{n+1}(\alpha x)+2nH_{n-1}(\alpha x))$
+
+$x\psi_n=\frac1{2\alpha}(H_{n+1}(\alpha x)+2nH_{n-1}(\alpha x))A_ne^{-\alpha^2x^2/2}$
+
+$A_n=\frac1{\sqrt{2n}}A_{n-1}$;$A_n=\sqrt{2n+2}A_{n+1}$ 
+
+so we get:$x\psi_n=\frac1{2\alpha}(A_nH_{n+1}(\alpha x)+2nA_nH_{n-1}{\alpha x})e^{-\alpha^2x^2/2}$
+
+$\frac1{2\alpha}(\sqrt{2(n+1)}A_{n+1}(\alpha x)+2n\frac1{\sqrt{2n}}A_{n-1}H_{n-1}{\alpha x})e^{-\alpha^2x^2/2}$
+
+$=\frac1{2\alpha}(\sqrt{2(n+1)}\psi_{n+1}+\sqrt{2n}\psi_{n-1})$
+
+(2)
+
+$x^2\psi_n=\frac1{2\alpha}(\sqrt{2(n+1)}x\psi_{n+1}+\sqrt{2n}x\psi_{n-1})$
+
+$x^2\psi_n=\frac1{2\alpha}(\sqrt{2(n+1)}[\frac1{2\alpha}(\sqrt{2(n+2)}\psi_{n+2}+\sqrt{2(n+1)}\psi_{n})]+\sqrt{2n}[\frac1{2\alpha}(\sqrt{2n}\psi_n+\sqrt{2(n-1)}\psi_{n-2})])$=$\frac1{4\alpha^2}[\sqrt{(4(n+1)(n+2))}\psi_{n+2}+2(n+1)\psi_n+2n\psi_n+\sqrt{4n(n-1)}\psi_{n-2}]$
+
+=$\frac1{2\alpha^2}[\sqrt{(n+1)(n+2)}\psi_{n+2}+(2n+1)\psi_n+\sqrt{n(n-1)}\psi_{n-2}]$
+
+(3)
+
+$\bar x=\int \psi_n^*x\psi_n=0$
+
+$V=\frac12Kx^2$;$\bar V=\int \psi_n^*V\psi_n=\frac12K\int \psi_n^*x^2\psi_n=\frac12K\frac1{2\alpha^2}(2n+1)=\frac{K(2n+1)}{4\alpha^2}=\frac{\omega(2n+1)\bar h}{4}=\frac{E_n}2$
+
+2.8 
+
+$H_n'(\alpha z)=2n\alpha H_{n-1}(\alpha z)$
+
+$\psi_n'=A_ne^{-\alpha^2x^2/2}2n\alpha H_{n-1}(\alpha x)-\alpha^2 xA_ne^{-\alpha^2x^2/2}[\frac1{2\alpha x}(H_{n+1}+2nH_{n-1})]$
+
+=$2n\alpha A_ne^{-\alpha^2x^2/2}H_{n-1}-\frac{\alpha}2A_ne^{-\alpha^2x^2/2}H_{n+1}-\alpha n A_ne^{-\alpha^2x^2/2}H_{n-1}$
+
+=$\alpha nA_ne^{-\alpha^2x^2/2}H_{n-1}-\frac{\alpha}2A_ne^{-\alpha^2x^2/2}H_{n+1}$
+
+$A_n=\frac1{\sqrt{2n}}A_{n-1}$;$A_n=\sqrt{2n+2}A_{n+1}$ 
+
+=$\alpha\sqrt{\frac{n}{2}}\psi_{n-1}-\alpha\sqrt{\frac{n+1}2}\psi_{n+1}$
+
+(2)
+
+$\frac{d}{dx}\psi_n'=\alpha[\sqrt{\frac{n}{2}}\psi'_{n-1}-\sqrt{\frac{n+1}2}\psi'_{n+1}]$
+
+$\frac{d}{dx}\psi_n'=\alpha[\sqrt{\frac{n}{2}}[\alpha\sqrt{\frac{n-1}2}\psi_{n-2}-\alpha\sqrt{\frac{n}2}\psi_{n}]-\sqrt{\frac{n+1}2}[\alpha\sqrt{\frac{n+1}2}\psi_n]-\alpha\sqrt{\frac{n+2}2}\psi_{n+2}]$
+
+$\frac{d}{dx}\psi_n'=\alpha^2/2[\sqrt{(n-1)n}\psi_{n-2}-n\psi_{n}-(n+1)\psi_n+\sqrt{(n+1)(n+2)}\psi_{n+2}]$
+
+$\frac{d}{dx}\psi_n'=\alpha^2/2[\sqrt{(n-1)n}\psi_{n-2}-(2n+1)\psi_n+\sqrt{(n+1)(n+2)}\psi_{n+2}]$
+
+(3)
+
+$\bar p=\int \psi_n^* p \psi_n=0$
+
+$\bar T=\int \psi_n^* T \psi_n=\int \psi_n^* (-{\bar h}^2/(2m))\frac{d^2}{dx^2}\psi_n=\frac{-{\bar h}^2}{2m}\int \psi_n^*\frac{d^2}{dx^2}\psi_n=\frac{-{\bar h}^2}{2m}[-\frac{\alpha^2}2(2n+1)]=\frac{{\bar h\alpha}^2}{4m}(2n+1)=\frac{{\bar h}\omega}{4}(2n+1)=\frac12E_n$
+
+2.9
+
+$\Delta x\Delta p=\sqrt{\bar{x^2}\bar{p^2}}=\sqrt{E_nmE_n/K}=\frac{E_n}{\omega}=\frac{\bar h}2(2n+1)$
+
+3.14
+
+$l_z$Eigenstate:$\psi_m=\sqrt{\frac1{2\pi}}e^{im\phi}$
+
+$\int \phi^*l_z\phi=\int (l_z\phi)^*\phi$
+
+$\int \phi^*[l_y,l_z]\phi=\int \phi^* l_yl_z\phi-\phi^*l_zl_y\phi=\int \phi^*l_y\phi\bar hm-(l_z\phi)^*l_y\phi=\bar hm\bar l_y-\bar hm \bar l_y=0=i\bar hl_x$
+
+$\int \phi^*[l_z,l_x]\phi =\int \phi^* l_zl_x\phi -\phi^*l_xl_z\phi=\int (l_z\phi)^*l_x\phi-(l_x\phi)^*l_z\phi=\int \phi^*\bar hml_x\phi-\bar hm\phi^*l_x\phi=0=i\bar hl_y$
+
+\section{Nov 4 HW}
+
+3.15
+
+$\psi=Y_{lm}$ so $\bar{l_x^2}=\int \psi^* l_x^2 \psi d\Omega$ and $l_x^2=\frac1{i\bar h}[l_y,l_z]l_x=\frac1{i\bar h}(l_yl_z-l_zl_y)l_x=\frac1{i\bar h}(l_yl_zl_x-l_zl_yl_x)$ and we know $l_zl_x=l_xl_z+i\bar hl_y$ so :$\frac1{i\bar h}(l_yl_xl_z+i\bar hl_y^2-l_zl_yl_x)=\frac1{i\bar h}l_yl_xl_z+l_y^2-\frac1{i\bar h}l_zl_yl_x=l_x^2$
+
+so $\bar{l_x^2}=\int \psi^* (\frac1{i\bar h}l_yl_xl_z+l_y^2-\frac1{i\bar h}l_zl_yl_x)\psi d\Omega$=$\bar{l_y^2}+\int \psi^* \frac1{i\bar h}l_tl_x\bar hm\psi-\frac1{i\bar h}\bar hm\psi^*l_yl_x\psi d\Omega$=$\bar{l_y^2}$
+
+so we have $\bar{l_x^2}=\bar{l_y^2}$ now
+
+we know $l^2=l_x^2+l_y^2+l_z^2$,so $\bar{l^2}=2\bar{l_x^2}+\bar{l_z^2}$
+
+$\bar{l_x^2}=\frac12(\int \psi^* l^2 \psi -\psi^*l_z^2\psi d\Omega)=\frac12(l(l+1){\bar h}^2-m^2{\bar h}^2)$
+
+so $\bar{(\Delta l_x)^2}$ we have :$\Delta l_x =\sqrt{-{\bar {l_x}}^2+\bar{l_x^2}}=\sqrt{\bar{l_x^2}}$ and thus $(\Delta l_x)^2=|\bar{l_x^2}|=\frac12(l(l+1){\bar h}^2-m^2{\bar h}^2)$ so we have 
+
+$\bar{(\Delta l_x)^2}=\frac12(l(l+1){\bar h}^2-m^2{\bar h}^2)=\bar{(\Delta l_y)^2}$
+
+3.16
+
+set $\psi=c_1Y_{11}+c_2Y_{20}$
+
+$l_z\psi=c_1\bar hY_{11}+c_2\times0=c_1\bar hY_{11}$ so the posibility of status $0\bar h$ is $|c_2|^2$,and $\bar h$ is 1.so $l_z=\bar h$ and the average =$|c_1|^2\bar h$
+
+$l^2\psi=c_1\times1\times2Y_{11}\bar h^2+c_2\times2\times3Y_{20}\bar h^2$ so $l^2$ can be $2\bar h^2$posibility is $|c_1|^2$,and $6\bar h^2$ posibility is $|c_2|^2$.
+
+\section{Nov 6 HW}
+
+*3.18
+
+$e^{-aA}Be^{aA}=\Sigma \frac{{-a}^nA^n}{n!}B\Sigma \frac{a^mA^m}{m!}=\Sigma\Sigma \frac{{-a}^nA^n}{n!}B\frac{a^mA^m}{m!}=\Sigma_{m,n}\frac{{-1}^na^{m+n}A^nBA^m}{n!m!}$
+
+$\Sigma_{m,n}\frac{{-1}^na^{m+n}A^nBA^m}{n!m!}=B-aAB+aBA-a^2ABA+a^2BA^2/2+a^2A^2B/2...$
+
+=$B-a[A,B]-\frac12a^2(A[A,B])...$ for any m+n=i we can have 
+
+$a^i\Sigma_{m+n=i}\frac{{-1}^nA^nBA^m}{n!m!}$ for i=3 we can have:$a^3\Sigma_{m+n=3}\frac{{-1}^nA^nBA^m}{n!m!}$
+
+$=a^3[[A,[A,B]],A]/6=-\frac{a^3}{3!}[A,[A,[A,B]]]$
+
+Now set for i = 0,1,2,3 we set $F_i=\frac{-a}{i+1}[A,F_{i-1}]=\Sigma_{m+n=i}\frac{a^i(-1)^nA^nBA^m}{m!n!} $ Now consider for ant k satisfied  $F_k$ satisfied :$F_k=\frac{a^k}{k!}(-1)^k[A,[A,[A,...[A,B]]]]=\Sigma_{m+n=k}\frac{a^k(-1)^nA^nBA^m}{m!n!} $ and for k+1 we have:
+
+$-a/(k+1)[A,F_{k}]=\frac{a^{k+1}}{(k+1)!}(-1)^{k+1}[A,[A,...[A,B]]]=\Sigma_{m+n=k}\frac{a^{k+1}(-1)^{n}[A,A^nBA^m]}{m!n!(k+1)} $
+
+and for $[A,A^nBA^m]=[A,A^n]BA^m+A^n[A,BA^m]=[A,A^n]BA^m+A^n[A,B]A^m+A^nB[A,A^m]=A^n[A,B]A^m=A^{n+1}BA^m-A^nBA^{m+1}=A^{n+1}BA^{m}+(-1)A^nBA^{m+1}$so 
+
+$\Sigma_{m+n=k}\frac{a^{k+1}(-1)^{n}(A^{n+1}BA^{m}+(-1)A^nBA^{m+1})}{m!n!(k+1)}$
+
+
+$\Sigma_{m+n=k}\frac{a^{k+1}(-1)^{n+1}A^{n+1}BA^{m}+a^{k+1}(-1)^{n}A^nBA^{m+1}}{m!n!(k+1)}=\Sigma_{m+n'=k+1}\frac{a^{k+1}(-1)^{n'}A^{n'}BA^{m}}{m!(n'-1)!(k+1)}+\Sigma_{m'+n=k+1}\frac{a^{k+1}(-1)^{n}A^nBA^{m'}}{(m'-1)!n!(k+1)}-\frac{-a^{k+1}ABA^k}{(k+1)!}-\frac{a^{k+1}(-1)^kA^kBA}{(k+1)!}=\Sigma_{m+n'=k+1}n'\frac{a^{k+1}(-1)^{n'}A^{n'}BA^{m}}{m!(n')!(k+1)}+\Sigma_{m'+n=k+1}m'\frac{a^{k+1}(-1)^{n}A^nBA^{m'}}{(m')!n!(k+1)}+\frac{a^{k+1}ABA^k}{(k+1)!}-\frac{a^{k+1}(-1)^kA^kBA}{(k+1)!}$ 1 and 3 combine can have a m$\ne 1$term and 2 and 4 combine can have a $n\ne 1$ term :$\Sigma_{m+n'=k+1;m\ne 1}n'\frac{a^{k+1}(-1)^{n'}A^{n'}BA^{m}}{m!(n')!(k+1)}+\Sigma_{m'+n=k+1;n\ne1}m'\frac{a^{k+1}(-1)^{n}A^nBA^{m'}}{(m')!n!(k+1)}$ so we get 
+ satisfied for full k+1 terms : m=0,1,2...,k total k+1,and we set m+n=k+1,we get:$\Sigma\frac{a^{k+1}(-1)^{n}A^nBA^m}{m!n!}$
+
+
+PROOF DONE.
+
+\section{Nov 13}
+4.4:
+proof:$-\hbar^2\frac{d^2}{dt^2}\bar A=\overline{[[A,H],H]}$
+
+PROOF:$\frac{d}{dt}\bar C=\frac1{i\hbar}\overline{[C,B]}$ and let $\bar C=\frac{d}{dt}\bar A=\frac1{i\hbar}\overline{[A,H]}$ so 
+
+$\frac{d}{dt}{\frac{d}{dt}\bar A}=-\frac1{\hbar^2}\overline{[[A,H],H]}$
+
+PROVED
+
+4.5:
+proof:$\frac{d}{dt}\bar A=0$ $\bar A$is under a stationary state.
+
+PROVE:$\frac{d}{dt}\bar A=\frac1{i\hbar}\overline{[A,H]}=\frac1{i\hbar}\int \psi^*AH\psi-\psi^*HA\psi=\frac1{i\hbar}(E\int \psi^*A\psi-E\psi^*A\psi)=0$
+
+DONE
+
+\newpage 
+
+\section{Nov 18}
+homework:
+
+4.2:
+
+(a)
+\begin{align*}
+  &H=h(q_1)+h(q_2) \\
+  &q_1,q_2=\phi_1,\phi_1;\phi_1,\phi_2;\phi_1,\phi_3;\phi_2,\phi_2;\phi_2,\phi_3;\phi_3,\phi_3.
+\end{align*}
+6 kinds 
+
+(b)
+\begin{align*}
+&H=h(q_1)+h(q_2) \\
+&q_1,q_2=\phi_1,\phi_2,\phi_2,\phi_1;\phi_1,\phi_3;\phi_3,\phi_1;\phi_2,\phi_3;\phi_3,\phi_2.
+\end{align*}
+3 kinds 
+
+(c)
+\begin{align*}
+3\times3=9
+\end{align*}
+9 kinds 
+
+4.3:
+
+(a)
+\begin{align*}
+3^3=27
+\end{align*}
+
+27 kinds
+
+(b)
+\begin{align*}
+  &\phi_{q_1},\phi_{q_2},\phi_{q_3}: \\
+  &1,2,3
+\end{align*}
+
+1 kind
+
+(c)
+\begin{align*}
+  &\phi_{q_1},\phi_{q_2},\phi_{q_3}: \\
+  &1,1,1;1,1,2;1,1,3;1,2,2;1,2,3;\\
+  & 1,3,3;2,2,2;2,2,3;2,3,3;3,3,3;
+\end{align*}
+
+10 kinds
+
+4.8:
+
+proof:
+\begin{equation}
+  (\frac{dF}{dt})_{nn'}=i\omega_{nn'}F_{nn'},\omega_{nn'}=(E_n-E_{n'})/\hbar
+  \end{equation}
+
+  prove:
+
+  \begin{align*}
+    &\frac{dF}{dt}=\frac1{i\hbar}[F(t),H] \\
+  &(\frac{dF}{dt})_{nn'}=\frac1{i\hbar}\int \phi_nFH\phi_{n'}-\phi_nHF\phi_{n'} \\
+  &=\frac1{i\hbar}(E_{n'}\int \phi_nF\phi_{n'}-E_n\phi_nF\phi_{n'}) \\
+  &=\frac1{i\hbar}(E_{n'}-E_n)\int \phi_nF\phi_{n'} \\
+  &=-\frac1{i\hbar}\hbar\omega_{nn'}F_{nn'} \\
+  &=i\omega_{nn'}F_{nn'}
+  \end{align*}
+
+  \newpage
+  \section{Nov 20}
+
+  4.7:
+proof:
+\begin{equation}
+  \frac{ \partial E_n}{ \partial \lambda}=<\psi_n|\frac{ \partial H}{ \partial \lambda}|\psi_n>
+\end{equation}
+PROVE:
+  \begin{align*}
+    &E_n\psi_n=\hat H\psi_n \\
+    &\psi^*_{na}E_n\psi_n^a=E_n=\psi^*_{na}\hat H\psi_n^a \\
+    &\frac{ \partial E_n}{ \partial \lambda}=\frac{ \partial }{ \partial \lambda}(\psi^*_{na}\hat H\psi_n^a)\\
+    &=\psi^*_{na}\frac{ \partial \hat H}{ \partial \lambda}\psi_n^a=<\psi_n|\frac{ \partial \hat H}{ \partial \lambda}|\psi_n>
+  \end{align*}
+  PROVED
+
+
+\end{document}
