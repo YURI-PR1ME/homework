@@ -341,8 +341,89 @@ PROVE:
     &\psi^a=\psi^i\phi_i^a\\
     &l_x{^a_b}=\frac12l_-{^a_b}+\frac12l_+{^a_b}\\
     &l_x{^i_j}=\phi^{*i}_al_x{^a_b}\phi_j^b\\
-    &
+    &\text{ for l =1 }\\
+    &Y_{1-1}l_XY_{1-1}=Y_{1-1}\frac12(l_++l_-)Y_{1-1}=\frac12(Y_{1-1}a_{1-1}Y_{10}+Y_{1-1}b_{1-1}\times 0)=0\\
+    &Y_{1-1}l_xY_{10}=\frac12(Y_{1-1}a_{10}Y_{11}+Y_{1-1}b_{10}Y_{1-1})=\frac12\sqrt{l(l+1)-m(m-1)}=\frac12\sqrt{2}\\
+    &Y_{1-1}l_xY_{11}=0\\
+    &Y_{10}l_xY_{1-1}=\frac12(Y_{10}a_{1-1}Y{10})=\frac12\sqrt{l(l+1)-m(m+1)}=\frac12\sqrt{2}\\
+    &Y_{10}l_xY_{10}=0\\
   \end{align*}
+
+  \begin{align*}
+    &Y_{10}l_xY_{11}=\frac12(Y_{10}a_{11}\times 0+Y_{10}b_{11}Y_{10})=\frac12\sqrt{2}\\
+    &Y_{11}l_xY_{1-1}=0\\
+    &Y_{11}l_xY_{10}=\frac12(Y_{11}a_{10}Y_{11})=\frac12\sqrt{2}\\
+    &\text{ for any l=2}\\
+    &Y_{2-2}l_xY_{2-2}=0\\
+    &Y_{2-2}l_xY_{2-1}=\frac12{Y_{2-2}b_{2-1}Y{2-2}}=\frac12\sqrt{6-(-1)(-2)}=1\\
+    &Y_{2-2}l_xY_{20}=0\\
+    &Y_{2-1}l_xY_{2-2}=\frac12(Y_{2-1}a_{2-2}Y_{2-1})=\frac12\sqrt{6-(-2)(-1)}=1\\
+    &Y_{2-1}l_xY_{20}=\frac12(Y_{2-1}b_{20}Y_{2-1})=\frac12\sqrt{6}=\frac{\sqrt{6}}{2}\\
+    &Y_{20}l_xY_{2-1}=\frac12(Y_{20}a_{2-1}Y_{20})=\frac12\sqrt{6}=\frac{\sqrt{6}}{2}\\
+    &Y_{20}l_xY_{21}=\frac12{Y_{20}b_{21}Y_{20}}=\frac12\sqrt{6}=\frac{\sqrt{6}}{2}\\
+    &Y_{21}l_xY_{20}=\frac12(Y_{21}a_{20}Y_{21})=\frac12\sqrt{6}\\
+    &Y_{21}l_xY_{22}=\frac12(Y_{21}b_{22}Y_{21})=\frac12\sqrt{6-2}=1\\
+    &Y_{22}l_xY_{21}=\frac12(Y_{22}a_{21}Y_{22})=\frac12\sqrt{6-2}=1\\
+  \end{align*} we have :
+  \begin{align*}
+    &l_x{^1_2}=l_x{^2_1}=l_x{^2_3}=l_x{^3_2}=\frac{1}{\sqrt{2}}\hbar\\
+    &l_x{^4_5}=l_x{^5_4}=l_x{^7_8}=l_x{^8_7}= \hbar\\
+    &l_x{^5_6}=l_x{^6_5}=l_x{^6_7}=l_x{^7_6}=\frac{\sqrt{6}}{2}\hbar\\
+    &l_x{^i_j}=\begin{bmatrix}
+    0&\frac{\hbar}{\sqrt{2}}&0\\
+    \frac{\hbar}{\sqrt{2}}&0&\frac{\hbar}{\sqrt{2}}\\
+    0&\frac{\hbar}{\sqrt{2}}&0
+  \end{bmatrix}\\
+    &\begin{vmatrix}
+      -\lambda&\frac{\hbar}{\sqrt{2}}&0\\
+      \frac{\hbar}{\sqrt{2}}&-\lambda&\frac{\hbar}{ \sqrt{2}}\\
+      0&\frac{\hbar}{\sqrt{2}}&-\lambda
+    \end{vmatrix}=0\\
+    &\lambda(\lambda^2-\frac{\hbar^2}{2})-\frac{\hbar^2}{2}\lambda=0\\
+    &\lambda_1=0;\lambda_2=\hbar;\lambda_3=-\hbar\\
+    &\text{so eigenstate :$\xi$ }\\
+    &\begin{bmatrix}
+    0&\frac{\hbar}{\sqrt{2}}&0\\
+    \frac{\hbar}{\sqrt{2}}&0&\frac{\hbar}{\sqrt{2}}\\
+    0&\frac{\hbar}{\sqrt{2}}&0
+  \end{bmatrix}\times \vec\xi_{0}=0;\xi_0^2=0;\xi_0^1=-\xi_0^3;\\
+    &\vec\xi_0=\begin{bmatrix}k\\0\\-k\end{bmatrix}\\
+    &\begin{bmatrix}\hbar&\frac{\hbar}{\sqrt{2}}&0\\\frac{\hbar}{\sqrt{2}}&\hbar&\frac{\hbar}{\sqrt{2}}\\
+    0&\frac{\hbar}{\sqrt{2}}&\hbar\end{bmatrix}\times \vec\xi_{-1}=0;\xi_{-1}^1+\frac1{\sqrt{2}}\xi_{-1}^2=0;\frac1{\sqrt{2}}\xi_{-1}^2+\xi_{-1}^3=0;\xi_{-1}^1=\xi_{-1}^3=-\frac1{\sqrt{2}}\xi_{-1}^2\\
+    &\vec\xi_{-1}=\begin{bmatrix}k\\-\sqrt{2}k\\k\end{bmatrix}\\
+    &\begin{bmatrix}-\hbar&\frac{\hbar}{\sqrt{2}}&0\\\frac{\hbar}{\sqrt{2}}&-\hbar&\frac{\hbar}{\sqrt{2}}\\
+    0&\frac{\hbar}{\sqrt{2}}&-\hbar\end{bmatrix}\times \vec\xi_{1}=0;\xi_{1}^1=\frac1{\sqrt{2}}\xi_{1}^2;\frac1{\sqrt{2}}\xi_{1}^2=\xi_{1}^3;\xi_{1}^1=\xi_{1}^3=\frac1{\sqrt{2}}\xi_{1}^2\\
+    &\vec\xi_{1}=\begin{bmatrix}k\\\sqrt{2}k\\k\end{bmatrix}\\
+    &\text{the posibality:}\\
+    &P_{0}=(\phi^{*3}_a\xi_{0}^a)^2=\frac12\\
+    &P_{-1}=(\phi^{*3}_a\xi_{-1}^a)^2=\frac14\\
+    &P_1=(\phi^{*3}_a\xi_1^a)^2=\frac14
+  \end{align*}
+  \begin{align*}
+    &\text{now consider the l=2}\\
+&\begin{bmatrix}0&\hbar&0&0&0\\\hbar&0&\frac{\sqrt{6}}{2}\hbar&0&0\\0&\frac{\sqrt{6}\hbar}{2}&0&\frac{\sqrt{6}\hbar}{2}&0\\0&0&\frac{\sqrt{6}\hbar}{2}&0&\hbar\\0&0&0&\hbar&0\end{bmatrix}\\
+%
+%
+%
+%&\begin{bmatrix}-\lambda&\hbar&0&0&0\\\hbar&-\lambda&\frac{\sqrt{6}}{2}\hbar&0&0\\0&\frac{\sqrt{6}\hbar}{2}&-\lambda&\frac{\sqrt{6}\hbar}{2}&0\\0&0&\frac{\sqrt{6}\hbar}{2}&-\lambda&\hbar\\0&0&0&\hbar&-\lambda\end{bmatrix}=0\\
+&\begin{vmatrix}-\lambda&\hbar&0&0&0\\\hbar&-\lambda&\frac{\sqrt{6}}{2}\hbar&0&0\\0&\frac{\sqrt{6}\hbar}{2}&-\lambda&\frac{\sqrt{6}\hbar}{2}&0\\0&0&\frac{\sqrt{6}\hbar}{2}&-\lambda&\hbar\\0&0&0&\hbar&-\lambda\end{vmatrix}=0\\
+&\begin{vmatrix}-\lambda&0&0&0&0\\\hbar&\frac{\hbar^2}{\lambda}-\lambda&\frac{\sqrt{6}}{2}\hbar&0&0\\0&\frac{\sqrt{6}\hbar}{2}&-\lambda&\frac{\sqrt{6}\hbar}{2}&0\\0&0&\frac{\sqrt{6}\hbar}{2}&\frac{\hbar^2}{\lambda}-\lambda&\hbar\\0&0&0&0&-\lambda\end{vmatrix}=0\\
+&=\lambda^2\begin{vmatrix}\frac{\hbar^2}{\lambda}-\lambda&\frac{\sqrt{6}\hbar}{2}&0\\\frac{\sqrt{6}\hbar}{2}&-\lambda&\frac{\sqrt{6}\hbar}{2}\\0&\frac{\sqrt{6}\hbar}{2}&\frac{\hbar^2}{\lambda}-\lambda\end{vmatrix}=\lambda^2[(\frac{\hbar^2}{\lambda}-\lambda)(-\hbar^2+\lambda^2-\frac32\hbar^2)-\frac{\sqrt{6}\hbar}{2}(\frac{\sqrt{6}\hbar}{2}\frac{\hbar^2}{\lambda}-\frac{\sqrt{6}\hbar}{2}\lambda)]\\
+&=\lambda^2[(\frac{\hbar^2}{\lambda}-\lambda)(\lambda^2-\frac52\hbar^2)-\frac32\frac{\hbar^4}{\lambda}+\frac32\hbar^2\lambda]=\lambda^2[(\lambda\hbar^2-\frac52\frac{\hbar^4}{\lambda}-\lambda^3+\frac52\hbar^2\lambda)-\frac32\frac{\hbar^4}{\lambda}+\frac32\hbar^2\lambda]\\
+&=\lambda^2(5\lambda\hbar^2-4\frac{\hbar^4}{\lambda}-\lambda^3)\\
+&\lambda_1=0;\lambda_2=\hbar;\lambda_3=-\hbar;\lambda_4=2\hbar;\lambda_5=-2\hbar\\
+&\begin{bmatrix}-\hbar&\hbar&0&0&0\\\hbar&-\hbar&\frac{\sqrt{6}}{2}\hbar&0&0\\0&\frac{\sqrt{6}\hbar}{2}&-\hbar&\frac{\sqrt{6}\hbar}{2}&0\\0&0&\frac{\sqrt{6}\hbar}{2}&-\hbar&\hbar\\0&0&0&\hbar&-\hbar\end{bmatrix}\times\vec\xi_1=0\\
+&\begin{bmatrix}\hbar&\hbar&0&0&0\\\hbar&\hbar&\frac{\sqrt{6}}{2}\hbar&0&0\\0&\frac{\sqrt{6}\hbar}{2}&\hbar&\frac{\sqrt{6}\hbar}{2}&0\\0&0&\frac{\sqrt{6}\hbar}{2}&\hbar&\hbar\\0&0&0&\hbar&\hbar\end{bmatrix}\times\vec\xi_{-1}=0\\
+&\begin{bmatrix}2\hbar&\hbar&0&0&0\\\hbar&2\hbar&\frac{\sqrt{6}}{2}\hbar&0&0\\0&\frac{\sqrt{6}\hbar}{2}&2\hbar&\frac{\sqrt{6}\hbar}{2}&0\\0&0&\frac{\sqrt{6}\hbar}{2}&2\hbar&\hbar\\0&0&0&\hbar&2\hbar\end{bmatrix}\times\vec\xi_{-2}=0\\
+\end{align*}
+\begin{align*}
+&\begin{bmatrix}-2\hbar&\hbar&0&0&0\\\hbar&-2\hbar&\frac{\sqrt{6}}{2}\hbar&0&0\\0&\frac{\sqrt{6}\hbar}{2}&-2\hbar&\frac{\sqrt{6}\hbar}{2}&0\\0&0&\frac{\sqrt{6}\hbar}{2}&-2\hbar&\hbar\\0&0&0&\hbar&-2\hbar\end{bmatrix}\times\vec\xi_2=0\\
+&\begin{bmatrix}0&\hbar&0&0&0\\\hbar&0&\frac{\sqrt{6}}{2}\hbar&0&0\\0&\frac{\sqrt{6}\hbar}{2}&0&\frac{\sqrt{6}\hbar}{2}&0\\0&0&\frac{\sqrt{6}\hbar}{2}&0&\hbar\\0&0&0&\hbar&0\end{bmatrix}\times\vec\xi_0=0\\
+&\vec\xi_{-2}=\frac14\begin{bmatrix}1\\2\\-\sqrt{6}\\2\\1\end{bmatrix};\vec\xi_{-1}=\frac12\begin{bmatrix}1\\1\\0\\-1\\-1\end{bmatrix};\vec\xi_0=\sqrt{\frac38}\begin{bmatrix}1\\0\\-\sqrt{\frac23}\\0\\1\end{bmatrix}\\
+&\vec\xi_{1}=\frac12\begin{bmatrix}-1\\-1\\0\\1\\1\end{bmatrix};\vec\xi_{2}=\frac14\begin{bmatrix}1\\-2\\\sqrt{6}\\-2\\1\end{bmatrix}\\
+&P_0=\frac14;P_1=0;P_2=\frac38;P_{-2}=\frac38;P_{-1}=0
+  \end{align*}
+  SOLVED(WHY SO FUCKING LOOOOOOOOONG?????)
 
 
 \end{document}
