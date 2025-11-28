@@ -115,6 +115,75 @@ chapter2: 1,2,3,7,8,10,11,12,13  P48
 chapter3: 1,2,4,6,7,9,10  P91
 
 chapter4: 1,2,3,4,5,8,9  P119
+\newpage
+\section{keys in chapter 1}
+CHAPTER1 Formulas used in homework.
+
+\begin{align}
+&n\sim ge^{-\frac{E}{kT}}\\
+&\frac{q_{s}}{q_{normal}}=\frac{c^3}{8\pi h\nu^3}=\frac1{e^{\frac{h\nu}{kT}}-1}\\
+&I=I_0e^{-Gz}\\
+&\nu=\nu_0(1+\frac vc)\\
+&f(\nu)=\frac{\frac{\Delta\nu}{2\pi}}{(\nu-\nu_0)^2+(\frac{\Delta\nu}2)^2}\quad\Delta\nu=\frac1{2\pi\tau}\\
+&\rho(\nu)=\frac{\frac{8\pi hv^3}{c^3}}{e^{\frac{h\nu}{kT}}-1}\\
+\end{align}
+
+SOME \textbf{PROPOSITION NEEDED TO BE PROVED IN CHAPTER 1:}
+
+I:PROVE:
+
+\begin{align}
+  &A=\frac1{\tau}
+\end{align}
+prove:
+\begin{align*}
+  &n_2(t)=n_{20}e^{At}\\
+  &\text{consider n : }n=n_0e^{\frac{t}{\tau}}\\
+  &\text{so : }A_{21}=\frac1\tau
+\end{align*}
+
+II:PROVE:
+\begin{align}
+&A_{21}=B_{21}\frac{8\pi h\nu^3}{c^3}\\
+&B_{21}=B_{12}\frac{g_1}{g_2}
+\end{align}
+prove:
+\begin{align*}
+&A_{21}n_2dt+B_{21}n_{2}\rho_{\nu}dt=B_{12}n_1\rho_{\nu}dt\\
+&(A_{21}+B_{21}\rho_{\nu})\frac{n_2}{n_1}=B_{12}\rho_{\nu}\\
+\end{align*}
+\begin{align*}
+&\text{consider plank $\rho_{\nu}$ : }\\
+&n\sim ge^{\frac{-E}{kT}}\\
+&\frac{n_2}{n_1}=\frac{g_2}{g_1}e^{-\frac{h\nu}{kT}}\\
+&A_{21}=(\frac{g_1}{g_2}e^{\frac{h\nu}{kT}} B_{12}-B_{21})\rho_{\nu}\\
+&\rho_{\nu}=\frac{A_{21}}{\frac{g_1}{g_2}e^{\frac{h\nu}{kT}} B_{12}-B_{21}}\\
+&\rho_{\nu}=\frac{A_{21}\frac{g_2}{g_1B_{12}}}{e^{\frac{h\nu}{kT}} -\frac{g_{2}}{g_1B_{12}} B_{21}}\\
+&\text{compare with :}\rho_{\nu}=\frac{\frac{8\pi h\nu^3}{c^3}}{e^{\frac{h\nu}{kT}}-1}
+\end{align*}
+
+so we have:
+
+\begin{align}
+&\frac{8\pi h\nu^3}{c^3}=A_{21}\frac{g_2}{g_1B_{12}}\\
+&1=\frac{B_{21}g_2}{B_{12}g_1}
+\end{align}
+\section{keys in chapter 2}
+SOME KEYS IN HOMEWORK:
+
+\begin{align*}
+  &0<g_1g_2<1;g_1=1-\frac{L}{R_1},g_2=1-\frac{L}{R_2}\\
+&G=\Delta h\nu\frac{\mu}{c}f(\nu)B_{21}\\
+&\Delta n_0=R_2\tau_2-(R_1+R_2)\tau_1\\
+&\Delta n=\frac{\Delta n_0}{1+\frac{If(\nu)}{I_sf(\nu_0)}}\\
+&G=\frac{G_0(\nu)}{1+\frac{If(\nu)}{I_sf(\nu_0)}}=\frac{(\frac{\Delta\nu}2)^2G_0(\nu_0)}{(\nu-\nu_0)^2+(1+\frac{I}{I_s})(\frac{\Delta\nu}2)^2}\quad\Delta\nu'=\sqrt{1+\frac{I}{I_s}}\Delta\nu\\
+&G_D=\frac{G_0(\nu)f_D(\nu)}{1+\frac{If(\nu)}{I_sf(\nu_0)}}\\
+&G_D(\nu_1)=\frac{G_D^0(\nu_1)}{(1+\frac{I}{I_s})^{\frac12}}\\
+\end{align*}
+\begin{align*}
+&a_{whole}=a_{iner}-\frac1{2L}ln(r_1r_2)\\
+&T_L=\begin{bmatrix}1&L\\0&1\end{bmatrix};T_f=\begin{bmatrix}1&0\\-\frac{1}{f}&1\end{bmatrix};T_{\frac{n_1}{n_2}}=\begin{bmatrix}1&0\\0&\frac{n_1}{n_2}\end{bmatrix}\\
+\end{align*}
 
 \end{document}
 
