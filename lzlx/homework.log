@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.25)  27 NOV 2025 00:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.25)  29 NOV 2025 16:27
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -235,25 +235,49 @@ Overfull \vbox (12.05542pt too high) has occurred while \output is active []
 
 [11]
 
-[12] (./homework.aux)
+[12]
+./homework.tex:434: Missing $ inserted.
+<inserted text> 
+                $
+l.434 IF:A^
+           2+B^2+C^2=1;BC-CB=iA.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./homework.tex:435: Missing $ inserted.
+<inserted text> 
+                $
+l.435 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (35.25249pt too wide) detected at line 446
+[]
+ []
+
+
+
+[13] (./homework.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1258 strings out of 473190
- 18618 string characters out of 5722592
+ 1260 strings out of 473190
+ 18680 string characters out of 5722592
  448347 words of memory out of 5000000
- 24560 multiletter control sequences out of 15000+600000
+ 24562 multiletter control sequences out of 15000+600000
  562653 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,65p,766b,200s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on homework.pdf (12 pages, 175968 bytes).
+Output written on homework.pdf (13 pages, 177176 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
