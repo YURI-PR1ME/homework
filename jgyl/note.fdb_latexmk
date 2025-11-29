@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1764341865.17206 "note.tex" "note.pdf" "note" 1764341865.66333 0
+["pdflatex"] 1764431727.75388 "note.tex" "note.pdf" "note" 1764431728.11906 0
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1755987285 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1755987285 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1755987285 1004 54797486969f23fa377b128694d548df ""
@@ -50,8 +50,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1764004084 5462436 27cd050b37751b994114e730b3e1e2b9 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1764004079 3459349 5c570a8c1ae80b67d14d4e451a549cb8 ""
-  "note.aux" 1764341865.59223 646 86b1315ffbcc92c3162be556e1fed99b "pdflatex"
-  "note.tex" 1764341863.48353 6183 0f872709f0aec580ae0002fb2fe16ebc ""
+  "note.aux" 1764431728.0682 646 86b1315ffbcc92c3162be556e1fed99b "pdflatex"
+  "note.tex" 1764431726.71405 6429 cdc7a37e31fce2eba142d3172e22023e ""
   (generated)
   "note.aux"
   "note.log"

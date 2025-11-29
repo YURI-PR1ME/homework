@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1764230508.32355 "1020.tex" "1020.pdf" "1020" 1764230508.62866 0
+["pdflatex"] 1764426086.04119 "1020.tex" "1020.pdf" "1020" 1764426086.29071 0
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1755987285 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1755987285 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1755987285 32080 340ef9bf63678554ee606688e7b5339d ""
@@ -18,8 +18,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1764004084 5462436 27cd050b37751b994114e730b3e1e2b9 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1764004079 3459349 5c570a8c1ae80b67d14d4e451a549cb8 ""
-  "1020.aux" 1764230508.53655 225 743f8b2700cf16d22fff7e288115bb1b "pdflatex"
-  "1020.tex" 1764230506.56895 2082 cd6b157acf985fedf8b32b7444cbc403 ""
+  "1020.aux" 1764426086.25477 129 6ed21ed6bfd897abaa5bc79a87cdcd61 "pdflatex"
+  "1020.tex" 1764426085.38079 2055 2dcc67dc5ee5b0bea040cda2bd2f3978 ""
   (generated)
   "1020.aux"
   "1020.log"
