@@ -431,7 +431,7 @@ PROVE:
 
 7.1:
 
-IF:A^2+B^2+C^2=1;BC-CB=iA.
+IF:$A^2=B^2=C^2=1;BC-CB=iA$.
 
 PROVE:(a)AB+BA=AC+CA=0;(b)B,C in image of A.
 
@@ -439,17 +439,42 @@ PROVE:
 
 (a):
 \begin{align*}
-  &iAB+iBA=BCB-CBB+BBC-BCB=BBC-CBB=B^2C-CB^2=[B^2,C] \\
-  &BCC-CBC=iAC;CBC-CCB=iCA;iAC+iCA=[B,C^2]\\
-  &[A^2,B]+[C^2,B]=[A^2,C]+[B^2,C]=0\\
-  &[A^2,C]=
+  &iAB+iBA=BCB-CBB+BBC-BCB=BBC-CBB=0 \\
+  &iAC+iCA=BCC-CBC+CBC-CCB=0&
 \end{align*}
+(b)
+\begin{align*}
+  &AB+BA=0;\phi^*_iAB\phi_i+\phi^*iBA\phi_j=0 \\
+  &\lambda_I\phi^*_iB\phi^j+\phi^{*i}B\lambda_J\phi_j=\lambda_I B{^i_j}+\lambda_JB{^i_j}=(\lambda_I+\lambda_J)B{^i_j}=0;\\
+  &B^2=1\ne0,B{^i_i}=0,B{^i_j}\ne0;\lambda_I+\lambda_J=0;\lambda_1=a;\lambda_2=-a \\
+  &A=\begin{bmatrix}a&0\\0&-a\end{bmatrix};B=\begin{bmatrix}0&b_1\\b_2&0\end{bmatrix};C=\begin{bmatrix}0&c_1\\c_2&0\end{bmatrix} \\
+  &BB=\begin{bmatrix}b_1b_2&0\\0&b_1b_2\end{bmatrix};b_1=\frac1{b_2};B=\begin{bmatrix}0&b\\\frac1b&0\end{bmatrix};C=\begin{bmatrix}0&c\\\frac1c&0\end{bmatrix} \\
+  &BC=\begin{bmatrix}\frac bc&0\\0&\frac cb\end{bmatrix};CB=\begin{bmatrix}\frac cb&0\\0&\frac bc\end{bmatrix} \\
+  &A=\begin{bmatrix}1&0\\0&-1\end{bmatrix};B=\begin{bmatrix}0&b\\\frac1b&0\end{bmatrix};C=\begin{bmatrix}0&c\\\frac1c&0\end{bmatrix} \\
+  &BC-CB=iA;ia=\frac bc-\frac cb; \\
+\end{align*}
+
 
 7.2:
 \[
 A^2=0,AA^{\dagger}+A^{\dagger}A=1.B=A^{\dagger}A.
 \]
 PROVE:(a)$B^2=B$;(b)in image of B to solve A.
+
+(a)
+
+\begin{align*}
+&  B^2=A^{\dagger}AA^\dagger A=A^\dagger A(1-AA^\dagger)=A^\dagger A=B\\
+
+PROVED
+
+(b)
+
+&B{^i_j}=diag(\lambda_1,\lambda_2)\\
+&B^2=B;B=\begin{bmatrix}\lambda_1&0\\0&\lambda_2\end{bmatrix};\lambda_1^2=\lambda_1,\lambda_2^2=\lambda_2 \\
+&\text{WLOG set :}B=\begin{bmatrix}1&0\\0&0\end{bmatrix};A^\dagger A=\begin{bmatrix}1&0\\0&0\end{bmatrix},AA^\dagger=\begin{bmatrix}0&0\\0&1\end{bmatrix};A=\begin{bmatrix}a&b\\c&d\end{bmatrix};A^2=\begin{bmatrix}a^2+bc&ab+bd\\ca+bd&cb+d^2\end{bmatrix}=0;a=d=0,\begin{bmatrix}bc&0\\0&cb\end{bmatrix};bc=0,AA^\dagger=\begin{bmatrix}0&b\\c&0\end{bmatrix}\begin{bmatrix}0&c^*\\b^*&0\end{bmatrix}=\begin{bmatrix}0&0\\0&1\end{bmatrix} \\
+&bb^*=0,cc^*=1;b=0,c= \sqrt{-k^2+1}+ki\\
+\end{align*}
 
 
 
