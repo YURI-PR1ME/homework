@@ -1,5 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1764426086.04119 "1020.tex" "1020.pdf" "1020" 1764426086.29071 0
+["pdflatex"] 1764489480.34735 "1020.tex" "1020.pdf" "1020" 1764489480.70493 0
+  "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1755987285 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1755987285 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1755987285 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1755987285 32080 340ef9bf63678554ee606688e7b5339d ""
@@ -11,15 +12,21 @@
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1755987285 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1755987285 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1755987285 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1755987285 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1755987285 32716 08e384dc442464e7285e891af9f45947 ""
+  "/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1755987285 2222 2166a1f7827be30ddc30434e5efcee1b ""
+  "/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty" 1755987285 4173 d22509bc0c91281d991b2de7c88720dd ""
+  "/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty" 1755987285 88370 c780f23aea0ece6add91e09b44dca2cd ""
+  "/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty" 1755987285 4474 23ca1d3a79a57b405388059456d0a8df ""
+  "/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty" 1755987285 2444 71618ea5f2377e33b04fb97afdd0eac2 ""
   "/usr/share/texmf-dist/tex/latex/base/article.cls" 1755987285 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
   "/usr/share/texmf-dist/tex/latex/base/size10.clo" 1755987285 8448 5cf247d4bd0c7d5d711bbbdf111fae2e ""
   "/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1755987285 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1764004084 5462436 27cd050b37751b994114e730b3e1e2b9 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1764004079 3459349 5c570a8c1ae80b67d14d4e451a549cb8 ""
-  "1020.aux" 1764426086.25477 129 6ed21ed6bfd897abaa5bc79a87cdcd61 "pdflatex"
-  "1020.tex" 1764426085.38079 2055 2dcc67dc5ee5b0bea040cda2bd2f3978 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1763708112 5462436 27cd050b37751b994114e730b3e1e2b9 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1763708095 3459348 b5fde53d5209533a6a15b2cfa1583e05 ""
+  "1020.aux" 1764489480.66403 636 58466c0243c9669ac7ef4215352e0296 "pdflatex"
+  "1020.tex" 1764489479.19403 9668 4b2b16ca4cdca3479c30ebe276f63b93 ""
   (generated)
   "1020.aux"
   "1020.log"
