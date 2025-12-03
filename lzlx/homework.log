@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.21)  29 NOV 2025 19:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.21)  3 DEC 2025 21:00
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -236,194 +236,22 @@ Overfull \vbox (12.05542pt too high) has occurred while \output is active []
 [11]
 
 [12]
-Runaway argument?
- & B^2=A^{\dagger }AA^\dagger A=A^\dagger A(1-AA^\dagger )=A^\dagger \ETC.
-./homework.tex:468: Paragraph ended before \align* was complete.
-<to be read again> 
-                   \par 
-l.468 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./homework.tex:468: Missing $ inserted.
-<inserted text> 
-                $
-l.468 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./homework.tex:468: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.468 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./homework.tex:468: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.468 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-./homework.tex:473: Misplaced alignment tab character &.
-l.473 &
-       B{^i_j}=diag(\lambda_1,\lambda_2)\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./homework.tex:473: Missing $ inserted.
-<inserted text> 
-                $
-l.473 &B{^
-          i_j}=diag(\lambda_1,\lambda_2)\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./homework.tex:473: Extra }, or forgotten $.
-l.473 &B{^i_j}
-              =diag(\lambda_1,\lambda_2)\\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./homework.tex:474: Misplaced alignment tab character &.
-<recently read> &
-                 
-l.474 &
-       B^2=B;B=\begin{bmatrix}\lambda_1&0\\0&\lambda_2\end{bmatrix};\lambda_...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./homework.tex:475: Misplaced alignment tab character &.
-<recently read> &
-                 
-l.475 &
-       \text{WLOG set :}B=\begin{bmatrix}1&0\\0&0\end{bmatrix};A^\dagger A=\...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./homework.tex:476: Misplaced alignment tab character &.
-<recently read> &
-                 
-l.476 &
-       bb^*=0,cc^*=1;b=0,c= \sqrt{-k^2+1}+ki\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./homework.tex:477: Misplaced \cr.
-\math@cr@@@ ->\cr 
-                  
-l.477 \end{align*}
-                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./homework.tex:477: Misplaced \noalign.
-\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
-                                                  {\vskip #1\relax }
-l.477 \end{align*}
-                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-./homework.tex:477: Missing $ inserted.
-<inserted text> 
-                $
-l.477 \end{align*}
-                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./homework.tex:477: Missing } inserted.
-<inserted text> 
-                }
-l.477 \end{align*}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+Overfull \hbox (363.45041pt too wide) detected at line 479
+[]
+ []
 
 
 
 [13]
-./homework.tex:477: Misplaced \noalign.
-\black@ #1->\noalign 
-                     {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
-l.477 \end{align*}
-                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
-
-Overfull \hbox (255.09958pt too wide) detected at line 477
+[14]
+Overfull \hbox (32.9272pt too wide) detected at line 523
 []
  []
 
-./homework.tex:477: Extra }, or forgotten \endgroup.
-\endalign ->\math@cr \black@ \totwidth@ \egroup 
-                                                \ifingather@ \restorealignst...
-l.477 \end{align*}
-                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./homework.tex:477: Missing $ inserted.
-<inserted text> 
-                $
-l.477 \end{align*}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./homework.tex:477: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.477 \end{align*}
-                  
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 
-
-[14] (./homework.aux)
+[15] (./homework.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -438,10 +266,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  56i,15n,65p,766b,200s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on homework.pdf (14 pages, 180352 bytes).
+Output written on homework.pdf (15 pages, 185214 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

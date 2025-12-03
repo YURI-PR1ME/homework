@@ -465,15 +465,61 @@ PROVE:(a)$B^2=B$;(b)in image of B to solve A.
 
 \begin{align*}
 &  B^2=A^{\dagger}AA^\dagger A=A^\dagger A(1-AA^\dagger)=A^\dagger A=B\\
+\end{align*}
 
 PROVED
 
 (b)
 
+\begin{align*}
 &B{^i_j}=diag(\lambda_1,\lambda_2)\\
 &B^2=B;B=\begin{bmatrix}\lambda_1&0\\0&\lambda_2\end{bmatrix};\lambda_1^2=\lambda_1,\lambda_2^2=\lambda_2 \\
 &\text{WLOG set :}B=\begin{bmatrix}1&0\\0&0\end{bmatrix};A^\dagger A=\begin{bmatrix}1&0\\0&0\end{bmatrix},AA^\dagger=\begin{bmatrix}0&0\\0&1\end{bmatrix};A=\begin{bmatrix}a&b\\c&d\end{bmatrix};A^2=\begin{bmatrix}a^2+bc&ab+bd\\ca+bd&cb+d^2\end{bmatrix}=0;a=d=0,\begin{bmatrix}bc&0\\0&cb\end{bmatrix};bc=0,AA^\dagger=\begin{bmatrix}0&b\\c&0\end{bmatrix}\begin{bmatrix}0&c^*\\b^*&0\end{bmatrix}=\begin{bmatrix}0&0\\0&1\end{bmatrix} \\
 &bb^*=0,cc^*=1;b=0,c= \sqrt{-k^2+1}+ki\\
+\end{align*}
+
+\section{Dec 3 HW}
+
+I:8.1:
+
+(a):
+
+\begin{align*}
+   &\sigma_x=\begin{bmatrix}0&1\\1&0\end{bmatrix};\begin{vmatrix}-\lambda&1\\1&-\lambda\end{vmatrix}=0;\lambda=\pm1;\begin{bmatrix}-1&1\\1&-1\end{bmatrix}\times\vec v=0\\
+   &\vec v=\begin{bmatrix}k\\k\end{bmatrix}=\begin{bmatrix}\frac1{\sqrt{2}}\\\frac1{\sqrt{2}}\end{bmatrix}\\
+   &\lambda=-1;\begin{bmatrix}1&1\\1&1\end{bmatrix}\times\vec v_1=0;\vec v_1=\begin{bmatrix}k\\-k\end{bmatrix}=\begin{bmatrix}\frac1{\sqrt{2}}\\\frac{-1}{\sqrt{2}}\end{bmatrix}\\
+\end{align*}
+
+(b):
+
+\begin{align*}
+  &\phi_1=\begin{bmatrix}\frac1{\sqrt{2}}\\\frac1{\sqrt{2}}\end{bmatrix};\phi_2=\begin{bmatrix}\frac1{\sqrt{2}}\\\frac{-1}{\sqrt{2}}\end{bmatrix}\\
+  &\psi_i^j=\psi_i^a\phi^{*j}_a;\psi_1^1=\frac1{\sqrt{2}};\psi_1^2=\frac1{\sqrt{2}};\psi_2^1=\frac1{\sqrt{2}};\psi_2^2=\frac{-1}{\sqrt{2}}\\
+  &\phi^a=\begin{bmatrix}\frac1{\sqrt{2}}&\frac1{\sqrt{2}}\\\frac1{\sqrt{2}}&\frac{-1}{\sqrt{2}}\end{bmatrix}\times\psi^a\\
+\end{align*}
+
+(c):
+
+\begin{align*}
+  &S^{-1}=\frac1{\sqrt{2}}\begin{bmatrix}-1&-1\\-1&1\end{bmatrix} \\
+  &S\sigma_xS^{-1}=\frac1{\sqrt{2}}\begin{bmatrix}1&1\\1&-1\end{bmatrix}\begin{bmatrix}0&1\\1&0\end{bmatrix}\frac1{\sqrt{2}}\begin{bmatrix}-1&-1\\-1&1\end{bmatrix}=\begin{bmatrix}-1&0\\0&1\end{bmatrix} \\
+\end{align*}
+
+II:8.2:
+
+\begin{align*}
+&\sigma\cdot n=\sigma_x n_x+\sigma_y n_y+\sigma_z n_z=\sigma_xsin\theta cos\phi+\sigma_ysin\theta sin\phi+\sigma_zcos\theta\\
+&\phi^{*i}\sigma\cdot n\phi_j=\sigma_x{^i_j}sin\theta cos\phi+\sigma_y{^i_j}sin\theta sin\phi+\sigma_z{^i_j}cos\theta \\
+&=\begin{bmatrix}cos\theta&sin\theta cos\phi-isin\theta sin\phi\\sin\theta cos\phi+isin\theta sin\phi&-cos\theta\end{bmatrix}\\
+&=\begin{bmatrix}cos\theta&sin\theta e^{-i\phi}\\sin\theta e^{i\phi}&-cos\theta\end{bmatrix}
+\end{align*}
+
+III:CALCULATE:$[\sigma_x,\sigma_z^n]$;$[\sigma_x,e^{\sigma_z}]$
+
+\begin{align*}
+  &\sigma_z^n=\begin{bmatrix}1&0\\0&-1\end{bmatrix}^n=\begin{bmatrix}1&0\\0&-1^n\end{bmatrix};\sigma_x=\begin{bmatrix}0&1\\1&0\end{bmatrix};\begin{bmatrix}0&1\\1&0\end{bmatrix}\times\begin{bmatrix}1&0\\0&-1^n\end{bmatrix}-\begin{bmatrix}1&0\\0&-1^n\end{bmatrix}\times\begin{bmatrix}0&1\\1&0\end{bmatrix} \\
+  &=\begin{bmatrix}0&-1^n\\1&0\end{bmatrix}-\begin{bmatrix}0&1\\-1^n&0\end{bmatrix} \\
+  &=\begin{bmatrix}0&-1^n-1\\1+-1^{n+1}&0\end{bmatrix} \\
 \end{align*}
 
 
