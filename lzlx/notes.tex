@@ -208,7 +208,8 @@ Rewrite them in a sphere coordinate system,noticed that the form of $l_z$ is sim
   \hat l^2Y_{lm}&=l(l+1)\hbar^2Y{l,m} \\
   [\hat l^2,\hat l_i]&=0 \\
   [l_i,x^j]&=i\hbar\varepsilon_{ijk}x^{k} \\
-  [\hat l_i,\hat l_j]&=i\hbar\varepsilon_{ijk}\hat l_k
+  [\hat l_i,\hat l_j]&=i\hbar\varepsilon_{ijk}\hat l_k\\
+                     l_{\pm}Y_{lm}&=\sqrt{l(l+1)+m(m\pm1)}\hbar Y_{lm}
 \end{align}
 And the define of Shperiacl harmonic function:
 \begin{align}
@@ -443,5 +444,115 @@ For Fermion:
 and we can see the state of Fermion at $k_1=k_2$ is not exist.\textbf{This is the Pauli principle.}
 
 \section{Matrix}
+\subsection{The image}
+Just like tensor , the image can be analog as the component,we can write the operator as the :\begin{align}
+  &A=\hat A{^a_b}\quad;\text{ and the component:}\quad \hat A{^i_j}=\hat A{^a_b}\phi^{*i}_a\phi_j^b
+\end{align}
+The $\phi$ here can be seen as the vector in GR,and the $\phi^*$ can be seen as the dual vector in GR.So we changed all old ways to calculate the QM questions.
+\subsection{relationship under a image}
+\subsubsection{Image theory}
+Now we can write clearly the relationship of these operator under special image , but at first we must suppelemt a proposition:
+\begin{align}
+&\text{If $\phi$ is the eigenstate of an operator then the operator will be a diagonal matrix:}\notag\\
+&\phi^{*i}\hat F\phi_j=\hat F{^i_j}=diag(\lambda_1,\lambda_2,\dots,\lambda_n)
+\end{align}
+\subsubsection{Eigenstate equation under a not eigenstate image}
+The eigenstate equation is $\hat F\phi=\lambda\phi$ , and under the matrix way to express ,we can write it as:\begin{align}\hat F{^a_b}\phi^b_j=\lambda_J\phi_j^a\end{align}and now we set the $\psi$ as the base of image the we get the decompositon equation:
+\begin{align}
+  \hat F{^a_b}\phi^b_j=\lambda_J\phi_j^a=\hat F{^i_k}\psi^{*k}_b\psi_i^a\phi_j^b=\lambda_J\phi^a_j
+\end{align}
+and the eigenstate can be decomposition in new base too:\begin{align}\phi_i^a=\phi_i^k\psi_k^a\end{align}
+consider all of them ,we get the final equation:
+\begin{align}
+  \hat F{^i_k}\psi^a_i\phi^k_j=\lambda_J\phi^a_j=\lambda_J\phi_j^k\psi_k^a=\lambda_J\phi^k_j \delta {^i_k}\psi_i^a\\
+  \hat F{^i_k}\phi{^k_j}\psi_i^a-\lambda_J\phi^k_j \delta ^i_k\psi^a_i=0\\
+  (\hat F^i_k-\lambda_J \delta ^i_k)\phi^k_j\psi^a_i=0
+\end{align}
+and if eq(76) have the non-normal solve of $\phi^k_j$ ,them the determinant of matrix $(\hat F^i_k-\lambda_J \delta ^i_k)$ is equal to 0:
+\begin{align}
+det(\hat F^i_j-\lambda_J \delta ^i_j)=0
+\end{align}
+
+Which can solve the eigenstate and the eigenvalue out from base of $\hat F^i_j$.
+
+\subsubsection{*An example of calculation}
+$\psi=c_1Y_{1-1}+c_2Y_{11}$ express the probabily value of $l_x$
+\begin{align}
+&\psi=c_1Y_{1-1}+c_2Y_{11}=c_1\psi_1+c_2\psi_3\notag\\
+&\overline{l_x}=\psi^*l_x\psi=\psi^*\frac12(l_{+}+l_{-})\psi\notag\\
+&(l_x)_{11}=\frac12\psi^{*1}(l_{+}+l_{-})\psi_1=0;\quad (l_x)_{12}=\frac12\psi^{*1}(l_{+}+l_{-})\psi_2=\frac12\sqrt{1(2)+0}\,\hbar\notag\\
+&=\frac{\sqrt{2}}2\hbar;\quad (l_x)_{13}=\psi^{*1}l_x\psi_3=\frac12\psi^{*1}(l_{+}+l_{-})\psi_3=0 \notag\\
+&(l_x)_{22}=0;\quad (l_x)_{23}=\frac12\psi^{*2}(l_{+}+l_{-})\psi_3=\frac12\sqrt{2+0}\,\hbar=\frac{\sqrt{2}}2\hbar;\quad (l_x)_{33}=\frac12\psi^{*3}(l_{+}+l_{-})\psi_3=0 \notag\\
+& l_{x,ij}=\begin{bmatrix}0&\frac{\sqrt{2}}2\hbar&0\\\frac{\sqrt{2}}2\hbar&0&\frac{\sqrt{2}}2\hbar\\0&\frac{\sqrt{2}}2\hbar&0\end{bmatrix};\quad\begin{vmatrix}-\lambda&\frac{\sqrt{2}}2\hbar&0\\\frac{\sqrt{2}}2\hbar&-\lambda&\frac{\sqrt{2}}2\hbar\\0&\frac{\sqrt{2}}2\hbar&-\lambda\end{vmatrix}=0;\quad-\lambda(\lambda^2-\frac12\hbar^2)+\frac12\lambda\hbar^2=0;\notag\\
+&\lambda_0=0;\quad\lambda_1=\hbar;\quad\lambda_{-1}=-\hbar;\notag \\
+&\begin{bmatrix}0&\frac{\sqrt{2}}2\hbar&0\\\frac{\sqrt{2}}2\hbar&0&\frac{\sqrt{2}}2\hbar\\0&\frac{\sqrt{2}}2\hbar&0\end{bmatrix}\vec v_0=0;\quad v_0^2=0,\quad v_0^1=-v_0^3,\quad \vec v_0=\begin{bmatrix}\frac1{\sqrt{2}}\\0\\-\frac1{\sqrt{2}}\end{bmatrix} \notag \\
+&\begin{bmatrix}-\hbar&\frac{\sqrt{2}}2\hbar&0\\\frac{\sqrt{2}}2\hbar&-\hbar&\frac{\sqrt{2}}2\hbar\\0&\frac{\sqrt{2}}2\hbar&-\hbar\end{bmatrix}\vec v_1=0;\quad v_1^1=\frac{\sqrt{2}}2v_1^2;\quad v_1^3=\frac{\sqrt{2}}2v_1^2;\quad \vec v_1=\begin{bmatrix}\frac12\\\frac{\sqrt{2}}2\\\frac12\end{bmatrix} \notag\\
+&\begin{bmatrix}\hbar&\frac{\sqrt{2}}2\hbar&0\\\frac{\sqrt{2}}2\hbar&\hbar&\frac{\sqrt{2}}2\hbar\\0&\frac{\sqrt{2}}2\hbar&\hbar\end{bmatrix}\vec v_{-1}=0;\quad -v_{-1}^1=\frac{\sqrt{2}}2v_{-1}^2;\quad -v_{-1}^3=\frac{\sqrt{2}}2v_{-1}^2;\quad \vec v_{-1}=\begin{bmatrix}\frac12\\-\frac{\sqrt{2}}2\\\frac12\end{bmatrix} \notag
+\end{align}
+\subsubsection{transformation between image}
+Just like tensor transformation :
+\begin{align}
+&\psi_i^a=\psi_i^k\phi_k^a;\psi_i^k=\psi^a_i\phi^{*k}_a 
+\end{align}
+  and one more thing,a special symble is also very similary with GR:
+  \begin{align}
+  &\psi^{*k}_a\psi_k^b= \delta {^b_a} 
+  \end{align}
+  and $\psi$ is a set of base of any image.
+\section{Spin and angular momentum}
+Spin can be seen as the new dimension of freedom.The spin operator :$\vec S$ and for any direct ,the projection can only be one of two values:$\frac12\hbar$ and $-\frac12\hbar$:
+\begin{align}
+&S_x=\pm\frac12\hbar;S_y=\pm\frac12\hbar;S_z=\pm\frac12\hbar;S_n=\pm\frac12\hbar
+\end{align}
+and the  spin magnetic moment :\begin{align}&M_s=-\frac{e}{\mu}\vec S\end{align}
+\subsection{the wavefunction of spin}
+There are two ways to write the wavefunction of spin one of them is by written into a raw:\begin{align}\psi=a\chi_{\frac{\hbar}2}+b\chi_{-\frac{\hbar}2}\end{align}and the 'a' and 'b' here is the coefficient and the $\chi$ is eigenstate of operator $S_z$.That :
+\begin{align}
+&S_z\chi_{\pm\frac{\hbar}2}=m_s\hbar\chi_{\pm\frac{\hbar}2}=\pm\frac{\hbar}2\chi_{\pm\frac{\hbar}2}\quad;m_s=\pm\frac{1}2
+\end{align}
+so we can write it into simple form:
+\begin{align}
+&S_z\chi_{m_s}=m_s\hbar\chi_{m_s}\;;\;(-s<m_s<s)\\
+&S^2\chi_{m_s}=s(s+1)\hbar^2\chi_{m_s}\;;\;s=\frac12
+\end{align}
+and similar with the $\vec l$ , $\vec S$ also have the relationship:
+\begin{align*}
+&[S_i,S_j]=i\hbar\varepsilon_{ijk}S_k; \\
+&S_+=S_x+iS_y;S_-=S_x-iS_y\\
+\end{align*}
+and the commmutator relationship:
+\begin{align}
+&[S^2,S_z]=0;[l_i,S_j]=0
+\end{align}
+\subsection{Pauli image}
+\begin{align}
+&\sigma=\frac{2}{\hbar}s
+\end{align}
+and Pauli image in fact just the dimensionless form of s.
+\begin{align}                                            
+&\sigma_z=\begin{bmatrix}1&0\\0&-1\end{bmatrix},\sigma_x=\begin{bmatrix}0&1\\1&0\end{bmatrix},\sigma_y=\begin{bmatrix}0&-i\\i&0\end{bmatrix}
+\end{align}
+one more inportant thing \begin{align}&\sigma_+=\frac12(\sigma_x+i\sigma_y);\sigma_-=\frac12(\sigma_x-i\sigma_y)\end{align}
+so the different between s and $\sigma$ is the dimension:
+\begin{align}
+&\sigma_x=\sigma_++\sigma_-;\sigma_y=\frac1i(\sigma_+-\sigma_-)\\
+&s_x=\frac12(s_++s_-);s_y=\frac1{2i}(s_+-s_-)
+\end{align}
+the coefficient is quite different here.and what's more:
+\begin{align}
+ &\sigma_+\chi_{-}=\chi_+;\sigma_-\chi_+=\chi_-\\
+ &s_+\chi_-=\hbar\chi_+;s_-\chi_+=\hbar \chi_-
+\end{align}
+\subsection{angular momentum}
+Then we can define the angular momentum:
+\begin{align}
+&\vec j=\vec s+\vec l
+\end{align}
+
+
+
+
+
+
 
 \end{document}

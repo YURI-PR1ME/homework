@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.21)  3 DEC 2025 21:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.21)  4 DEC 2025 16:59
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -251,25 +251,50 @@ Overfull \hbox (32.9272pt too wide) detected at line 523
 
 
 
-[15] (./homework.aux)
+[15]
+./homework.tex:547: Undefined control sequence.
+<argument> ...^2=\frac {\hbar ^2}4 \\ &\ooverline 
+                                                  {S_y^2}=\phi ^*-1\times \f...
+l.547 \end{align*}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./homework.tex:547: Undefined control sequence.
+<argument> ...^2=\frac {\hbar ^2}4 \\ &\ooverline 
+                                                  {S_y^2}=\phi ^*-1\times \f...
+l.547 \end{align*}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[16] (./homework.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1260 strings out of 473190
- 18680 string characters out of 5722592
+ 1261 strings out of 473190
+ 18689 string characters out of 5722592
  448347 words of memory out of 5000000
- 24562 multiletter control sequences out of 15000+600000
+ 24563 multiletter control sequences out of 15000+600000
  562653 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,65p,766b,200s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on homework.pdf (15 pages, 185214 bytes).
+Output written on homework.pdf (16 pages, 187235 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
+ 116 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
