@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage{bm}
 \usepackage{amsmath}
+\usepackage{tensor}
 
 \begin{document}
 \section{Oct 20 HW}
@@ -442,7 +443,7 @@ PROVE:
   &iAB+iBA=BCB-CBB+BBC-BCB=BBC-CBB=0 \\
   &iAC+iCA=BCC-CBC+CBC-CCB=0&
 \end{align*}
-(b)
+(b)/home/yuri/books/output/1/1758960262251.jpg
 \begin{align*}
   &AB+BA=0;\phi^*_iAB\phi_i+\phi^*iBA\phi_j=0 \\
   &\lambda_I\phi^*_iB\phi^j+\phi^{*i}B\lambda_J\phi_j=\lambda_I B{^i_j}+\lambda_JB{^i_j}=(\lambda_I+\lambda_J)B{^i_j}=0;\\
@@ -541,9 +542,100 @@ III:CALCULATE:$[\sigma_x,\sigma_z^n]$;$[\sigma_x,e^{\sigma_z}]$
 &=[\phi^*(S_+^2+S_+S_-+S_-S_++S_-^2)\phi]=[\phi^*(S_+S_-)\phi]=[\phi^*\frac{\hbar^2}4\phi]=\frac{\hbar^2}{4} \\
 &\overline{S_x}=\phi^*\frac12(S_++S_-)\phi=0;\sqrt{\overline{S_x^2}-0}=\frac{\hbar}2 \\
 &\overline{(\Delta S_x)}^2=\frac{\hbar^2}4 \\
-&\ooverline{S_y^2}=\phi^*-1\times\frac14(S_+-S_-)(S_+-S_-)\phi=-\frac14\phi^*(S_+^2-S_+S_--S_-S_++S_-^2)\phi\\&=-\frac14\phi^*(-\hbar^2\phi)=\frac{\hbar^2}4 \\
+&\overline{S_y^2}=\phi^*-1\times\frac14(S_+-S_-)(S_+-S_-)\phi=-\frac14\phi^*(S_+^2-S_+S_--S_-S_++S_-^2)\phi\\&=-\frac14\phi^*(-\hbar^2\phi)=\frac{\hbar^2}4 \\
 &\overline{S_y}=\phi^*S_y\phi=\frac1{2i}\phi^*(S_+-S_-)\phi=0 \\
 &\overline{\Delta S_y}^2=(\sqrt{\overline{S_y^2}-\overline{S_y}^2})^2=\frac{\hbar^2}4 \\
+\end{align*}
+
+\newpage
+\section{Dec 10}
+
+I:Calc:
+
+\begin{align*}
+  &\hat H=g\sigma_{x1}\sigma_{x2}\quad;\quad\psi_0^{ab}=\frac1{\sqrt{2}}\chi_{\frac12}^a\chi_{\frac12}^b+\frac1{\sqrt{2}}\chi_{\frac12}^a\chi_{-\frac12}^b
+\end{align*}
+
+Solve:
+
+\begin{align*}
+&\text{use base }\;\{\chi_{00},\chi_{10},\chi_{11},\chi_{1-1}\}=\{\phi_0,\phi_1,\phi_2,\phi_3\}\\
+  =&\frac1{\sqrt{2}}(\chi_1\chi_0-\chi_0\chi_1);\frac1{\sqrt{2}}(\chi_1\chi_0+\chi_0\chi_1);\chi_1\chi_1;\chi_0\chi_0\\
+&\hat H^i_j=\phi^{*i}_b \tensor {\hat H}{^b_a}\phi_j^a\\
+&\begin{matrix}
+  H^i_j&\phi_0&\phi_1&\phi_2&\phi_3\\
+  \phi^*_0&-g&0&0&0\\
+  \phi^*_2&0&g&0&0\\
+  \phi^*_3&0&0&0&g\\
+  \phi^*_4&0&0&g&0
+\end{matrix}\\
+&\hat H^0_0=\frac12 \phi^*_0g(\chi_0\chi_1-\chi_1\chi_0)=\frac12g(\chi_1^*\chi_0^*-\chi_0^*\chi_1^*)(\chi_0\chi_1-\chi_1\chi_0)=-g\\
+&\hat H^0_1=\frac12g\phi_0^*(\chi_0\chi_1+\chi_1\chi_0)=\frac12g(\chi_1^*\chi_0^*-\chi_0^*\chi_1^*)(\chi_0\chi_1+\chi_1\chi_0)=0\\
+&\hat H^0_2=\hat H^0_3=0\\
+&\hat H^1_1=\frac12g\phi^*_1(\chi_0\chi_1+\chi_1\chi_0)=\frac12g(\chi_1\chi_0+\chi_0\chi_1)(\chi_0\chi_1+\chi_1\chi_0)=g\\
+&\hat H^1_2=\hat H^1_3=0\\
+&\hat H^2_2=g\phi_2^*\hat H\phi_2=0\\
+&\hat H^2_3=g\phi^*_2\hat H\phi_3=g\\
+&\hat H^3_3=0\\
+&\begin{vmatrix}
+ -g-\lambda&0&0&0\\
+ 0&g-\lambda&0&0\\
+ 0&0&-\lambda&g\\
+ 0&0&g&-\lambda
+\end{vmatrix}=0;\quad\text{so $\lambda$}=(\lambda^2-g^2)(\lambda^2-g^2)=0\\
+&v_0^a=\phi_0;v_1^a=\phi_1;v_2^a=\frac1{\sqrt{2}}(\phi_2+\phi_3);v_3^a=\frac1{\sqrt{2}}(\phi_2-\phi_3);\lambda_0=-g;\lambda_1=g;\lambda_2=g\\&;\lambda_3=-g\\
+&\psi_0^{ab}=\frac1{\sqrt{2}}\phi_2^a+\frac12(\phi_0+\phi_1)=\frac12v_0+\frac12v_1+\frac12(v_3+v_2)
+\end{align*}
+
+\newpage
+II:8.8:
+
+\begin{align*}\psi_0=\chi_1\chi_0 \text{ and the Hamiltonian }:\hat H=As_1\cdot s_2.\end{align*}
+
+Solve:
+\begin{align*}
+  &\hat H=\frac{A}4\hbar^2\sigma_1\sigma_2=\frac{A}4\hbar^2(\sigma_{1x}\sigma_{2x}+\sigma_{1y}\sigma_{2y}+\sigma_{1z}\sigma_{2z})\\
+  &\text{ bases are :}\chi_{00}=\frac1{\sqrt{2}}(\chi_1\chi_0-\chi_0\chi_1);\chi_{10}=\frac1{\sqrt{2}}(\chi_1\chi_0+\chi_0\chi_1);\chi_{11}=\chi_1\chi_1;\chi_{1-1}=\chi_0\chi_0\\
+  &\hat H^i_j=\phi^{*i}_a\hat H^a_b\phi_j^b\\
+  &\begin{matrix}
+    \hat H^i_j&\phi_0&\phi_1&\phi_2&\phi_3\\
+    \phi^*_0&-\frac34A\hbar^2&0&0&0\\
+    \phi^*_1&0&\frac14A\hbar^2&0&0\\
+    \phi^*_2&0&0&\frac14A\hbar^2&0\\
+    \phi^*_3&0&0&0&\frac14A\hbar^2
+  \end{matrix}\\
+  &\hat H^a_0=\frac{A}4\hbar^2\frac3{\sqrt{2}}(\chi_0\chi_1-\chi_1\chi_0)=-\frac34A\hbar^2\chi_{00}\\
+  &\hat H^0_0=-\frac34A\hbar^2\\
+  &\hat H^a_1=\frac14A\hbar^2\frac1{\sqrt{2}}(\chi_0\chi_1+\chi_1\chi_0)=\frac14A\hbar^2\chi_{10}\\
+  &\hat H^1_1=\frac14A\hbar^2\\
+  &\hat H^a_2=\frac14A\hbar^2(\chi_0\chi_0-\chi_0\chi_0+\chi_1\chi_1)=\frac14A\hbar^2\chi_{11}\\
+  &\hat H^2_2=\frac14A\hbar^2\\
+  &\hat H^a_3=\frac14A\hbar^2(\chi_1\chi_1-\chi_1\chi_1+\chi_0\chi_0)=\frac14A\hbar^2\chi_{1-1}\\
+  &\hat H^3_3=\frac14A\hbar^2\\
+  &\psi_0=\frac1{\sqrt{2}}(\chi_{00}+\chi_{10})\\
+  &\psi_0(t)=\frac1{\sqrt{2}}\chi_{00}e^{i\frac34A\hbar t}+\frac1{\sqrt{2}}\chi_{10}e^{-i\frac14A\hbar t}=\frac1{2}e^{i\frac34\hbar At}(\chi_1\chi_0-\chi_0\chi_1)+\frac12e^{-i\frac14\hbar At}(\chi_1\chi_0+\chi_0\chi_1)\\
+  &=e^{i\frac14\hbar At}[\frac12e^{i\frac12\hbar At}(\chi_1\chi_0-\chi_0\chi_1)+\frac12e^{-\frac12\hbar At}(\chi_1\chi_0+\chi_0\chi_1)]  \\
+  &= e^{i\frac14 A\hbar t}[cos(\frac12\hbar At)\chi_1\chi_0+\frac1isin(\frac12\hbar At)\chi_0\chi_1]\\
+  &(a):\\
+  &=cos^2(\frac12\hbar At)\\
+  &(b):\\
+  &=0\\
+  &(c):\\
+  &=\frac12;=\frac12\\
+  &(d):\\
+  &<s_{1x}>=(\frac1{\sqrt{2}}\chi_{00}^*e^{-i\frac34A\hbar t}+\frac1{\sqrt{2}}\chi_{10}^*e^{i\frac14A\hbar t})s_{1x}(\frac1{\sqrt{2}}\chi_{00}e^{i\frac34A\hbar t}+\frac1{\sqrt{2}}\chi_{10}e^{-i\frac14A\hbar t})=0\\
+  &<s_{1y}>=(\frac1{\sqrt{2}}\chi_{00}^*e^{-i\frac34A\hbar t}+\frac1{\sqrt{2}}\chi_{10}^*e^{i\frac14A\hbar t})s_{1y}(\frac1{\sqrt{2}}\chi_{00}e^{i\frac34A\hbar t}+\frac1{\sqrt{2}}\chi_{10}e^{-i\frac14A\hbar t})=0\\
+\end{align*}
+\begin{align*}
+  &<s_{1z}>=(\frac1{\sqrt{2}}\chi_{00}^*e^{-i\frac34A\hbar t}+\frac1{\sqrt{2}}\chi_{10}^*e^{i\frac14A\hbar t})s_{1z}(\frac1{\sqrt{2}}\chi_{00}e^{i\frac34A\hbar t}+\frac1{\sqrt{2}}\chi_{10}e^{-i\frac14A\hbar t})\\
+  &=(\frac1{\sqrt{2}}\chi_{00}^*e^{-i\frac34A\hbar t}+\frac1{\sqrt{2}}\chi_{10}^*e^{i\frac14A\hbar t})\frac12\hbar(\frac1{2}e^{i\frac34\hbar At}(\chi_1\chi_0+\chi_0\chi_1)+\frac12e^{-i\frac14\hbar At}(\chi_1\chi_0-\chi_0\chi_1))\\
+  &=(\frac1{\sqrt{2}}\chi_{00}^*e^{-i\frac34A\hbar t}+\frac1{\sqrt{2}}\chi_{10}^*e^{i\frac14A\hbar t})\frac12\hbar(\frac1{\sqrt{2}}e^{i\frac34\hbar At}\chi_{10}+\frac1{\sqrt{2}}e^{-i\frac14\hbar At}\chi_{00})\\
+  &=\frac12e^{i\hbar At}+\frac12e^{-i\hbar At}=\frac12\hbar cos(\hbar At)\\
+  &<s_{2x}>=<s_{2y}>=0\\
+  &<s_{2z}>=(\frac1{\sqrt{2}}\chi_{00}^*e^{-i\frac34A\hbar t}+\frac1{\sqrt{2}}\chi_{10}^*e^{i\frac14A\hbar t})s_{2z}(\frac1{\sqrt{2}}\chi_{00}e^{i\frac34A\hbar t}+\frac1{\sqrt{2}}\chi_{10}e^{-i\frac14A\hbar t})\\
+  &=(\frac1{\sqrt{2}}\chi_{00}^*e^{-i\frac34A\hbar t}+\frac1{\sqrt{2}}\chi_{10}^*e^{i\frac14A\hbar t})s_{2z}(\frac12e^{i\frac34A\hbar t}(\chi_1\chi_0-\chi_0\chi_1)+\frac12e^{-i\frac14A\hbar t}(\chi_1\chi_0+\chi_0\chi_1))\\
+  &=(\frac1{\sqrt{2}}\chi_{00}^*e^{-i\frac34A\hbar t}+\frac1{\sqrt{2}}\chi_{10}^*e^{i\frac14A\hbar t})s_{2z}(\frac1{\sqrt{2}}e^{i\frac34A\hbar t}(-\chi_{10})+\frac1{\sqrt{2}}e^{-i\frac14A\hbar t}(-\chi_{00}))\\
+  &=-\frac12\hbar cos(A\hbar t)
 \end{align*}
 
 
