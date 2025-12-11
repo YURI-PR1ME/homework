@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.25)  10 DEC 2025 16:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.21)  11 DEC 2025 21:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -102,6 +102,26 @@ Package: tensor 2023/07/18 v2.2 tensor indices package (PGR)
 \tnsr@Spe=\toks24
 \tnsr@Sbe=\toks25
 \ncld@Mno=\toks26
+) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks27
+\thm@bodyfont=\toks28
+\thm@headfont=\toks29
+\thm@notefont=\toks30
+\thm@headpunct=\toks31
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks32
 ) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
@@ -109,22 +129,29 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./homework.aux)
 \openout1 = `homework.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-
-Overfull \hbox (40.10051pt too wide) in paragraph at lines 23--24
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (40.10051pt too wide) in paragraph at lines 25--26
 \OT1/cmr/m/n/10 [\OML/cmm/m/it/10 x; p[]\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10   \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^B \OML/cmm/m/it/10 p[]  \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 in[]p[] $\OT1/cmr/m/n/10 =$^^F[]\OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 x; p[]\OT1/cmr/m/n/10 ] = [\OML/cmm/m/it/10 x; \OT1/cmr/m/n/10 ^^F[]\OML/cmm/m/it/10 c[]p[]\OT1/cmr/m/n/10 ] = \OML/cmm/m/it/10 i[]\OT1/cmr/m/n/10 ^^F[]\OML/cmm/m/it/10 C[]np[]  \OT1/cmr/m/n/10 =
  []
 
@@ -133,19 +160,19 @@ Overfull \hbox (40.10051pt too wide) in paragraph at lines 23--24
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (10.14412pt too wide) in paragraph at lines 121--122
+Overfull \hbox (10.14412pt too wide) in paragraph at lines 123--124
 []$\OML/cmm/m/it/10 x[] [] \OT1/cmr/m/n/10 = []([][[]([]\OML/cmm/m/it/10  [] \OT1/cmr/m/n/10 + []\OML/cmm/m/it/10  []\OT1/cmr/m/n/10 )] + [][[]([]\OML/cmm/m/it/10  [] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (33.44345pt too wide) in paragraph at lines 121--122
+Overfull \hbox (33.44345pt too wide) in paragraph at lines 123--124
 []\OML/cmm/m/it/10  []\OT1/cmr/m/n/10 )])$=$[][[]\OML/cmm/m/it/10  [] \OT1/cmr/m/n/10 + 2(\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 + 1)\OML/cmm/m/it/10  [] \OT1/cmr/m/n/10 + 2\OML/cmm/m/it/10 n [] \OT1/cmr/m/n/10 + []\OML/cmm/m/it/10  []\OT1/cmr/m/n/10 ]$ 
  []
 
 
 
 [2]
-Overfull \hbox (22.74416pt too wide) in paragraph at lines 181--182
+Overfull \hbox (22.74416pt too wide) in paragraph at lines 183--184
 []\OT1/cmr/m/n/10 so $[] = [] \OML/cmm/m/it/10  []\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 l[]l[]l[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ []\OML/cmm/m/it/10 l[]l[]l[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10  d\OT1/cmr/m/n/10 
 $=$[] + [] \OML/cmm/m/it/10  [][]l[]l[][]m  \OMS/cmsy/m/n/10 ^^@ [][]\OML/cmm/m/it/10 m []l[]l[] d\OT1/cmr/m/n/10 
 $=$[]$ 
@@ -154,52 +181,52 @@ $=$[]$
 
 
 [3]
-Overfull \hbox (0.24995pt too wide) in paragraph at lines 205--206
+Overfull \hbox (0.24995pt too wide) in paragraph at lines 207--208
 []$\OML/cmm/m/it/10 e[]Be[] \OT1/cmr/m/n/10 = ^^F[]\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 ^^F[] = ^^F^^F[]\OML/cmm/m/it/10 B[] \OT1/cmr/m/n/10 = ^^F[][]$ 
  []
 
 
-Overfull \hbox (1.87337pt too wide) in paragraph at lines 215--216
+Overfull \hbox (1.87337pt too wide) in paragraph at lines 217--218
 \OT1/cmr/m/n/10 Now con-sider for ant k sat-is-fied $\OML/cmm/m/it/10 F[]$ \OT1/cmr/m/n/10 sat-is-fied :$\OML/cmm/m/it/10 F[] \OT1/cmr/m/n/10 = [](\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)[][\OML/cmm/m/it/10 A; \OT1/cmr/m/n/10 [\OML/cmm/m/it/10 A; \OT1/cmr/m/n/10 [\OML/cmm/m/it/10 A; :::\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 A; B\OT1/cmr/m/n/10 ]]]] =
  []
 
 
-Overfull \hbox (20.01pt too wide) in paragraph at lines 217--218
+Overfull \hbox (20.01pt too wide) in paragraph at lines 219--220
 []$\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 a=\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 + 1)[\OML/cmm/m/it/10 A; F[]\OT1/cmr/m/n/10 ] = [](\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)[][\OML/cmm/m/it/10 A; \OT1/cmr/m/n/10 [\OML/cmm/m/it/10 A; :::\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 A; B\OT1/cmr/m/n/10 ]]] = ^^F[][]$ 
  []
 
 
-Overfull \hbox (20.6591pt too wide) in paragraph at lines 219--220
+Overfull \hbox (20.6591pt too wide) in paragraph at lines 221--222
 []\OT1/cmr/m/n/10 and for $[\OML/cmm/m/it/10 A; A[]BA[]\OT1/cmr/m/n/10 ] = [\OML/cmm/m/it/10 A; A[]\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 BA[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 A[]\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 A; BA[]\OT1/cmr/m/n/10 ] = [\OML/cmm/m/it/10 A; A[]\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 BA[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 A[]\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 A; B\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (32.31322pt too wide) in paragraph at lines 219--220
+Overfull \hbox (32.31322pt too wide) in paragraph at lines 221--222
 \OML/cmm/m/it/10 A[]B\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 A; A[]\OT1/cmr/m/n/10 ] = \OML/cmm/m/it/10 A[]\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 A; B\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 A[]BA[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 A[]BA[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 A[]BA[] \OT1/cmr/m/n/10 + (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 A[]BA[]$\OT1/cmr/m/n/10 so 
  []
 
 
-Overfull \hbox (24.62282pt too wide) in paragraph at lines 224--226
+Overfull \hbox (24.62282pt too wide) in paragraph at lines 226--228
 []$\OT1/cmr/m/n/10 ^^F[][] = ^^F[][] +
  []
 
 
-Overfull \hbox (61.13522pt too wide) in paragraph at lines 224--226
+Overfull \hbox (61.13522pt too wide) in paragraph at lines 226--228
 \OT1/cmr/m/n/10 ^^F[][] \OMS/cmsy/m/n/10 ^^@ [] ^^@ [] \OT1/cmr/m/n/10 = ^^F[]\OML/cmm/m/it/10 n[][] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (80.32439pt too wide) in paragraph at lines 224--226
+Overfull \hbox (80.32439pt too wide) in paragraph at lines 226--228
 \OT1/cmr/m/n/10 have a m$\OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = 1$term and 2 and 4 com-bine can have a $\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = 1$ term :$^^F[]\OML/cmm/m/it/10 n[][] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (24.1312pt too wide) in paragraph at lines 224--226
+Overfull \hbox (24.1312pt too wide) in paragraph at lines 226--228
 \OT1/cmr/m/n/10 ^^F[]\OML/cmm/m/it/10 m[][]$ \OT1/cmr/m/n/10 so we get sat-is-fied for full k+1 terms : m=0,1,2...,k
  []
 
 
-Overfull \hbox (13.00635pt too wide) in paragraph at lines 243--244
+Overfull \hbox (12.58612pt too wide) in paragraph at lines 245--246
 []\OT1/cmr/m/n/10 PROVE:$[][] = [][] = [] [] \OML/cmm/m/it/10  []AH  \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10  []HA  \OT1/cmr/m/n/10 = [](\OML/cmm/m/it/10 E []  []A  \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 E []A \OT1/cmr/m/n/10 ) =
  []
 
@@ -212,38 +239,38 @@ Overfull \hbox (13.00635pt too wide) in paragraph at lines 243--244
 [6]
 
 [7]
-Overfull \hbox (14.69376pt too wide) detected at line 351
+Overfull \hbox (14.69376pt too wide) detected at line 353
 []
  []
 
 
 
 [8]
-Overfull \hbox (36.39978pt too wide) detected at line 403
+Overfull \hbox (36.39978pt too wide) detected at line 405
 []
  []
 
 
 
 [9]
-Overfull \vbox (75.97154pt too high) has occurred while \output is active []
+Overfull \vbox (74.54503pt too high) has occurred while \output is active []
 
 
 
 [10]
-Overfull \hbox (50.18565pt too wide) detected at line 420
+Overfull \hbox (46.9554pt too wide) detected at line 422
 []
  []
 
 
-Overfull \vbox (12.05542pt too high) has occurred while \output is active []
+Overfull \vbox (10.36877pt too high) has occurred while \output is active []
 
 
 
 [11]
 
 [12]
-Overfull \hbox (363.45041pt too wide) detected at line 480
+Overfull \hbox (363.45041pt too wide) detected at line 482
 []
  []
 
@@ -252,7 +279,7 @@ Overfull \hbox (363.45041pt too wide) detected at line 480
 [13]
 
 [14]
-Overfull \hbox (32.9272pt too wide) detected at line 524
+Overfull \hbox (32.9272pt too wide) detected at line 526
 []
  []
 
@@ -261,50 +288,66 @@ Overfull \hbox (32.9272pt too wide) detected at line 524
 [15]
 
 [16]
-Overfull \hbox (11.20656pt too wide) detected at line 588
+Overfull \hbox (11.20656pt too wide) detected at line 590
 []
  []
 
 
 
 [17]
-Overfull \hbox (52.24422pt too wide) detected at line 628
+Overfull \hbox (51.68391pt too wide) detected at line 620
+[]
+ []
+
+
+Overfull \hbox (18.55916pt too wide) detected at line 633
 []
  []
 
 
 
 [18]
-Overfull \vbox (88.57822pt too high) has occurred while \output is active []
-
-
-
-[19]
-Overfull \hbox (45.35895pt too wide) detected at line 639
+Overfull \hbox (44.79865pt too wide) detected at line 644
 []
  []
 
 
 
-[20] (./homework.aux)
+[19]
+Overfull \hbox (72.75046pt too wide) detected at line 725
+[]
+ []
+
+
+
+[20]
+
+[21]
+Overfull \hbox (99.18552pt too wide) detected at line 776
+[]
+ []
+
+
+
+[22] (./homework.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1341 strings out of 473190
- 19790 string characters out of 5722592
- 449295 words of memory out of 5000000
- 24639 multiletter control sequences out of 15000+600000
- 562653 words of font info for 49 fonts, out of 8000000 for 9000
+ 1953 strings out of 473190
+ 26982 string characters out of 5722592
+ 448016 words of memory out of 5000000
+ 25227 multiletter control sequences out of 15000+600000
+ 564244 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,65p,766b,200s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on homework.pdf (20 pages, 196858 bytes).
+ 56i,15n,65p,766b,245s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on homework.pdf (22 pages, 220004 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 150 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

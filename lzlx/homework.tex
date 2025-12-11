@@ -2,6 +2,8 @@
 \usepackage{bm}
 \usepackage{amsmath}
 \usepackage{tensor}
+\usepackage{amssymb}
+\usepackage{amsthm}
 
 \begin{document}
 \section{Oct 20 HW}
@@ -615,6 +617,9 @@ Solve:
   &\psi_0=\frac1{\sqrt{2}}(\chi_{00}+\chi_{10})\\
   &\psi_0(t)=\frac1{\sqrt{2}}\chi_{00}e^{i\frac34A\hbar t}+\frac1{\sqrt{2}}\chi_{10}e^{-i\frac14A\hbar t}=\frac1{2}e^{i\frac34\hbar At}(\chi_1\chi_0-\chi_0\chi_1)+\frac12e^{-i\frac14\hbar At}(\chi_1\chi_0+\chi_0\chi_1)\\
   &=e^{i\frac14\hbar At}[\frac12e^{i\frac12\hbar At}(\chi_1\chi_0-\chi_0\chi_1)+\frac12e^{-\frac12\hbar At}(\chi_1\chi_0+\chi_0\chi_1)]  \\
+\end{align*}
+
+\begin{align*}
   &= e^{i\frac14 A\hbar t}[cos(\frac12\hbar At)\chi_1\chi_0+\frac1isin(\frac12\hbar At)\chi_0\chi_1]\\
   &(a):\\
   &=cos^2(\frac12\hbar At)\\
@@ -638,5 +643,136 @@ Solve:
   &=-\frac12\hbar cos(A\hbar t)
 \end{align*}
 
+\newpage
 
+\section{Dec 11 HW}
+
+I:8.5:
+
+(a):Prove \begin{align*}e^{i\lambda \sigma_z}=cos\lambda+i\sigma_zsin\lambda\end{align*}
+
+\begin{proof}
+\begin{align*}
+&e^{i\lambda\sigma_z}=\Sigma\frac{(i\lambda)^n}{n!}\sigma_z^n;cos\lambda=\Sigma\frac{(-1)^{n}}{2n!}\lambda^{2n}\\
+&sin\lambda=\Sigma\frac{(-1)^{n}}{2n+1!}\lambda^{2n+1}\\
+&\sigma_z=
+\begin{bmatrix}
+  1&0\\0&(-1)^n
+\end{bmatrix};e^{i\lambda\sigma_z}=
+\Sigma\begin{bmatrix}
+  \frac{(i\lambda)^n}{n!}&0 \\
+  0&\frac{(-i\lambda)^n}{n!}
+\end{bmatrix}\\
+&cos\lambda+i\sigma_zsin\lambda=
+\begin{bmatrix}
+  cos\lambda+isin\lambda&0\\
+  0&cos\lambda-isin\lambda
+\end{bmatrix}\\
+&=
+\begin{bmatrix}
+  e^{i\lambda}&0\\
+  0&e^{-i\lambda}
+\end{bmatrix}=e^{i\lambda\sigma_z}
+\end{align*}
+\end{proof}
+
+(b):Prove \begin{align*}e^{i\sigma\cdot A}=cosA+i\sigma\cdot nsinA,A=An,A=|A|\end{align*}
+
+\begin{proof}
+  \begin{align*}
+    &e^{i\sigma\cdot A}=e^{i\sigma\cdot nA}=\Sigma\frac{(iA)^n}{n!}(\sigma\cdot n)^n\\
+    &cosA+i\sigma\cdot nsinA\\
+    &\sigma\cdot n=
+    n_x\begin{bmatrix}
+      0&1\\1&0
+      \end{bmatrix}+n_y
+      \begin{bmatrix}
+        0&-i\\
+        i&0
+      \end{bmatrix}+n_z
+      \begin{bmatrix}
+        1&0\\0&-1
+      \end{bmatrix}=
+      \begin{bmatrix}
+        n_z&n_x-in_y\\
+        n_x+in_y&-n_z
+      \end{bmatrix}\\
+    &->\begin{bmatrix}
+      cosA+isinAn_z&isinA(n_x-in_y)\\
+      isinA(n_x+in_y)&cosA-isinAn_z
+    \end{bmatrix}\\
+    &e^{i\sigma\cdot nA}=\Sigma\frac{(iA)^n}{n!}\begin{bmatrix}
+      n_z&n_x-in_y\\
+      n_x+in_y&-n_z
+    \end{bmatrix}^n\\
+    &\begin{bmatrix}
+      n_z&n_x-in_y\\
+      n_x+in_y&-n_z
+    \end{bmatrix}\times\begin{bmatrix}
+      n_z&n_x-in_y\\
+      n_x+in_y&-n_z
+    \end{bmatrix}=\begin{bmatrix}
+      1&0\\
+      0&1
+      \end{bmatrix}\\&=\Sigma\frac{-1^{n}A^{2n}}{2n!}I+\Sigma\frac{-1^n\times iA^{2n+1}}{2n+1}\begin{bmatrix}
+      n_z&n_x-in_y\\
+      n_x+in_y&-n_z
+    \end{bmatrix}=cosAI+isinA\begin{bmatrix}
+      n_z&n_x-in_y\\
+      n_x+in_y&-n_z
+    \end{bmatrix}\\
+    &=cosA+i\sigma\cdot sinA
+  \end{align*}
+\end{proof}
+
+(c):Prove
+
+\begin{align*}Tre^{i\sigma\cdot A}=2cosA\end{align*}
+
+\begin{proof}
+  \begin{align*}
+&e^{i\sigma\cdot A}=cosAI+isinA\begin{bmatrix}
+      n_z&n_x-in_y\\
+      n_x+in_y&-n_z
+    \end{bmatrix}\text{the trace is :}\\
+&=2cosA+0=2cosA
+  \end{align*}
+\end{proof}
+
+\newpage
+
+II:8.6:
+
+Prove:
+
+\begin{align*}e^{i\lambda\sigma_z}\sigma_xe^{-i\lambda\sigma_z}=\sigma_xcos2\lambda-\sigma_ysin2\lambda\end{align*}
+
+\begin{proof}
+  \begin{align*}
+&(cos\lambda+i\sigma_zsin\lambda)\sigma_x(cos\lambda-i\sigma_zsin\lambda)\\
+&=\begin{bmatrix}cos\lambda+isin\lambda&0\\0&cos\lambda-isin\lambda\end{bmatrix}\begin{bmatrix}0&1\\1&0\end{bmatrix}\begin{bmatrix}cos\lambda-isin\lambda&0\\0&cos\lambda+isin\lambda\end{bmatrix}\\
+&=\begin{bmatrix}cos\lambda+isin\lambda&0\\0&cos\lambda-isin\lambda\end{bmatrix}\begin{bmatrix}0&cos\lambda+isin\lambda\\cos\lambda-isin\lambda&0\end{bmatrix}\\
+&=\begin{bmatrix}0&cos^2\lambda-sin^2\lambda+2icos\lambda sin\lambda\\cos^2\lambda-sin^2\lambda-2icos\lambda sin\lambda&0\end{bmatrix}\\
+&=\begin{bmatrix}0&e^{i2\lambda}\\e^{-i2\lambda}&0\end{bmatrix}\\
+&\sigma_xcos2\lambda-\sigma_ysin2\lambda=\begin{bmatrix}0&cos2\lambda+isin2\lambda\\cos2\lambda-isin2\lambda&0\end{bmatrix}=\begin{bmatrix}0&e^{i2\lambda}\\e^{-2i\lambda}&0\end{bmatrix}
+  \end{align*}
+\end{proof}
+
+III:Backboard Question:
+
+\begin{align*}
+&H=\frac{\hbar^2}4g\sigma_{1x}\sigma_{2x};\psi=\frac1{\sqrt{2}}[\chi_1\chi_0+\chi_1\chi_1]
+\end{align*}
+
+\textit{Solve.}
+\begin{align*}
+&\text{ the eigenstate:}\phi_1=\frac1{\sqrt{2}}[\chi_1\chi_0+\chi_0\chi_1];\phi_2=\frac1{\sqrt{2}}[\chi_1\chi_0-\chi_0\chi_1];\\&\phi_3=\frac1{\sqrt{2}}[\chi_1\chi_1+\chi_0\chi_0];\phi_4=\frac1{\sqrt{2}}[\chi_1\chi_1-\chi_0\chi_0]\\
+&\lambda_1=1;\lambda_2=-1;\lambda_3=1;\lambda_4=-1\\
+&\psi_0=\frac12[\phi_1+\phi_2]+\frac12[\phi_3+\phi_4]\\
+&\phi(t)=\frac12\phi_1e^{-it/\hbar}+\frac12\phi_2e^{it/\hbar}+\frac12\phi_3e^{-it/\hbar}+\frac12\phi_4e^{it/\hbar}\\
+&<\sigma_{x1}>=\phi^*(t)\sigma_z\frac12[e^{-it/\hbar}\frac1{\sqrt{2}}(\chi_1\chi_0+\chi_0\chi_1+\chi_1\chi_1+\chi_0\chi_0)+e^{it/\hbar}\frac1{\sqrt{2}}(\chi_1\chi_0-\chi_0\chi_1+\chi_1\chi_1-\chi_0\chi_0)]\\
+&=\phi^*(t)\frac1{2\sqrt{2}}[e^{-it/\hbar}(\chi_0\chi_0+\chi_1\chi_1+\chi_0\chi_1+\chi_1\chi_0)+e^{it/\hbar}(\chi_0\chi_0-\chi_1\chi_1+\chi_0\chi_1-\chi_1\chi_0)]\\
+&=\phi^*(t)[e^{-it/\hbar}\frac12(\phi_1+\phi_3)-\frac12e^{it/\hbar}(\phi_2+\phi_4)]=\frac14e^{-2it/\hbar}+\frac14e^{-2it/\hbar}-\frac14e^{2it/\hbar}-\frac14e^{2it/\hbar}=-isin(\frac{2t}{\hbar})
+\end{align*}
+Solved.
 \end{document}
