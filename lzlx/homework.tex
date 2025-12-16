@@ -799,6 +799,36 @@ II:8.10
 \textit{Solve}
 
 \begin{align*}
-&
+&\phi_0=\frac{\sqrt{\alpha}}{\pi^{\frac14}}e^{-\alpha^2x^2/2} \\
+&\phi_1=\frac{\sqrt{2\alpha}}{\pi^{\frac14}}\alpha xe^{-\alpha^2x^2/2} \\
+&\phi_2=\frac1{\pi^{\frac14}}\sqrt{\frac{\alpha}2}(2\alpha^2x^2-1)e^{-\alpha^2x^2/2}\\
+\end{align*}
+two particles without spin can be (wave function must be symmetry):
+\begin{align*}
+&\phi_{02}\phi_{01}:\psi=\frac{\alpha}{\sqrt{\pi}}e^{-\frac{\alpha^2}2(x_1^2+x_2^2)} E=\hbar\omega\\
+&\phi_{11}\phi_{02},\phi_{01}\phi_{12}:\psi=\frac{\alpha^2}{\sqrt{\pi}} [(x_1+x_2)e^{-\frac{\alpha^2}2(x_1^2+x_2^2)}] E=2\hbar\omega\\
+&\phi_{11}\phi_{12},\phi_{01}\phi_{22},\phi_{21}\phi_{02}:\psi=\frac1{\sqrt{2}}\frac{\alpha}{\sqrt{2\pi}} [2\alpha^2(x_1^2+x_2^2-2)e^{-\frac{\alpha^2}2(x_1^2+x_2^2)}];\\
+&\phi=\frac{2\alpha^3}{\sqrt{\pi}}x_1x_2e^{-\frac{\alpha^2}2(x_1^2+x_2^2)} E=3\hbar\omega\\
+\end{align*}
+
+two particle with spin can be (wavefunction must be anti-symmetry):
+\begin{align*}
+&\text{eigenstate of Hamiltonian:}\\
+&\phi_0\chi_{sm_s} \\
+&\phi_{01}\phi_{02}\chi_{00}:\psi=\frac{\alpha}{\sqrt{\pi}}e^{-\frac{\alpha^2}2(x_1^2+x_2^2)}\chi_{00}\\
+&\text{the second class}\\
+&\psi=\frac1{\sqrt{2}}[\phi_{01}\phi_{12}+\phi_{11}\phi_{02}]\chi_{00};\psi=\frac1{\sqrt{2}}[\phi_{01}\phi_{12}-\phi_{11}\phi_{02}]\chi_{1M} \\
+&\text{ the third class}\\
+&\psi=[\phi_{11}\phi_{12}]\chi_{00};\psi=\frac1{\sqrt{2}}[\phi_{01}\phi_{22}+\phi_{21}\phi_{02}]\chi_{00};\psi=\frac1{\sqrt{2}}[\phi_{01}\phi_{22}-\phi_{21}\phi_{02}]\chi_{1M} \\
+\end{align*}
+
+III:5.6 
+
+\textit{Calculate}
+
+(a):
+\begin{align*}
+&R_{nl}=N_{nl}\xi^le^{-\xi/2}F(-n+l+1,2l+2,\xi),\xi=\frac{2r}{na} \\
+&l=n-1;R_{nl}=N_{nl}\xi^le^{-\xi/2}F(0,2l+2,\xi)=r^le^{-\beta r} \\
 \end{align*}
 \end{document}
