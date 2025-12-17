@@ -27,7 +27,8 @@ Now I'd like to list some of important points in QM From Chapter 1 to Chapter 8:
 
 \textbf{Chapter 2:}
 \begin{align*}
-&I:\text{The property of particle in one dimensional potential field}
+&I:\text{The property of particle in one dimensional potential field}\\
+&II:\text{The parity of the wavefunction under a symmetry potential in space}
 \end{align*}
 
 \section{Wavefunction}
@@ -592,7 +593,7 @@ notice that the wavefunction $Y_{lm}\chi_{\frac12}$ and $Y_{lm+1}\chi_{-\frac12}
 \subsection{Infinity Potential Well}
 The V satisfied the define below is called the one dimensional infinity potential well:
 
-\textbf{Type one:The wall is in one site and it's not symmetry with the coordinate frame}
+\textbf{Type one:The well is in one site and it's not symmetry with the coordinate frame.}
 \begin{align}
   V=\begin{cases}
     0\quad0<x<a.\\
@@ -613,6 +614,71 @@ The solution:
 &\psi=\sqrt{\frac{2}a}sin(\frac{n\pi}{a}x)\;;\frac{n\pi}a=\sqrt{\frac{2mE}{\hbar^2}}
 \end{align}
 
+\textbf{Type two :The well is symmetry at both side of x line.}
+\begin{align}
+  V=\begin{cases}
+0\quad|x|>a;\\
+\infty\quad|x|<a.
+  \end{cases}
+\end{align}
+The Shr\"odinger equation is as same as eq.100,but the boarder condition is not the same so the result is not the same.
+
+The solution:
+\begin{align}
+  \psi=\begin{cases}
+    \sqrt{\frac2a}sin(\frac{k\pi}{2a}x),k=0,2,4,\dots\\
+    \sqrt{\frac2a}cos(\frac{k\pi}{2a}x),k=1,3,5,\dots
+  \end{cases}
+\end{align}
+Reason of why the wavefunction must be cosx or sinx but can not be like $Asinx+Bcosx$ is the \textbf{wavefunction must have the precision parity if the potential function is symmetry in the space}
+
+\section{Limited depth potential well}
+The potential well called limited depth if V satisfied :
+\begin{align}
+  V=\begin{cases}
+      V\quad|x|>\frac a2 \\
+      0\quad|x|<\frac a2
+  \end{cases}
+\end{align}
+and V here is a real number and not divergent.
+
+In this situation the Shr\"odinger equation can be written as:
+\begin{align}
+  -\frac{\hbar^2}{2m}\nabla^2\psi+(V-E)\psi=0
+\end{align}
+and now I will write down the process of solve:
+
+\textit{Solve:}
+\begin{align*}
+&\begin{cases}
+  \nabla^2 \psi+\frac{2m}{\hbar^2}E\psi=0 \quad|x|<\frac a2\\ 
+  \nabla^2 \psi+\frac{2m}{\hbar^2}(E-V)\psi=0 \quad|x|>\frac a2
+\end{cases}\\
+&\text{and the area $|x|<\frac a2$ still be sin or cos and still can not be both:}\\
+&\psi=\begin{cases}
+  Bsin\sqrt{\frac{2mE}{\hbar^2}}x\\
+Bcos\sqrt{\frac{2mE}{\hbar^2}}x
+\end{cases}|x|<\frac a2 \\
+&\text{at the left half:}\\
+&\psi=Ae^{\sqrt{\frac{2m(E-V)}{\hbar^2}}x}\quad|x|<-\frac a2\\
+&\text{at the right half :}\\
+&\psi=Ce^{-\sqrt{\frac{2m(E-V)}{\hbar^2}}x}\quad|x|>\frac a2\\
+\end{align*}
+and we can solve the wavefunction by steps below:
+\begin{center}
+I:Choose a parity.
+
+II:use the bundler condition :
+
+A:\begin{align*}
+  \begin{cases} Ae^{-K\frac a2 }=Bsin/cos(-K\frac a2)\\
+    Bsin/cos(K\frac a2)=Ce^{-K\frac a2}
+  \end{cases}
+\end{align*}
+
+B:The derivative of wavefunction is continous
+\end{center}
+The point needed to be notice is ,the parity of wavefunction under a symmetry potential.
 
 
 
