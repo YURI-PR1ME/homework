@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1765891726.20359 "homework.tex" "homework.pdf" "homework" 1765891726.65635 0
+["pdflatex"] 1765968815.52971 "homework.tex" "homework.pdf" "homework" 1765968815.98768 0
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1755987285 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1755987285 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1755987285 1004 54797486969f23fa377b128694d548df ""
@@ -19,6 +19,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm" 1755987285 1524 554068197b70979a55370e6c6495f441 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1755987285 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1755987285 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1755987285 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1755987285 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1755987285 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1755987285 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
@@ -52,8 +53,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1763708112 5462436 27cd050b37751b994114e730b3e1e2b9 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1763708095 3459348 b5fde53d5209533a6a15b2cfa1583e05 ""
-  "homework.aux" 1765891726.60146 1615 4e4ad768e13362b912061ede4089cd58 "pdflatex"
-  "homework.tex" 1765891724.45242 37655 69e76f8beffb830ec445b65ee2da7579 ""
+  "homework.aux" 1765968815.93057 1615 0acdcb0650690821444e90c6bee441ce "pdflatex"
+  "homework.tex" 1765968814.37481 39103 dd891360626f4468ed7dd6766c7409d6 ""
   (generated)
   "homework.aux"
   "homework.log"

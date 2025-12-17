@@ -828,7 +828,37 @@ III:5.6
 
 (a):
 \begin{align*}
-&R_{nl}=N_{nl}\xi^le^{-\xi/2}F(-n+l+1,2l+2,\xi),\xi=\frac{2r}{na} \\
-&l=n-1;R_{nl}=N_{nl}\xi^le^{-\xi/2}F(0,2l+2,\xi)=r^le^{-\beta r} \\
+  &Pdr|_{r}=\int |\psi_{rlm}|^2r^2sin\theta dr d\theta d\phi=\int R^2_r Y_{lm}^2 r^2sin\theta dr d\theta d\phi=R^2r^2dr\int |Y_{lm}|^2 sin\theta d\theta d\phi \\
+  &=R^2r^2dr=\chi^2dr \\
+  &\text{so when P is the biggest then}:\frac{dP}{dr}=2\chi\frac{d\chi}{dr}=0\\
+  &\Rightarrow \frac{d(r^{l+1}e^{-\beta r})}{dr}=(l+1)r^le^{-\beta r}-\beta r^{l+1}e^{-\beta r} =0 \\
+  &\Rightarrow r=\frac{l+1}{\beta}=\frac{n}{\beta}=n^2 \\
+  &\text{consider the dimension of legth:}L=\frac{\hbar^2}{\mu e^2}=\alpha\;\text{ but the atom have Z electonics so:} \\
+  &\Rightarrow r=n^2\frac{\alpha}{Z}   \\
 \end{align*}
+
+(b):
+\begin{align*}
+&<r>=\int \psi_{rlm}^* r \psi_{rml} d\Omega \\
+&\text{use the virial theorem} \overline{\frac{p^2}{2m}}=\frac12\overline{r\cdot \nabla V} \\
+&E=T+V=\frac{p^2}{2m}+\frac1{r}=\frac{\mu Z^2e^4}{2\hbar^2 n^2}=\frac{Z^2e^2}{2\alpha n^2} \\
+&\overline{T}=-\frac12\overline{V};\overline{E}=\frac12\overline{V}\Rightarrow\overline{\frac1r} =\frac{Z}{\alpha n^2} \\
+\end{align*}
+\textbf{From 5.9 we know an equation:}
+\begin{align*}
+&\frac{\lambda+1}{n^2}<r^{\lambda}>-(2\lambda+1)\frac{a_0}{Z}<r^{\lambda-1}>+\frac{\lambda}4[(2l+1)^2-\lambda^2]\frac{a_0^2}{Z^2}<r^{\lambda-2}>=0
+  \end{align*}
+  so we get :
+  \begin{align*}
+&\frac2{n^2}<r>-3\frac{a_0}{Z}+\frac14[(2l+1)^2-1]\frac{a_0^2}{Z^2}<\frac1r>=0  \\
+&\Rightarrow <r>=(n^2+\frac{n}2)\frac{\alpha}{Z} \\
+  \end{align*}
+
+  (c):
+
+  As the same put $<r>$ into eq.1 can get 
+  \begin{align*}
+&<r^2>=n^2(n+1)(n+1)(\frac{\alpha}2)^2\\
+&\text{so delta equal to :}(\frac{n^3}{2}+\frac{n^2}{4})^{\frac12}\frac{\alpha}Z
+  \end{align*}
 \end{document}
