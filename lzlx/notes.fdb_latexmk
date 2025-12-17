@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1764861507.28452 "notes.tex" "notes.pdf" "notes" 1764861507.77574 0
+["pdflatex"] 1765975877.63606 "notes.tex" "notes.pdf" "notes" 1765975878.06488 0
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1755987285 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1755987285 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1755987285 1004 54797486969f23fa377b128694d548df ""
@@ -12,6 +12,8 @@
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm" 1755987285 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm" 1755987285 1524 554068197b70979a55370e6c6495f441 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1755987285 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1755987285 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmti7.tfm" 1755987285 1492 86331993fe614793f5e7e755835c31c5 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb" 1755987285 34793 87a84b12f86dfd35a1cf1bb142b75602 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1755987285 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1755987285 32080 340ef9bf63678554ee606688e7b5339d ""
@@ -26,6 +28,7 @@
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1755987285 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1755987285 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1755987285 32716 08e384dc442464e7285e891af9f45947 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1755987285 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb" 1755987285 30457 bc0868ebece724ed7c3d37e3d9bff7bd ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1755987285 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1755987285 2222 2166a1f7827be30ddc30434e5efcee1b ""
@@ -46,11 +49,11 @@
   "/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1755987285 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/share/texmf-dist/tex/latex/tools/bm.sty" 1755987285 13236 1aba485b47e3c79a47dc0906cc971820 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1764004084 5462436 27cd050b37751b994114e730b3e1e2b9 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1764004079 3459349 5c570a8c1ae80b67d14d4e451a549cb8 ""
-  "notes.aux" 1764861507.70418 4647 704a6a058758e443587a7c133bdb9db3 "pdflatex"
-  "notes.tex" 1764861506.67623 26333 1f54ec56e9e0ddc696b6388a2e171fb1 ""
-  "symmetry.png" 1764046200.93686 18143 45f0f2d6ce3fb34b542fc854fbe4cf02 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1763708112 5462436 27cd050b37751b994114e730b3e1e2b9 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1763708095 3459348 b5fde53d5209533a6a15b2cfa1583e05 ""
+  "notes.aux" 1765975878.01711 4896 a63cc4f09ffd826f4be35bd1711c6880 "pdflatex"
+  "notes.tex" 1765975876.08882 27712 c6cb6d4097d34409e3a7ed44a96c5a58 ""
+  "symmetry.png" 1763823894.84269 18143 45f0f2d6ce3fb34b542fc854fbe4cf02 ""
   (generated)
   "notes.aux"
   "notes.log"
