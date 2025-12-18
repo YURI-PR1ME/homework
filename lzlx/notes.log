@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.21)  18 DEC 2025 22:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.25)  18 DEC 2025 23:07
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -163,6 +163,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+Overfull \hbox (29.54224pt too wide) detected at line 36
+[]
+ []
+
+
 
 [1
 
@@ -177,7 +182,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 [5]
 
 [6]
-Overfull \hbox (1.35458pt too wide) in paragraph at lines 304--304
+Overfull \hbox (1.35458pt too wide) in paragraph at lines 307--307
 []\OT1/cmr/bx/n/14.4 symmetry of evo-lu-tion-ing Dy-nam-i-cal vari-ables 
  []
 
@@ -189,30 +194,30 @@ Overfull \hbox (1.35458pt too wide) in paragraph at lines 304--304
 <symmetry.png, id=44, 488.82625pt x 172.645pt>
 File: symmetry.png Graphic file (type png)
 <use symmetry.png>
-Package pdftex.def Info: symmetry.png  used on input line 414.
+Package pdftex.def Info: symmetry.png  used on input line 417.
 (pdftex.def)             Requested size: 172.5pt x 60.92453pt.
 
 
-[9 <./symmetry.png (PNG copy)>]
-Overfull \hbox (7.12332pt too wide) in paragraph at lines 441--443
+[9]
+Overfull \hbox (7.12332pt too wide) in paragraph at lines 444--446
 \OT1/cmr/m/n/10 So that means only two posi-bil-ity will hap-pend :the wave-func-tion is symmetry:$\OML/cmm/m/it/10   \OT1/cmr/m/n/10 =
  []
 
 
 
-[10]
-Overfull \hbox (7.04233pt too wide) detected at line 475
-[]
- []
-
-
-Overfull \hbox (59.99808pt too wide) detected at line 508
+[10 <./symmetry.png (PNG copy)>]
+Overfull \hbox (7.04233pt too wide) detected at line 478
 []
  []
 
 
 
 [11]
+Overfull \hbox (59.99808pt too wide) detected at line 511
+[]
+ []
+
+
 
 [12]
 
@@ -237,13 +242,13 @@ L3 programming layer <2025-01-18>
 Here is how much of TeX's memory you used:
  2197 strings out of 473190
  32487 string characters out of 5722592
- 455093 words of memory out of 5000000
+ 458093 words of memory out of 5000000
  25460 multiletter control sequences out of 15000+600000
  564302 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,17n,65p,541b,254s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on notes.pdf (19 pages, 274692 bytes).
+Output written on notes.pdf (19 pages, 275367 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream
