@@ -3,6 +3,7 @@
 \usepackage{amsmath}
 \usepackage{bm}
 
+\usepackage{amsthm}
 
 \begin{document}
 \section{Preface}
@@ -632,7 +633,7 @@ The solution:
 \end{align}
 Reason of why the wavefunction must be cosx or sinx but can not be like $Asinx+Bcosx$ is the \textbf{wavefunction must have the precision parity if the potential function is symmetry in the space}
 
-\section{Limited depth potential well}
+\subsection{Limited depth potential well}
 The potential well called limited depth if V satisfied :
 \begin{align}
   V=\begin{cases}
@@ -668,7 +669,7 @@ and we can solve the wavefunction by steps below:
 \begin{center}
 I:Choose a parity.
 
-II:use the bundler condition :
+II:use the bound condition :
 
 A:\begin{align*}
   \begin{cases} Ae^{-K\frac a2 }=Bsin/cos(-K\frac a2)\\
@@ -680,6 +681,132 @@ B:The derivative of wavefunction is continous
 \end{center}
 The point needed to be notice is ,the parity of wavefunction under a symmetry potential.
 
+\subsection{Reflection and Transmission of the  Square Potential Well }
+Now consider the square potential like below:
+\begin{align}
+  V(x)=\begin{cases}
+V_0\quad0<x<a\\
+0\quad x<0,\quad x>a
+  \end{cases}
+\end{align}
+and we can write the wavefunction as three part :the transmission part ,the reflection part and the origin part:
+\begin{align}
+  \psi(x)=\begin{cases}
+    e^{ipx/\hbar}+Re^{-ipx/\hbar}\\
+    Te^{-ipx/\hbar}
+  \end{cases}
+\end{align}
+the coefficient defined like:
+\begin{align}
+  \text{Transmission coefficient}:=|T|^2\\
+  \text{Reflection coefficient}:=|R|^2
+\end{align}
+And the part through the potential is:
+\begin{align}
+  \psi=Ae^{i\sqrt{\frac{2m(E-V)}{\hbar^2}}x}+Be^{-i\sqrt{\frac{2m(E-V)}{\hbar^2}}x}
+\end{align}
+\textbf{Notice:} this solution base on the silve of Hamilton equation so the momentum of every part is the same.
 
+And we can solve it by the bound condition and continues condition with 4 equation we can solve whole 4 coefficients.
+
+\subsection{The Delta Potetial Wall}
+The potiential function is satisfied below call the "Delta Potential Wall"
+\begin{align}
+V(x)=\gamma\delta(x)\quad\gamma>0
+\end{align}
+And noticed that the continues of wavefunction is special that :the two class derivative of the wavefunction is not existed at the $x=0$ point.So use the new continues condition below to replace the two class derivative condition:
+\begin{align}
+  \psi'(0^+)-\psi'(0^-)=\frac{2m\gamma}{\hbar^2}\psi(0)
+\end{align}
+
+\begin{proof}
+ How to get this equation:
+ \begin{align*}
+&\int^{\epsilon}_{-\epsilon}[\frac{d^2\psi}{dx^2}+\frac{2m}{\hbar^2}(E-\gamma\delta(x))]\psi=0\\
+&\Rightarrow \psi'(0^+)-\psi'(0^-)-\frac{2m}{\hbar^2}\gamma\psi=0
+ \end{align*}
+\end{proof}
+For this situation also considering the reflection and transmission of wavefunction:
+\begin{align}
+  \psi=\begin{cases}
+    e^{ipx/\hbar}+Re^{-ipx/\hbar}\quad x<0\\
+    Te^{ipx/\hbar}\quad x>0
+  \end{cases}
+\end{align}
+And the wavefunction can be solved by:
+\begin{align}
+  \begin{cases}
+1+R=T\\
+\psi(0)=T\\
+ip/\hbar T-(ip/\hbar-Rip/\hbar)=\frac{2m\gamma}{\hbar^2}\psi(0)
+  \end{cases}
+\end{align}
+
+\subsubsection{The Bound State of Delta Potential Well}
+
+Now we consider the Potential as :
+\begin{align}
+V=-\gamma\delta(x)\quad\gamma>0
+\end{align}
+Here is the solution:
+\begin{align}
+  \psi(x)=\begin{cases}
+    Ae^{i\sqrt{\frac{2mE}{\hbar^2}}x}\quad x<0\\
+    Ae^{-i\sqrt{\frac{2mE}{\hbar^2}}x}\quad x>0
+  \end{cases}
+\end{align}
+This is a bound state ,althought the potential function is symmetry with the x-axis but the odd parity can not be exist because the coefficient will be zero.
+
+\subsection{The Leap Condition}
+The condition of transformation from square to delta potential.
+\begin{align}
+  \lim_{\epsilon \rightarrow 0^+}[\psi'(\epsilon)-\psi'(-\epsilon)]=\kappa(A+B)[(1+\kappa\epsilon)-(1-\kappa\epsilon)]=\frac{2m\gamma}{\hbar^2}\psi(0)
+\end{align}
+\section{One Dimension Harmonic Oscillator}
+The V satisfied below:
+\begin{align}
+  V=\frac12Kx^2=\frac12m\omega^2x^2\quad \omega=\sqrt{\frac{K}{m}}
+\end{align}
+So the Hamilton equation is :
+\begin{align}
+  -\frac{\hbar^2}{2m}\nabla^2\psi+\frac12m\omega^2x^2\psi=E\psi
+\end{align}
+The solve of this is complexed and we will show the reslult:
+\begin{align}
+  &\alpha=\sqrt{\frac{m\omega}{\hbar}}\quad \xi=\alpha x\\
+  \text{The equation become:}&\frac{d^2\psi(x)}{d\xi^2}+[\lambda-\xi^2]\psi(x)=0 \\
+  &\psi=(\frac{\alpha}{\sqrt{\pi}2^nn!})^{\frac12}e^{-\frac12\alpha^2x^2-\frac{i}{\hbar}E_nt}H_n(\alpha x)
+\end{align}
+\textbf{Here will write some train of thought to get the solutino:}
+
+Consider the $x\rightarrow \infty$ and the equation become:
+\begin{align}
+&\frac{d^2\psi}{d\xi^2}=\xi^2\psi
+\end{align}
+and get the result under the $ \infty$ condition:
+\begin{align}
+  \psi_{\infty}=c_1e^{-\xi^2/2}+c_2e^{\xi^2/2}
+\end{align}
+consider that if the $\xi\rightarrow \infty$ and the wavefunction still be convergent so $c_2=0$.
+\begin{align}
+  \psi=c_1e^{-\xi^2/2}
+\end{align}
+Now the precision resolotion is become:
+\begin{align}
+  \psi=H(\xi)e^{-\xi^2/2}
+\end{align}
+\subsection{Some Hermit Polynomial}
+\begin{align}
+H_0=1\\
+H_1=2\xi\\
+H_2=4\xi^2-2
+\end{align}
+\subsection{Energy of Harmonic Oscillator}
+
+\begin{align}
+\text{consider:}\lambda=\frac{2E}{\omega\hbar};\lambda_n=2n+1\\
+E_n=(n+\frac12)\hbar\omega\quad n=0,1,2\dots
+\end{align}
+\textbf{Notice that the define of n is from the solve of Hermit equations,and this make the energy become the separation value}
 
 \end{document}

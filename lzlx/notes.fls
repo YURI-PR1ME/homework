@@ -34,6 +34,8 @@ INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/bm.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/bm.sty
+INPUT /usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+INPUT /usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./notes.aux
