@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{bm}
+
+\usepackage{amsthm}
+
+\begin{document}
+\section{Chapter 1}
+All:1.1,1.2,1.7,1.14 and 6 examples
+
+1.1:
+\begin{align*}
+&x=tan\theta d\quad \dot{x}=\frac{\dot{\theta}}{cos^2\theta}d=\frac{\omega}{cos^2\theta}d \\
+&cos\theta=\frac{d}{\sqrt{d^2+x^2}}\Rightarrow \frac{\omega(d^2+x^2)}{d}  \\
+&\ddot{x}=\frac{2x\dot{x}\omega}{d}=\frac{2x\omega}{d}\frac{\omega(d^2+x^2)}{d}=\frac{2x\omega^2(d^2+x^2)}{d^2} \\
+\end{align*}
+
+1.2:
+\begin{align*}
+&\begin{cases}
+x=sin\theta b\\
+y=cos\theta d
+\end{cases}\\
+&\frac{d}{dt} cos \theta(b+d)=-c \\
+&\Rightarrow  \dot{\theta}=\frac{c}{sin\theta(b+d)} \\
+&\begin{cases}
+  \dot{x}=  \frac{cbcos\theta}{sin\theta(b+d)}\\
+  \dot{y}=- \frac{dc}{(b+d)}
+\end{cases}\\
+&\begin{cases}
+  \ddot{x}=- \frac{c^2b}{sin^3\theta(b+d)^2} \\
+  \ddot{y}=0
+\end{cases}\\
+\end{align*}
+
+1.7:
+\begin{align*}
+&\vec v=v_x\vec i+v_y \vec j \quad v_x^2+v_y^2=c \\
+&a=\dot{v_x}\vec i+\dot{v_y}\vec j \\
+&\vec a\cdot\vec v=v_x\dot{v_x}+v_y\dot{v_y}=\frac12(\dot{v_x^2}+\dot{v_y^2})=\frac12\dot{c}=0 \\
+\end{align*}
+
+1.14:
+\begin{align*}
+&\begin{cases} 
+  m\ddot{x}=-mk\dot{x} \\
+  m\ddot{y}=-mk\dot{y}-mg
+\end{cases}\\
+&\begin{cases} 
+  \dot{x}=C_1e^{-kt} \\
+  \dot{y}=C_2e^{-kt}-\frac{g}k
+\end{cases}\\
+&t=0\quad C_1=v_{x0};C_2=\frac gk+v_{y0} \\
+&-tan\alpha=\frac{(\frac gk+v_{y0})e^{-kt}-\frac gk}{v_{x0}e^{-kt}} \\
+&-tan\alpha=(\frac g{kv_{x0}}+tan\alpha)-\frac{g}{kv_{x0}}e^{kt} \\
+&\Rightarrow e^{kt}=\frac{kv_{x0}}{g}(\frac g{kv_{x0}}+2tan\alpha) \\
+&t=\frac1kln[\frac{kv_{x0}}g(\frac g{kv_{x0}}+2tan\alpha)]=\frac1kln[1+2\frac kgsin\alpha v_{0}] \\
+\end{align*}
+\end{document}
+
