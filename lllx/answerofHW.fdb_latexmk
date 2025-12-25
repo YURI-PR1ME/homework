@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1766651632.67889 "answerofHW.tex" "answerofHW.pdf" "answerofHW" 1766651633.00379 0
+["pdflatex"] 1766654406.30879 "answerofHW.tex" "answerofHW.pdf" "answerofHW" 1766654406.64622 0
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1755987285 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1755987285 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1755987285 1004 54797486969f23fa377b128694d548df ""
@@ -41,10 +41,10 @@
   "/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1755987285 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/share/texmf-dist/tex/latex/tools/bm.sty" 1755987285 13236 1aba485b47e3c79a47dc0906cc971820 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1764004084 5462436 27cd050b37751b994114e730b3e1e2b9 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1764004079 3459349 5c570a8c1ae80b67d14d4e451a549cb8 ""
-  "answerofHW.aux" 1766651632.94957 226 1f41cecbc31f9aec0c0f91d4f4eac790 "pdflatex"
-  "answerofHW.tex" 1766651632.33156 4042 be3f1681fb3e74b33b2a1bb0e8551bb8 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1762857738 5462436 27cd050b37751b994114e730b3e1e2b9 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1762857714 2008243 47b175168a03d6b03f68db3753c884a6 ""
+  "answerofHW.aux" 1766654406.60171 226 1f41cecbc31f9aec0c0f91d4f4eac790 "pdflatex"
+  "answerofHW.tex" 1766654385.18739 4042 be3f1681fb3e74b33b2a1bb0e8551bb8 ""
   (generated)
   "answerofHW.aux"
   "answerofHW.log"
