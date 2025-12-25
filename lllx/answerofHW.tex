@@ -57,5 +57,71 @@ y=cos\theta d
 &\Rightarrow e^{kt}=\frac{kv_{x0}}{g}(\frac g{kv_{x0}}+2tan\alpha) \\
 &t=\frac1kln[\frac{kv_{x0}}g(\frac g{kv_{x0}}+2tan\alpha)]=\frac1kln[1+2\frac kgsin\alpha v_{0}] \\
 \end{align*}
+
+exp1:
+\begin{align*}
+&v=\begin{cases}
+v_x=v_0\\
+v_y=gt
+\end{cases}\\
+&a_n=\frac{v^2}{\rho}\Rightarrow \rho=\frac{v^2}{a_n}\\
+&a_n= \vec a\cdot \vec n=\sqrt{a^2-(a\cdot v\frac1{|v|})^2} \\
+&\vec a=g\vec j ; \vec a \cdot \vec v=g^2t \\
+&a_n=\sqrt{g^2-\frac{g^4t^2}{v_0^2+g^2t^2}}=\sqrt{\frac{v_0^2g^2}{v_0^2+g^2t^2}}=\frac{v_0g}{\sqrt{v_0^2+g^2t^2}} \\
+&\rho=\frac{(v_0^2+g^2t^2)^{\frac32}}{v_0g} \\
+\end{align*}
+
+exp2:
+\begin{align*}
+&m\ddot{y}=-mg-mk\dot{y} \\
+&\ddot{y}+k\dot{y}=-g\Rightarrow y=A+Be^{-kt}-\frac{gt}{k} \\
+&\dot{y}|_{t=0}=0\Rightarrow \dot{y}=\frac{g}{k}e^{-kt}-\frac{g}k \\
+\end{align*}
+
+exp3:
+\begin{align*}
+&l=r\times p=2\times 0.5\times 4=1=v_B \times 0.5\times 2 \\
+& \Rightarrow v_B =1
+\end{align*}
+
+exp4:
+\begin{align*}
+&mg=kx\Rightarrow x=\frac{mg}{k} \\
+&\frac12mv^2-mgx+\frac12kx^2=0 \\
+&\Rightarrow \frac12mv^2=\frac{m^2g^2}{k}-\frac12k\frac{m^2g^2}{k^2}=\frac{m^2g^2}{2k} \\
+&v=\sqrt{\frac{m}k}g \\
+\end{align*}
+
+exp5:
+\begin{align*}
+&V=-\int (ax+by^2)dx+(az+2bxy)dy+(ay+bz^2)dz \\
+  =&-\frac12ax^2-\frac13bz^3-\int by^2dx+azdy+bxdy^2+aydz\\
+  =& -\frac12ax^2-\frac13bz^3-by^2x-azy+C\\
+   &C=0
+  \end{align*}
+
+  exp6: 
+  \begin{align*}
+&\frac{d^2x}{dt^2}=2+6x^2 \\
+&\int^x_0 adx=2x+2x^3=\int^x_0 \frac{d^2x}{dt^2}dx =\int^x_0vdv=\frac12v^2-\frac12v_0^2\\
+&v=\sqrt{100+4x+4x^3} \\
+  \end{align*}
+
+  \section{Chapter 2}
+2.8,2.13,2 examples
+
+2.8:
+\begin{align*}
+&\vec r=r\vec e_r;\vec v=\dot {r}\vec e_r+r\omega\vec e_{\theta}; \\
+&\vec a=\ddot r\vec e_r +\dot r\omega \vec e_{\theta}+(\dot r \omega+r\dot \omega)\vec e_{\theta}-r\omega^2 \vec e_r=(\ddot r-r\omega^2)\vec e_r+(2\dot r\omega+r\dot\omega)\vec e_{\theta} \\
+&r\times p=h\Rightarrow r^2\omega =\frac hm \\
+&\dot r=\frac{dr}{dt}=\frac{dr}{d\theta}\omega=\frac{dr}{d\theta}\frac h{mr^2}=-\frac hm\frac{d\frac1r}{d\theta} \\
+&r=ae^{b\theta}\Rightarrow \dot r=-\frac hm \frac1a (-b)e^{-b\theta}=\frac{bh}{m}\frac1r \\
+&\ddot r=-\frac{hb}m \frac1{r^2}(\frac{hb}m\frac1r)=-\frac{h^2b^2}{m^2}\frac1{r^3} \\
+&\ddot r-r\omega^2=\frac{F}m=-\frac{k}{mr^3}=-\frac{h^2b^2}{m^2}\frac1{r^3}-r\frac{h^2}{m^2r^4} \\
+&\Rightarrow k=\frac{h^2b^2}m+\frac{h^2}m\Rightarrow h=\sqrt{\frac{km}{b^2+1}} \\
+&E=T+V=\frac12m(\dot r^2+r^2\omega^2)-\frac{k}{2r^2}=\frac12m(\frac{h^2b^2}{m^2r^2}+\frac{h^2}{m^2r^2})-\frac{k}{2r^2} \\
+&\Rightarrow \frac1{2r^2}(\frac{h^2b^2}{m}+\frac{h^2}{m}-k)=0 \\
+\end{align*}
 \end{document}
 
