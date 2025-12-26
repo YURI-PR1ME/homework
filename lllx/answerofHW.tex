@@ -336,5 +336,175 @@ eg.5.4:
 &e_aJ^a_be^b=\frac13(\frac12ma^2)=\frac16 ma^2 \\
 &T=\frac12 \omega_aJ^a_b\omega^b=\frac12 \omega^2 J=\frac1{12}ma^2\omega^2 \\
 \end{align*}
+
+exp1:
+\begin{align*}
+&\mathcal L=\frac12m\dot l^2+\frac12\frac12mR^2\omega^2-(c-mgsin\alpha l)-fl+\int fR d\theta \\
+&\begin{cases}
+  m\ddot l=mgsin\alpha -f\\
+  \frac12 mR^2\frac{d\omega}{dt}=fR
+\end{cases}\\
+&\ddot l=\dot{\omega}R \\
+&mgsin\alpha -f=2f \\
+&\frac13mgsin\alpha=f \\
+\end{align*}
+
+exp2:
+\begin{align*}
+&J_{ij}=\begin{bmatrix}
+  \int y^2+z^2dm&-\int xy dm&-\int zx dm\\
+  -\int yxdm&\int x^2+z^2 dm&-\int yzdm\\
+  -\int zx dm&-\int yz dm&\int x^2+y^2 dm
+\end{bmatrix}\\
+&y=rsin\theta;x=rsin\theta,z=0;dm=\frac{m}{\pi R^2}rdrd\theta \\
+&J_{ij}=\begin{bmatrix}
+  \frac14mR^2&0&0\\
+  0&\frac14mR^2&0\\
+  0&0&\frac12mR^2
+\end{bmatrix}\\
+&\vec \omega=\begin{bmatrix}\frac{\sqrt{3}}2\omega\\0\\\frac12\omega\end{bmatrix} \\
+&T=\frac12\omega J\omega=\frac12 \omega^2 \begin{bmatrix}\frac{\sqrt{3}}2&0&\frac12\end{bmatrix}\cdot\begin{bmatrix}\frac{\sqrt{3}}8mR^2\\0\\\frac14mR^2\end{bmatrix}=\frac12\omega^2(\frac3{16}mR^2+\frac18mR^2) \\
+&=\frac5{32}\omega^2mR^2 \\
+\end{align*}
+
+exp3:
+\begin{align*}
+&\frac12M\omega^2l^2+\frac12\frac13ml^2\omega^2-Mgl-mg\frac12l=0 \\
+&(2M+m)gl=(Ml^2+\frac13ml^2)\omega^2 \\
+&\omega=\sqrt{\frac{(2M+m)g}{(M+\frac13m)l}} \\
+\end{align*}
+
+exp4:
+\begin{align*}
+&y=\frac12lsin\theta\Rightarrow v=\frac12lcos\theta \dot\theta \\
+&\frac12m\dot y^2-mg(1-sin\theta)\frac12l=0 \\
+\end{align*}
+
+exp5:
+\begin{align*}
+&\mathcal L=\frac12m_1\dot l^2+\frac12m_2\dot l^2+\frac12\frac12m\dot l^2-(C-m_1gl)-\int \mu m_2g dl \\
+&\ddot l=\frac{(m_1 -\mu m_2)g}{(m_1+m_2+\frac12 m)} \\
+&T_1-m_1g=-m_1\ddot l\Rightarrow T_1=m_1(-\frac{(m_1 -\mu m_2)g}{(m_1+m_2+\frac12 m)}+1) \\
+&T_1=m_1(\frac{(m_2+\mu m_2 +\frac12 m)g}{m_1+m_2+\frac12m}) \\
+&m_2\ddot l=T_2-\mu m_2g \Rightarrow T_2=m_2(\ddot l+\mu g)\\
+&T_2=m_2(\frac{(1+\mu)m_1+\frac12\mu m}{m_1+m_2+\frac12m})g \\
+\end{align*}
+
+exp6:
+\begin{align*}
+&cos\theta g=\frac{v^2}{2R} \\
+&\frac12mv^2+\frac12\frac25mR^2\omega^2=mg2R(1-cos\theta) \\
+&\omega=\frac{v}{2R} \\
+&\frac{11}{20}cos\theta =(1-cos\theta) \\
+&cos\theta=\frac{20}{31} \\
+&\theta =arccos(\frac{20}{31}) \\
+\end{align*}
+
+exp7:
+\begin{align*}
+&l=\frac13ml^2\omega_0 \\
+&\frac12\frac13ml^2\omega_0^2=mg\frac12l\Rightarrow \omega=\sqrt{\frac{3g}l} \\
+&\frac13ml^2\omega_0=\frac43ml^2\omega\Rightarrow \omega=\frac14\omega_0 \\
+&(1-cos\theta)=\frac1{12}\\
+&cos\theta =\frac{11}{12} \\
+&\theta =arccos(\frac{11}{12}) \\
+\end{align*}
+
+exp8:
+\begin{align*}
+&m\omega^2\frac12l=-\frac12mg+F_1 \\
+&l^2\omega^2=g\frac32l\Rightarrow \omega=\sqrt{\frac{3g}{2l}} \\
+&F_1=\frac54mg\\
+&M\beta=mgl\frac{\sqrt{3}}4=\frac13ml^2\beta\Rightarrow \beta=\frac{3\sqrt{3}}4\frac{g}l \\
+&a_1=\beta \frac12l=\frac{3\sqrt{3}}8g \\
+&\frac{3\sqrt{3}}8gm=\frac{\sqrt{3}}2gm-F_1\Rightarrow F_1=\frac{\sqrt{3}}8mg \\
+&|F|=\sqrt{\frac3{64}+\frac{25}{16}}mg=\frac{\sqrt{103}}8mg \\
+\end{align*}
+
+\section{Chapter 6}
+6.1 6.7 6.10 and 6 examples.
+
+6.1:
+\begin{align*}
+  &q=\theta \\
+  &\frac{h-y}{h}=\frac{\frac12l_0}l \\
+  &h=sin\theta l \\
+  & \Rightarrow sin\theta l-y=\frac12 l_0sin\theta\Rightarrow y=sin\theta l-\frac12l_0sin\theta \\
+  &2cos\theta r=l\Rightarrow y=sin(2\theta)r-\frac12sin\theta l_0 \\
+  &\delta y=2cos2\theta r-\frac12cos\theta l_0; \delta w= mg \delta y=0 \\
+  &4cos2\theta r-cos\theta l_0=0 \\
+  & 0=8cos^2\theta r -4r -cos\theta l_0\Rightarrow cos\theta=\frac{l_0\pm\sqrt{l_0^2+4(8r\times 4r)}}{16r} \\
+  &cos\theta >0 \Rightarrow cos\theta =\frac{l_0+\sqrt{l_0^2+128r^2}}{16r} \\
+  &l=2cos\theta r \\
+  &\Rightarrow l=\frac{l_0+\sqrt{l_0^2+128r^2}}{8} \\
+  & \Rightarrow 8l-l_0=\sqrt{l_0^2+128r^2}\Rightarrow 64l^2 -16ll_0=128r^2 \\
+  &l_0=\frac{64l^2-128r^2}{16l}=\frac{4l^2-8r^2}l \\
+\end{align*}
+
+exp1:
+\begin{align*}
+&\vec r_A=sin\phi l \vec i-cos\phi l\vec j ; F_A=F\vec i\\
+&\vec r_C=\frac12 sin\phi l\vec i-\frac 12cos\phi l \vec j;F_C=-mg \vec j \\
+& \delta w=(cos\phi \delta \phi l \vec i+sin\phi \delta \phi l \vec j)F\vec i+(\frac12sin\phi \delta \phi l \vec j)(-mg \vec j) \\
+&0=cos \phi F-mg\frac12 sin\phi \\
+&\phi=arctan\frac{2F}{mg} \\
+\end{align*}
+
+exp2:
+\begin{align*}
+&q=\alpha \\
+&L=-cot\alpha a+2cos\alpha l \\
+&y=-L \vec j \\
+& \delta y=-\frac1{sin^2\alpha}a+2sin\alpha l =0\\
+&\alpha =arcsin(\frac{a}{2l})^{\frac13}
+\end{align*}
+
+exp3:
+\begin{align*}
+&r_a=sin\theta l j ;F_A=-mg j\\
+&r_B=cos\theta i;F_B=-Fi \\
+& \delta w=0=-mgj cos\theta l j \delta \theta +sin\theta \delta \theta F \\
+&F= cot\theta mg \\
+\end{align*}
+
+6.7:With Lagrangian
+\begin{align*}
+&\mathcal L=\frac12m_2\dot l^2+\frac14m_1\dot l^2-(C-m_2gl) \\
+&\Rightarrow m_2\ddot l+\frac12 m_1 \ddot l=m_2g \\
+&\ddot l=\frac{m_2g}{m_2+\frac12 m_1} \\
+\end{align*}
+
+6.7:With Hamiltonian
+\begin{align*}
+&\mathcal L=\frac12m_2\dot l^2+\frac14 m_1\dot l^2+m_2 gl \\
+&p_l=\frac{ \partial L}{ \partial \dot q}=m_2 \dot l+\frac12m_2 \dot l\Rightarrow \dot l=\frac1{m_2+\frac12 m_1}p_l \\
+&H=\frac1{m_2+\frac12m_1}p_l^2-\frac1{2m_2+m_1} p_l^2-m_2gl  \\
+&H=\frac1{2m_2+m_1}p_l^2-m_2gl \\
+&\dot l=\frac{ \partial H}{ \partial p}=\frac1{m_2+\frac12m_1}p\\
+&\dot p=-\frac{ \partial H}{ \partial q}=m_2g\\
+&\ddot l=\frac1{m_2+\frac12m_1}m_2g \\
+\end{align*}
+
+6.10:With Lagrangian
+\begin{align*}
+&q=\theta \\
+&v=(R-r)\dot\theta;\omega r=(R-r)\dot \theta \\
+&L=\frac12mv^2+\frac12\frac12mr^2 \omega^2-(C-mgcos\theta (R-r)) \\
+&=\frac12m(R-r)^2\dot\theta^2+\frac14m(R-r)^2\dot\theta^2+mgcos\theta(R-r) \\
+&=\frac34m(R-r)\dot\theta^2+mgcos\theta(R-r) \\
+&\Rightarrow \frac32(R-r)\ddot\theta=-gsin\theta;sin\theta \sim \theta \\
+&\frac32(R-r)\ddot \theta+g\theta=0 \\
+&\theta=Acos(\sqrt{\frac{2g}{3(R-r)}}t+\phi) \\
+&T=\frac{2\pi}{\omega}=2\pi \sqrt{\frac{3(R-r)}{2g}} \\
+\end{align*}
+
+6.10:With Hamiltonian
+\begin{align*}
+&p=\frac{ \partial L}{ \partial \dot q}=\frac32m(R-r)^2\dot \theta\Rightarrow \dot\theta=\frac{2}{3m(R-r)^2}p \\
+&H=p\dot \theta -L=p\dot\theta-\frac34(R-r)^2\dot\theta^2-mgcos\theta(R-r) \\
+&=\frac{1}{3m(R-r)^2}p^2-mgcos\theta(R-r) \\
+&\dot p=-\frac{ \partial H}{ \partial q}=mgsin\theta(R-r) \\
+&\ddot\theta=\frac2{3}gsin\theta \\
+\end{align*}
 \end{document}
 
