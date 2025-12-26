@@ -199,5 +199,142 @@ eg.4.2:
 &T'=\frac12 3m\omega^2r^2 \\
 &T=3m\omega^2r^2 \\
 \end{align*}
+
+exp1:
+\begin{align*}
+  &T=T_c+T' \\
+  &T_c=\frac124mv_c^2 \\
+  &T'=\frac124mr^2\omega s^2 \\
+  &\omega r=v_c \\
+  &T=4mv_c^2 \\
+\end{align*}
+
+exp2:
+\begin{align*}
+&mv_0=(M+m)v \Rightarrow v=\frac{m}{M+n}v_0 \\
+&\frac12mv_0^2=\frac12(M+m)v^2+\mu mgs\\
+&\Rightarrow\frac12mv_0^2-\frac12\frac{m^2}{M+m}v_0^2=\mu mgs \\
+&\Rightarrow \frac{M}{2\mu g(M+m)}v_0^2=s \\
+\end{align*}
+
+exp3:
+\begin{align*}
+&mv_0=mv_1+mv_2\Rightarrow v_2=v_0-v_1 \\
+&\frac12mv_0^2=\frac12mv_1^2+\frac12mv_2^2 \\
+&v_0v_1=v_1^2\Rightarrow v_1=\begin{cases}v_0\\0\end{cases} \\
+&v_2=\begin{cases}0\\v_0 \end{cases} \quad v_2\ne 0\\
+&v_1=0 \\
+\end{align*}
+
+exp4:
+\begin{align*}
+&l=r\times p=l m v_0 \\
+&lmv_0=L'+L_c \\
+&mv_0=3mv\Rightarrow v=\frac13v_0 \\
+&L_c=\frac23l 3m \frac13v_0=\frac23mlv_0 \\
+&L'=\frac13l2m\omega \frac13l+\frac23lm\omega \frac23l=\frac23ml^2\omega \\
+&\Rightarrow lmv_0=\frac23mlv_0+\frac23ml^2\omega \\
+&\Rightarrow \omega=\frac{v_0}{2l} \\
+\end{align*}
+
+\section{Chapter 5}
+5.8,5.10,5.11,5.17,5.21,5.22,eg.5.4 and 8 examples.
+
+5.8:
+\begin{align*}
+&L^a=J^a_b\omega^b \\
+&J_{ij}=\begin{bmatrix}
+  \int y^2+z^2dm&-\int xy dm&-\int zx dm\\
+  -\int yxdm&\int x^2+z^2 dm&-\int yzdm\\
+  -\int zx dm&-\int yz dm&\int x^2+y^2 dm
+\end{bmatrix}\\
+&dm=\frac{m}ldz;x=y=0 \\
+&J_{ij}=\begin{bmatrix}
+  \frac13ml^2&0&0\\
+  0&\frac13ml^2&0\\
+  0&0&0
+\end{bmatrix}\\
+&\vec\omega=\begin{bmatrix}\end{bmatrix} \\
+&\vec L=\frac13ml^2sin\theta \omega \vec i \\
+\end{align*}
+
+5.10:
+\begin{align*}
+&df=\mu gdm\quad dm=\frac{m}{\pi R^2} ds=\frac{m}{\pi R^2} rdrd\theta \\
+&M=\int r\times df=\int \frac{m}{\pi R^2}r^2 drd\theta=2\pi\frac{m}{\pi R^2}\frac13 R^3=\frac23m\mu gR \\
+&M\Delta t=J \Delta \omega \\
+&\Rightarrow \frac23 \mu mgR \Delta t=\frac12mR^2\omega_0 \\
+&\Delta t=\frac34\frac{\omega_0R}{\mu g} \\
+\end{align*}
+
+5.11:
+\begin{align*}
+&df=kv^2 ds=k\omega^2 x^2 ldx \\
+& M=\int r\times df=\int k\omega^2 x^3 ldx=\frac14k\omega^2 d^4l \\
+&M=J\beta \\
+&J=\int x^2 dm=\int x^2 \frac{m}{d}  dx=\frac13 md^2 \\
+& \frac{d\omega}{dt}=-\frac3{4m} k\omega^2 l d^2 \\
+&\Rightarrow -\frac{d\frac1{\omega}}{dt}=-\frac3{4m}k ld^2 \\
+&\frac1{\omega_0}-\frac2{\omega_0}=-\frac3{4m}kld^2 t \\
+&t=\frac{4m}{3kld^2\omega_0} \\
+\end{align*}
+
+5.17:
+\begin{align*}
+&(i) omitted \\
+&(ii)h=\frac12gt^2 \\
+&\frac13ml^2 \omega^2=mgl\Rightarrow \omega=\sqrt{\frac{3g}l} \\
+&\Delta \theta =\omega \Delta t=\sqrt{\frac{3g}l}\sqrt{\frac{2h}g}=\sqrt{\frac{6h}l} \\
+&round = \frac1{2\pi} rad =\frac1{\pi}\sqrt{\frac{3h}{2l}} \\
+\end{align*}
+
+5.21:
+\begin{align*}
+&\mathcal L=\frac12m\dot x^2+\frac12\frac25mR^2 \dot{\theta}^2 +\int \mu mgdx-\int \mu mgR d\theta \\
+&\frac{d}{dt}(\frac{ \partial \mathcal L}{ \partial \dot{q}})=\frac{ \partial \mathcal L}{ \partial q} \\
+&\begin{cases} 
+  m\ddot{x}=\mu mg\\
+  m\frac25R^2\ddot{\theta}=-\mu mgR
+\end{cases}\\
+&\Rightarrow\begin{cases} 
+  \dot{x}=\mu g t\\
+  \dot {\theta}=\omega_0-\frac52\mu \frac{g}Rt
+\end{cases}\\
+&\dot x|_t=\omega |_tR \\
+&\mu gt=\omega_0R-\frac52\mu g t \\
+&t=\frac27\frac{\omega_0R}{\mu g} \\
+&x=\frac12 \mu g t^2=\frac12  \frac4{49} \frac{\omega_0^2R^2}{\mu g}=\frac2{49}\frac{\omega_0^2R^2}{\mu g} \\
+\end{align*}
+
+5.22:
+\begin{align*}
+&Fcos\theta R=M \\
+&cos\theta =\frac{h-R}R \\
+&M \Delta t=\frac25mR^2\omega_0=FR\frac{h-R}R\Delta t \\
+&F\Delta t=mv_0\Rightarrow \Delta t=\frac{mv_0}F \\
+&v_0=\omega_0R \\
+&(h-R)=\frac25 R  \\
+&h=\frac75R \\
+\end{align*}
+
+eg.5.4:
+\begin{align*}
+&J_{ij}=\begin{bmatrix}
+  \int y^2+z^2dm&-\int xy dm&-\int zx dm\\
+  -\int yxdm&\int x^2+z^2 dm&-\int yzdm\\
+  -\int zx dm&-\int yz dm&\int x^2+y^2 dm
+\end{bmatrix}\\
+&dm=\frac{m}{a^3}dxdydz \\
+&J_{ij}=\begin{bmatrix}
+  \frac23ma^2&-\frac14ma^2&-\frac14 ma^2\\
+  -\frac14ma^2&\frac23ma^2&-\frac14ma^2\\
+  -\frac14ma^2&-\frac14ma^2&\frac23ma^2
+\end{bmatrix}\\
+&J=e_{\omega a}J^a_be_{\omega}^b \\
+&e_{\omega}=\frac1{\sqrt{3}}\begin{bmatrix}1\\1\\1\end{bmatrix} \\
+&J^a_b e^b=\frac1{\sqrt{3}}\begin{bmatrix}\frac16ma^2\\\frac16ma^2\\\frac16ma^2\end{bmatrix} \\
+&e_aJ^a_be^b=\frac13(\frac12ma^2)=\frac16 ma^2 \\
+&T=\frac12 \omega_aJ^a_b\omega^b=\frac12 \omega^2 J=\frac1{12}ma^2\omega^2 \\
+\end{align*}
 \end{document}
 
