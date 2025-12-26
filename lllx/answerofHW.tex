@@ -503,8 +503,64 @@ exp3:
 &p=\frac{ \partial L}{ \partial \dot q}=\frac32m(R-r)^2\dot \theta\Rightarrow \dot\theta=\frac{2}{3m(R-r)^2}p \\
 &H=p\dot \theta -L=p\dot\theta-\frac34(R-r)^2\dot\theta^2-mgcos\theta(R-r) \\
 &=\frac{1}{3m(R-r)^2}p^2-mgcos\theta(R-r) \\
-&\dot p=-\frac{ \partial H}{ \partial q}=mgsin\theta(R-r) \\
-&\ddot\theta=\frac2{3}gsin\theta \\
+&\dot p=-\frac{ \partial H}{ \partial q}=-mgsin\theta(R-r) \\
+&\ddot\theta=-\frac2{3(R-r)}gsin\theta  \\
+\end{align*}
+
+exp4:Lagrangian
+\begin{align*}
+&q=\theta \\
+&L=\frac12\frac13ml^2\dot \theta^2-(C-cos\theta mg\frac12l) \\
+&\Rightarrow \frac13ml^2\ddot\theta =-sin\theta \frac12lmg \\
+&\ddot\theta+\frac32\frac{g}{l}\theta=0\Rightarrow \theta=Acos(\sqrt{\frac{2l}{3g}}t+\phi) \\
+&T=2\pi\sqrt{\frac{3g}{2l}} \\
+\end{align*}
+
+exp4:Hamiltonian
+\begin{align*}
+&p=\frac{ \partial L}{ \partial \dot\theta}=\frac13ml^2\dot\theta\Rightarrow \dot\theta=\frac{3p}{ml^2} \\
+&H=p\dot\theta -\frac16ml^2\dot\theta^2-cos\theta mg\frac12l \\
+& =\frac{3p^2}{2ml^2}-\frac12cos\theta mgl \\
+& \dot p=-\frac{ \partial H}{ \partial q}=-\frac12sin\theta mgl \\
+&\ddot\theta=\frac{3}{l}(-\frac12sin\theta g)=-\frac32sin\theta\frac gl \\
+&omitted .... \\
+\end{align*}
+
+exp5:Lagrangian
+\begin{align*}
+&q=l;\omega r=\dot l \\
+&L=\frac12m\dot l^2+\frac12\frac12mr^2 \omega^2+mgsin\theta l \\
+&=\frac34m\dot l^2+mglsin\theta  \\
+&\Rightarrow \frac32 m\ddot l=mglcos\theta \\
+&\ddot l=\frac23glcos\theta \\
+\end{align*}
+
+exp5:Hamiltonian
+\begin{align*}
+&p=\frac32m\dot l\Rightarrow \dot l=\frac2{3m}p \\
+&H=p\dot l-\frac34m\dot l^2-mglsin\theta \\
+&=\frac2{3m}p^2-\frac{p^2}{3m}-mglsin\theta \\
+&=\frac{p^2}{3m}-mglsin\theta\\
+&\dot p=-\frac{ \partial H}{ \partial q}=mglcos\theta \\
+&\ddot l=\frac2{3}glcos\theta \\
+\end{align*}
+
+exp6:Lagrangian
+\begin{align*}
+&q=l ;r\omega =\dot l\\
+&L=\frac12m_1\dot l^2+\frac12\frac12m_1r^2\omega^2+\frac12m_2\dot l^2-(c-m_2gl) \\
+& =\frac34m_1\dot l^2+\frac12m_2\dot l^2+m_2gl \\
+&\frac32m_1\ddot l+m_2 \ddot l=m_2 g \\
+&\ddot l=\frac{m_2}{\frac32m_1+m_2}g \\
+\end{align*}
+
+exp6:Hamiltonian
+\begin{align*}
+&p=(\frac32m_1+m_2)\dot l\Rightarrow \dot l=\frac{1}{\frac32m_1+m_2}p \\
+&H=p\dot l-L=\frac1{\frac32 m_1+m_2}p^2-(\frac34m_1+\frac12m_2)\frac1{(\frac32m_1+m_2)^2}p^2-m_2gl \\
+&=\frac1{3 m_1+2m_2}p^2-m_2gl \\
+&\dot p=-\frac{ \partial H}{ \partial q}=m_2g \\
+&\ddot l=\frac1{\frac32m_1+m_2}m_2g \\
 \end{align*}
 \end{document}
 
