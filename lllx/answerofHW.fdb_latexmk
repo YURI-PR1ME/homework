@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1766760249.12596 "answerofHW.tex" "answerofHW.pdf" "answerofHW" 1766760249.6006 0
+["pdflatex"] 1766845741.76539 "answerofHW.tex" "answerofHW.pdf" "answerofHW" 1766845742.31891 0
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1755987285 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1755987285 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1755987285 1004 54797486969f23fa377b128694d548df ""
@@ -44,8 +44,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1764004084 5462436 27cd050b37751b994114e730b3e1e2b9 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1764004079 3459349 5c570a8c1ae80b67d14d4e451a549cb8 ""
-  "answerofHW.aux" 1766760249.53702 616 602e707927572cf89412f06daaaa6cfd "pdflatex"
-  "answerofHW.tex" 1766760247.84306 18093 c127017b7e1195ccde36f43078629af0 ""
+  "answerofHW.aux" 1766845742.27132 616 602e707927572cf89412f06daaaa6cfd "pdflatex"
+  "answerofHW.tex" 1766845740.10836 18169 5eddc93b9ee53566ce0ac1536e144dd4 ""
   (generated)
   "answerofHW.aux"
   "answerofHW.log"
