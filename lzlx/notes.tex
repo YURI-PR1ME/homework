@@ -812,4 +812,121 @@ E_n=(n+\frac12)\hbar\omega\quad n=0,1,2\dots
 \end{align}
 \textbf{Notice that the define of n is from the solve of Hermit equations,and this make the energy become the separation value}
 
+\section{The Algebraic Representation of Hamiltonian}
+The Hamiltonian of one dimensional Harmonic Oscillator can be present as :
+\begin{align}
+  H=\frac1{2\mu}p^2+\frac12\mu\omega^2x^2
+\end{align}
+Define the brith operator and annihilation operator under the \textbf{nature units}:
+\begin{align}
+  a=\frac1{\sqrt{2}}(x+ip)\quad a^{\dagger}=\frac1{\sqrt{2}}(x-ip)
+\end{align}
+and back to the standard units:
+\begin{align}
+  &x=\frac1{\sqrt{2}}\sqrt{\frac{\hbar}{\omega\mu}}(a+a^{\dagger})\\
+  &p=\frac1{\sqrt{2}i}\sqrt{\hbar\omega\mu}(a-a^{\dagger})
+\end{align}
+and thes two operator is very inportant , the a called the brith operator of particles, and $a^{\dagger}$ called the annihilation operator of particles.Before explain the reason , I will list some relation between a and $a^{\dagger}$:
+\begin{align}
+  [a,a^{\dagger}]=1
+\end{align}
+
+\begin{proof}
+  \begin{align*}
+    &[a^{\dagger},a]=[\frac1{\sqrt{2}}(x-ip),\frac1{\sqrt{2}}(x+ip)]=\frac12([(x-ip),(x+ip)])\\
+    &\Rightarrow \frac12([x,ip]-[ip,x])=[x,ip]=i\hbar \times i=-1 \\
+  \end{align*}
+\end{proof}
+And consider the Hamiltonian eq.132 we replace with eq.134 and eq.135:
+\begin{align}
+  H=(a^{\dagger}a+\frac12)=\hat N+\frac12
+\end{align}
+and the $\hat N=a^{\dagger}a$ the reason of the Hamiltonian is the eigenvalue of harmonic oscillator is $n+\frac12$ under hte nature units.
+\subsection{The Occupation Number representation}
+If the wavefunction satisfied :
+\begin{align}
+\hat N \psi=n\psi
+\end{align}
+then write the wavefunction as the $|n>$ and called the Occupation Number Representation wavefunction.And we can know that
+\begin{align}
+&a^{\dagger}|n>\sim|n+1> \\
+&a|n>\sim|n-1>
+\end{align}
+
+\begin{proof}
+  \begin{align*}
+  &[\hat N,a]=-a \Rightarrow [\hat N,a]|n>=-a|n>\\
+  &=(\hat Na-a\hat N)|n>=\hat Na|n>-na|n>=-a|n> \\
+  &\hat Na|n>=(n-1)a|n> \\
+  &a|n>=|n-1> \\
+  \end{align*}
+  and for $a^{\dagger}$ is the same .
+\end{proof}
+And we knwo the coefficient of $a|n>$:
+\begin{align}
+  &|n>=\frac1{\sqrt{n!}}a^{\dagger n}|0> \\
+  &a|n>=\sqrt{n}|n-1>\\
+  &a^{\dagger}|n>=\sqrt{n+1}|n+1 
+\end{align}
+
+\begin{proof}
+  \begin{align*}
+    &|1>=Ca^{\dagger}|0> \\
+    &1=C^2<a^{\dagger}|0>|a^{\dagger}|0>=C^2<0|0>=1\Rightarrow C=1 \\
+    &1=C^2<a^{\dagger 2}|0|a^{\dagger 2}|0>=C^2<(\hat N+1)a^{\dagger }|0|a^{\dagger }0>\Rightarrow 2C^2=1\Rightarrow C=\frac1{\sqrt{2}} \\
+    &\text{set for any n-1:}1={n-1!}<a^{\dagger n-1}|0|a^{\dagger n-1}|0> \\
+    &1=<n|n>=<a^{\dagger n} 0|a^{\dagger n}|0>C^2=C^2<aa^{\dagger} a^{\dagger n-1}|0|a^{\dagger n-1}|0>=C^2<(\hat N+1)a^{\dagger n-1}|0|a^{\dagger n-1}|0> \\
+    &=C^2 {n-1!}+C^2 (n-1)(n-1!)=1=n!C^2\Rightarrow C=\frac1{\sqrt{n!}} \\
+    &1=n!<a^{\dagger n}|0|a^{\dagger n}|0> \\
+    &|n>=\frac1{\sqrt{n!}}a^{\dagger n}|0> \\
+  \end{align*}
+  and for eq.142 and 143:
+  \begin{align*}
+  &a^{\dagger}|n>=a^{\dagger}\frac1{\sqrt{n!}}a^{\dagger n}|0>=\frac1{\sqrt{n!}}a^{\dagger n+1}|0>=\frac1{\sqrt{n!}}\sqrt{n+1!}|n+1>=\sqrt{n+1}|n+1> \\
+  \end{align*}
+  and eq 142 is as the similar way as the eq 143.
+\end{proof}
+\subsection{The Commutator Relationship Between Normal Angulra Momentum Operators}
+\begin{align}
+  &[j_i,j_j]=i\hbar\varepsilon_{ijk}j_k\quad i,j,k=1,2,3\\
+  &j^2=j_x^2+j_y^2+j_z^2 \\
+  &[j^2,j_i]=0\quad i=1,2,3 
+\end{align}
+define:
+\begin{align}
+  j_{\pm}=j_x\pm ij_y
+\end{align}
+and :
+\begin{align}
+  &[j_z,j_{\pm}]=\pm\hbar j_{\pm}\\
+  &j_{\pm}j_{\mp}=j^2-j_z^2\pm\hbar j_z
+\end{align}
+
+\section{Two Dimensional Phonon System}
+Operators of two phonons will not effect on each other so we mark them as:
+\begin{align}
+&a_1,a^{\dagger}_1\quad \hat N_1=a^{\dagger}_1a_1\\
+&a_2,a^{\dagger}_2\quad \hat N_2=a^{\dagger}_2a_2
+\end{align}
+and the eigenvalue of operator $\hat N$ is $n_1$ and $n_2$ which is a positived integer.
+and as the same we define the $|n>$ as :
+\begin{align}
+  |n_1n_2>=\frac{a^{\dagger n_1}_1a^{\dagger n_2}_2}{\sqrt{n_1!n_2!}}|00>
+\end{align}
+and we define the "angular momentum" of two particla system:
+\begin{align}
+&j_x=\frac12(a_1^{\dagger}a_2+a_2^{\dagger}a_1)\\
+&j_y=\frac1{2i}(a_1^{\dagger}a_2-a_2^{\dagger}a_1)\\
+&j_z=\frac12(a_1^{\dagger}a_1-a_2^{\dagger}a_2)=\frac12{\hat N_1-\hat N_2}\\
+& j_{+}=a_1^{\dagger}a_2\quad j_-=a_2^{\dagger}a_1
+\end{align}
+and this kind of define is legal which is satisfied all equations that angular momentum should follow.
+
+Consider the eigenvalue of $j^2$ , we can define that :
+\begin{align}
+  j=\frac n2=\begin{cases}
+0,1,2,3\dots \\
+\frac12,\frac32,\frac52 \dots
+  \end{cases}
+\end{align}
 \end{document}
