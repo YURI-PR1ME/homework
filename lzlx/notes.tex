@@ -924,9 +924,19 @@ and this kind of define is legal which is satisfied all equations that angular m
 
 Consider the eigenvalue of $j^2$ , we can define that :
 \begin{align}
-  j=\frac n2=\begin{cases}
+  j=\frac n2=\frac{n_1+n_2}{2}=\begin{cases}
 0,1,2,3\dots \\
 \frac12,\frac32,\frac52 \dots
   \end{cases}
+\end{align}
+And because that we can replace the n into j and m to express the wavefunction:
+\begin{align}
+  j=\frac12(n_1+n_2),m=\frac12(n_1-n_2)
+\end{align}
+so the wavefunction can be written as :
+\begin{align}
+  &|jm>=\frac{(a^{\dagger})^{j+m}(a^{\dagger})^{j-m}}{\sqrt{(j+m)!(j-m)!}}|0>\\
+  & j_+|jm>=a_1^{\dagger}a_2 |jm>=\sqrt{j(j+1)-m(m+1)}\hbar|jm+1>\\
+  & j_-|jm>=a_1a^{\dagger}_2|jm>=\sqrt{j(j+1)-m(m-1)}\hbar|jm-1>
 \end{align}
 \end{document}

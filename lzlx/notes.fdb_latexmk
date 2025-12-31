@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1767102012.38192 "notes.tex" "notes.pdf" "notes" 1767102012.77227 0
+["pdflatex"] 1767181446.34615 "notes.tex" "notes.pdf" "notes" 1767181446.78376 0
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1755987285 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1755987285 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1755987285 1004 54797486969f23fa377b128694d548df ""
@@ -52,8 +52,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1762857738 5462436 27cd050b37751b994114e730b3e1e2b9 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1762857714 2008243 47b175168a03d6b03f68db3753c884a6 ""
-  "notes.aux" 1767102012.72428 6448 a96855b3d65b774f98ecd8a155c2a30d "pdflatex"
-  "notes.tex" 1767102012.34528 39047 140d82bdad191007f2df6068c3f3826d ""
+  "notes.aux" 1767181446.73038 6448 a59f52fcf11f69612437f212214463ff "pdflatex"
+  "notes.tex" 1767181444.72663 39490 f340eb841675bb7f319d9a40ceff5d9f ""
   "symmetry.png" 1765420468.63551 18143 45f0f2d6ce3fb34b542fc854fbe4cf02 ""
   (generated)
   "notes.aux"
