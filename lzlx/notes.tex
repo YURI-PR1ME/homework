@@ -939,4 +939,29 @@ so the wavefunction can be written as :
   & j_+|jm>=a_1^{\dagger}a_2 |jm>=\sqrt{j(j+1)-m(m+1)}\hbar|jm+1>\\
   & j_-|jm>=a_1a^{\dagger}_2|jm>=\sqrt{j(j+1)-m(m-1)}\hbar|jm-1>
 \end{align}
+
+\section{Quantum Perturbation Theory}
+If we can write the Hamiltonian as the :
+\begin{align}
+  \hat H=\hat H^{(0)}+\hat H'
+\end{align}
+and the eigenstate can be expend as the :
+\begin{align}
+  &\hat H=\hat H^{(0)}+\lambda\hat H^{1} \\
+  &\psi =\psi^{(0)}+\lambda\psi^{(1)}+\lambda^2\psi^{(2)}+\dots \\
+  & E=E^{(0)}+\lambda E^{(1)}+\lambda^2E^{(2)}+\dots \\
+\end{align}
+and we put them in 
+\begin{align}
+  & (\hat H^{(0)}+\lambda\hat H^{(1)})(\psi)=E\psi \\
+  & \lambda\hat H^{(1)}\psi^{(0)}+\hat H^{(0)}\lambda\psi^{(1)}=E^{(0)}\lambda\psi^{(1)}+\lambda E^{(1)}\psi^{(0)} \\
+  & \hat H^{(1)}\psi^{(0)}+\hat H^{(0)}\psi^{(1)}=E^{(0)}\psi^{(1)}+E^{(1)}\psi^{(0)}\\
+  & (\hat H^{(1)}-E^{(1)})\psi^{(0)}=(E^{(0)}-\hat H^{(0)})\psi^{(1)}
+\end{align}
+and we consider the inner product :
+\begin{align}
+  &\psi^{*(0)}(\hat H^{(1)}-E^{(1)})\psi^{(0)}=\psi^{*(0)}(E^{(0)}-\hat H^{(0)})\psi^{(1)} \\
+  & \psi^{*(0)}\hat H^{(1)}\psi^{(0)}-E^{(1)}=-\psi^{*(0)}\hat H^{(0)}\psi^{(1)} \\ 
+  & \Rightarrow E_n^{(1)}= \psi_n^{*(0)}\hat H_n^{(1)}\psi_n^{(0)}
+\end{align}
 \end{document}
