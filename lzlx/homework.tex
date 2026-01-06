@@ -990,4 +990,109 @@ III:5.6
 &v_1=\frac12\psi_1-\frac{\sqrt{2}}2\psi_2+\frac12\psi_3;v_2=\frac{\sqrt{2}}2\psi_1-\frac{\sqrt{2}}2\psi_3;v_3=\frac12\psi_1+\frac{\sqrt{2}}2\psi_2+\frac12\psi_3 \\
   \end{align*}
 
+  \section{Jan 6 HW}
+
+  I:
+  \begin{align*}
+    V(x)=\begin{cases}
+      Acos\frac{\pi x}a\quad0\le x\le a\\
+      \infty \quad x<0,x>a
+    \end{cases}
+  \end{align*}
+
+  \textit{Solve:}
+  
+  (1):$Acos\frac{\pi x}a$ is .
+
+  (2):\begin{align*}
+  & V(x)=\begin{cases}
+      0\quad 0\le x\le a\\
+      \infty \quad x<0,x>a
+  \end{cases}\\
+  &-\frac{\hbar^2}{2\mu}\nabla^2 \psi+V\psi=E\psi \\
+  &\begin{cases} 
+  -\frac{\hbar^2}{2\mu}\nabla^2\psi=E\psi\quad 0\le x\le a\\
+  \psi=0 \quad x<0,x>a
+  \end{cases}\\
+  &\frac{d^2\psi}{dx^2}-\frac{2\mu E}{\hbar^2}\psi=0 \\
+  &\psi=Acos(\sqrt{\frac{2\mu E}{\hbar^2}}x+\phi)\quad 0\le x \le a \\
+  &\psi(0)=\psi(a)=0\Rightarrow \phi=\frac{\pi}2 \\
+  &\psi=Asin(\sqrt{\frac{2\mu E}{\hbar^2}}x)\Rightarrow n\pi=\sqrt{\frac{2\mu E}{\hbar^2}}a \\
+  &\psi=Asin\frac{n\pi}ax \\
+  &1=A^2\int ^{a}_{0} sin^2\frac{n\pi}ax dx=A^2\int ^a_0 \frac12-\frac12cos\frac{2n\pi}ax dx \\
+  &1=A^2 \frac12 a \Rightarrow A=\sqrt{\frac2a} \\
+  &E=\frac{n^2\pi^2\hbar^2 }{2\mu a^2} \\
+  \end{align*}
+
+  (3):
+  \begin{align*}
+  &\hat H^{(0)}=-\frac{\hbar^2}{2\mu}\nabla^2 ;\hat H'=Acos\frac{\pi x }a \quad 0\le x \le a\\
+  &\psi_n=\sqrt{\frac2a}sin\frac{n\pi}ax;E'_n=\int^a_0 \psi^*_n Acos\frac{\pi x}a\psi_n dx \\
+  &=\frac Aa\int^a_0 cos\frac{\pi x}a-cos\frac{2n\pi x}a cos\frac{\pi x}a dx \\
+  &=\frac Aa[sin\frac{\pi a}a-0]-\frac Aa\int ^a_0 cos\frac{2n\pi x}acos\frac{\pi x}a dx \\
+  &=0\\
+  &E^{(2)}_n=\Sigma_m \frac{|H'_{mn}|^2}{E^{(0)}_n-E^{(0)}_m} \quad ;H'_{mn}= \frac2a\int^a_0sin\frac{n\pi x}a H' sin\frac{m\pi x}adx  \\
+  &\Rightarrow A\frac2a\int^a_0 sin\frac{n\pi x}a cos\frac{\pi x}asin\frac{ m \pi x}a dx \\
+  &=-\frac{A}a\int^a_0 cos\frac{\pi x}a [cos\frac{\pi x(n+m)}a-cos\frac{\pi x(n-m)}a]dx \\
+  &=-\frac Aa\int^a_0 cos\frac{\pi x}acos\frac{\pi x(n+m)}a-cos\frac{ \pi x}acos\frac{ \pi x(n-m)}a dx \\
+  &=-\frac Aa\int^a_0 \frac12[cos\frac{\pi x(m+n+1)}a+cos\frac{\pi x(1-n-m)}a]-\\ &\frac12[cos\frac{\pi x(1+n-m)}a+cos\frac{\pi x(1-n+m)}a]dx \\
+  &\int ^a_0 cos\frac{ \pi x k}adx=\frac{a}{k\pi}[sin(\pi k)-0]=0\quad k\ne 0 \\
+  & \int^a_0 cos\frac{\pi x k}a dx=a \quad k=0 \\
+  &\int^a_0 cos\frac{\pi x k}adx= a\delta(k)\\
+  &\Rightarrow -\frac Aa\{\frac12[ a \delta (m+n+1)+a \delta (1-n-m)] -\frac12[ a\delta (1+n-m)+ a \delta (1-n+m)]\}\\&=H'_{mn} \\
+  &=-\frac{A}{2}[ \delta (m+n+1)+ \delta (1-n-m) - \delta (1+n-m)- \delta (1-n+m)] \\
+  &|H'_{mn}|^2=\frac{A^2}4[ \delta (m+n+1)- \delta(n+1) \delta (m)- \delta (m+1) \delta (n)+ \delta (1-n-m)\\& - \delta (m-1) \delta (n)- \delta (n-1) \delta (m) + \delta (1+n-m) \\& - \delta (n+1) \delta (m)- \delta (m-1) \delta (n)+ \delta (1-n+m) - \delta (m+1) \delta (n)- \delta (n-1) \delta (m)]
+  \end{align*}
+
+  \begin{align*}
+  &|H'_{mn}|^2=\frac{A^2}4[ \delta (m+n+1)+ \delta (1-n-m)+ \delta (1-n+m) + \delta (1+n-m) \\& - 2\delta (n+1) \delta (m)- 2\delta (m-1) \delta (n) -2 \delta (m+1) \delta (n)-2 \delta (n-1) \delta (m)]\\
+  & E^{(2)}_n=\Sigma_m \frac{|H'_{mn}|^2}{E^{(0)}_n-E^{(0)}_m} ; E^{(0)}_n=\frac{n^2\pi^2 \hbar^2}{2\mu a^2}\\
+  &E^{(2)}_n=\Sigma_m \frac{2\mu a^2}{\pi^2\hbar^2}\frac{|H'_{mn}|^2}{n^2-m^2} \\
+  &|H'_{m1}|^2=\frac{A^2}4[ \delta (m+2)+  \delta (2-m) ]\quad m>0 \\
+  & E_1^{(2)}=\frac{2\mu a^2}{\pi^2 \hbar^2}\frac{A^2}4 [\frac1{1-4}] =- \frac16\frac{\mu a^2A^2}{\pi^2\hbar^2 }\\
+  &E_1=\frac{\pi^2 \hbar^2}{2\mu a^2}-\frac16\frac{\mu a^2A^2}{\pi^2\hbar^2} \\
+  \end{align*}
+
+  II:
+  \begin{align*}
+&H=\begin{bmatrix} 
+  1&c&0\\
+  c&3&0\\
+  0&0&c-2
+\end{bmatrix}
+  \end{align*}
+
+  (1):
+  \begin{align*}
+  &\begin{vmatrix}
+  1-\lambda&c&0\\
+  c&3-\lambda&0\\
+  0&0&c-2-\lambda
+  \end{vmatrix}=0\Rightarrow (c-2-\lambda)((1-\lambda)(3-\lambda)-c^2)=0\\
+  & \lambda^2 -4\lambda -c^2+3=0\Rightarrow \lambda=\frac{4\pm\sqrt{16-4(3-c^2)}}2 \\
+  &\lambda_1=c-2;\lambda_2=2+\sqrt{1+c^2};\lambda_3=2-\sqrt{1+c^2} \\
+  \end{align*}
+
+  (2):
+  \begin{align*}
+    &H=\begin{bmatrix} 
+      1&0&0\\
+      0&3&0\\
+      0&0&-2
+      \end{bmatrix}+\begin{bmatrix}
+      0&c&0\\
+      c&0&0\\
+      0&0&c
+    \end{bmatrix}=\hat H^{(0)}+\hat H'\\
+    &E_n^{(1)}= \hat H'_{nn}\Rightarrow E_1^{(1)}=0,E_2^{(1)}=0,E_3^{(1)}=c \\
+    &E_n^{(2)}=\Sigma_m\frac{|H'_{mn}|^2}{E_n^{(0)}-E_m^{(0)}} \\
+    &E_1^{(2)}=\frac{c^2}{-2}+0,E_2^{(2)}=\frac{c^2}{2}+0,E_3^{(2)}=0 \\
+    &E_1=1+0-\frac{c^2}2,E_2=3+\frac{c^2}2,E_3=-2+c \\
+  \end{align*}
+
+  (3):
+  \begin{align*}
+    &c=0 \\
+  \end{align*}
+
 \end{document}
