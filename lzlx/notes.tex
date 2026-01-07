@@ -951,17 +951,48 @@ and the eigenstate can be expend as the :
   &\psi =\psi^{(0)}+\lambda\psi^{(1)}+\lambda^2\psi^{(2)}+\dots \\
   & E=E^{(0)}+\lambda E^{(1)}+\lambda^2E^{(2)}+\dots \\
 \end{align}
-and we put them in 
+and we put them in and get 
 \begin{align}
-  & (\hat H^{(0)}+\lambda\hat H^{(1)})(\psi)=E\psi \\
-  & \lambda\hat H^{(1)}\psi^{(0)}+\hat H^{(0)}\lambda\psi^{(1)}=E^{(0)}\lambda\psi^{(1)}+\lambda E^{(1)}\psi^{(0)} \\
-  & \hat H^{(1)}\psi^{(0)}+\hat H^{(0)}\psi^{(1)}=E^{(0)}\psi^{(1)}+E^{(1)}\psi^{(0)}\\
   & (\hat H^{(1)}-E^{(1)})\psi^{(0)}=(E^{(0)}-\hat H^{(0)})\psi^{(1)}
 \end{align}
 and we consider the inner product :
 \begin{align}
   &\psi^{*(0)}(\hat H^{(1)}-E^{(1)})\psi^{(0)}=\psi^{*(0)}(E^{(0)}-\hat H^{(0)})\psi^{(1)} \\
-  & \psi^{*(0)}\hat H^{(1)}\psi^{(0)}-E^{(1)}=-\psi^{*(0)}\hat H^{(0)}\psi^{(1)} \\ 
   & \Rightarrow E_n^{(1)}= \psi_n^{*(0)}\hat H_n^{(1)}\psi_n^{(0)}
 \end{align}
+So we know that the 1 class energy is the trace of $\hat H'$.
+
+\textbf{Proposition 13-1}:
+\begin{align}
+  E_n^{(1)}=\int \psi^{*(0)}_n\hat H_n'^{(1)}\psi^{(0)}_n
+\end{align}
+
+And more , now we decomposition first class wavefunction as :
+\begin{align}
+  \psi_n^{(1)}=\Sigma_mc_m\psi^{(0)}_m\quad n\ne m
+\end{align}
+And for the $\lambda^2$ equations :
+\begin{align}
+  &(H^{(1)}-E^{(0)}_n)\phi^{(2)}_n=(E_n^{(1)}-H^{(1)})\Sigma_l a_l^{(1)}\phi_l^{(0)}+E_n^{(2)}\phi_n^{(0)} \\
+\end{align}
+use the left inner product with $\phi^{*(0)}$ and we get:
+
+\textbf{Proposition 13-2}:
+\begin{align}
+  &E_n^{(2)}=\Sigma_l\frac{|H_{ln}'|^2}{E_n^{(0)}-E_l^{(0)}}
+\end{align}
+and we have that :
+
+\textbf{Proposition 13-3}:
+\begin{align}
+  \psi_n^{(1)}=\Sigma_m\frac{H'_{mn}}{E^{(0)}_n-E^{(0)}_m}\psi_m^{(0)}
+\end{align}
+
+so now we have :
+\begin{align}
+  &E_n=E_n^{(0)}+H_{nn}'+\Sigma_{l\ne n}\frac{|H'_{ln}|^2}{E_n^{(0)}-E_l^{(0)}} \\
+  &\psi_n=\psi^{(0)}_n+\Sigma_m\frac{H_{mn}'}{E_n^{(0)}-E_m^{(0)}}\psi^{(0)}_m+\dots 
+\end{align}
+
+\subsection{Degenerated Perturbation Theory }
 \end{document}
