@@ -149,5 +149,185 @@
 & = \frac1{-i\hbar}[\int H\psi^* A\psi-i\hbar\int\psi^*\frac{d}{dt} A\psi-\int \psi^* A H\psi ]\\
 &=\frac1{i\hbar}\overline{[A,H]}+ \int{\psi^*\frac{d}{dt} A\psi}
 \end{align*}
+若A不随时间变化，则得到守恒量的表达。
+
+4:位力定理\begin{align}
+  2\overline{T}=\overline{r\cdot\nabla V}
+\end{align}
+
+\section{第七章}
+*\textcolor{red}{过渡章节}
+
+1:本征态对应的矩阵为对角矩阵。
+
+2:注意矩阵运算(矩阵证明题类似作业唯二题目)。
+
+\section{第八章}
+*\textcolor{red}{重要章节！！！}
+
+1:电子自旋算符和Pauli算符的关系:
+\begin{align}
+  s=\frac12\hbar\sigma
+\end{align}
+
+2:在z方向自旋表象下的Pauli算符:
+\begin{align}
+  \sigma_x=\begin{bmatrix}0&1\\1&0\end{bmatrix}\quad
+  \sigma_y=\begin{bmatrix}0&-i\\i&0\end{bmatrix}\\
+  \sigma_z=\begin{bmatrix}1&0\\0&-1\end{bmatrix}
+\end{align}注意这个关系知道的比$\sigma_{\pm}$更早且更简单。由\textcolor{red}{简答推复杂关系也可以记忆}
+定义$\sigma_{\pm}=\frac12(\sigma_x\pm i \sigma_y)$。
+
+3:双粒子问题:
+(a):若双Boseon,则波函数必定为对称，若某个态为$\psi_{12}$则要进行对称化，把波函数化为：\begin{align}
+  \psi_{12}=\frac1{\sqrt{2}}(\psi_1\psi_2+\psi_2\psi_1)
+\end{align}默认写在前为第一个粒子。而$\psi_{11}$就不需要对称化。
+
+(b):若为双Fermion，则波函数必定为反称的，不存在态$\psi_{nn}$,对于态$\psi_{12}$要进行反称化：
+
+\begin{align}
+  \psi_{12}=\frac1{\sqrt{2}}(\psi_1\psi_2-\psi_2\psi_1 )
+\end{align}
+
+4:双Fermion自旋耦合的自旋算符:\begin{align}\hat S=\hat s_1+\hat s_2\end{align}对于这个算符，可以选两种基底:
+
+(a):本征态基底，为\begin{align}
+&  \chi_{00}=\frac1{\sqrt{2}}(\chi_1\chi_0-\chi_0\chi_1)\\
+&  \chi_{1-1}=\chi_0\chi0\\
+&  \chi_{10}=\frac1{\sqrt{2}}(\chi_1\chi_0+\chi_0\chi_1)\\
+&  \chi_{11}=\chi_1\chi_1
+\end{align}
+通式表达为:$\chi_{Sm_s}$，并且也满足角动量的表达式。
+
+(b):非本征态基底\begin{align}
+\chi_1\chi_1,\chi_1\chi_0,\chi_0\chi_1,\chi_0\chi_0
+\end{align}
+
+\section{第五章}
+*\textcolor{red}{几乎不考,重点看1,b就行}
+
+1:有心势能的波函数:
+
+(a):解有心势能的Shr\"odinger方程:
+\begin{align}
+  &[-\frac{\hbar^2}{2\mu r^2}\frac{ \partial }{ \partial r}r^2\frac{ \partial }{ \partial r}+\frac{l(l+1)\hbar^2}{2\mu r^2}+V(r)]R(r)=ER(r)\\
+  & \chi(r)=R\cdot r\\
+  &[\frac{d^2\chi}{dr^2}+[\frac{2\mu}{\hbar^2}(E-V(r))-\frac{l(l+1)}{r^2}]\chi(r)]=0
+\end{align}
+
+(b)\textcolor{red}{氢原子}
+
+对于氢原子的势能$V=-\frac{e^2}{r}$，在把这个表达式代入39式后，在极限的情况下解出的波函数为:
+\begin{align}
+  & r\rightarrow 0 :\psi \rightarrow r^l\\
+  & r \rightarrow \infty :\psi \rightarrow e^{-\beta r}\\
+  &\text{对于一般的r} \psi = r^le^{-\beta r}u(r)\\
+  &\text{ 其中的参数:}\beta=\frac1n=\sqrt{-2E}(\text{在自然单位下})\\
+\end{align}
+同时，在条件$\alpha=-n_r=l+1-n=0$(同时也是轨道为圆轨道的条件)的条件下，u(r)=1。
+
+2:参数意义:
+
+$\alpha=-n_r$其中$n_r$为径向量子数，衡量镜像的节点。
+
+3:\textcolor{red}{$E_n$的简并度是$n^2$。}长度单位:$L=\frac{\hbar^2}{\mu e^2} $。能量单位为:$E=\frac{\mu e^4}{\hbar^2} $
+
+\section{第九章}
+*\textcolor{red}{重要章节}
+
+1:粒子数和产生和湮灭算符，以及粒子数算符:
+\begin{align}
+  & a = \frac1{\sqrt{2}}(x+ip),a^{\dagger}=\frac1{\sqrt{2}}(x-ip)\\
+  & \hat N=a^{\dagger}a
+\end{align}
+对于本征波函数$|n>$作用后有:
+\begin{align}
+  & a^{\dagger}|n>=\sqrt{n+1}|n+1>,a|n>=\sqrt{n}|n-1>\\
+  & \hat N |n>=n|n>
+\end{align}
+
+2:对易关系式:
+\begin{align}
+  & [a,a^{\dagger}]=1,[a,a^{\dagger}a]=a
+\end{align}
+
+3:多粒子的代数角动量:双简谐振子定义:
+\begin{align}
+    & \hat j_+=a^{\dagger}_1a_2,\hat j_-=a_1a^{\dagger}_2\\
+    & \hat j_z=\frac12(\hat N_1-\hat N_2)\\
+    & j=\frac12n=\frac12(n_1+n_2) , m=\frac12(n_1-n_2)
+\end{align}
+
+\section{第十章}
+*\textcolor{red}{中等}
+
+1:非简并微扰论:计算步骤
+
+(a):把H写为$H^{(0)}+H'$。
+
+(b):求$\psi^{(0)}_n$，并且求出$H'_{nn}$。知道$E^{(1)}_n=H'_{nn}$。
+
+(c):再求$E^{(2)}_n=\Sigma_m\frac{|H'_{mn}|^2}{E^{(0)}_n-E^{(0)}_m}$。并且得到:$\psi^{(1)}_n=\Sigma_m\frac{|H'_{mn}|}{E^{(0)}_n-E^{(0)}_m}\psi^{(0)}_m $ 。
+
+(d):最后得到总和的:
+\begin{align}
+  & E_n=E^{(0)}_n+H'_{nn}+\Sigma_m\frac{|H'_{mn}|^2}{E^{(0)}_n-E^{(0)}_m}\\
+  & \psi_n=\psi_n^{(0)}+\Sigma_m\frac{|H'_{mn}|}{E^{(0)}_n-E^{(0)}_m}\psi_m^{(0)}
+\end{align}
+
+2:简并态的微扰论:
+
+(a):把H写为$H^{(0)}+H'$。并且解出$\psi_n^{(0)}$。
+
+(b):解关于$H'$的久期方程，解出$\lambda'_n=E^{(1)}_n$,以及$\psi'_n$其中，$\lambda'_n$为能量的修正值，并且$\psi'_n$为新的波函数。
+
+
+3:近简并态的微扰论:
+
+(a):原先的Hamiltonian为$\begin{bmatrix}H_{11}&0\\0&H_{22}\end{bmatrix} $，并且$H_{11}-H_{22}\sim 0$，这这种情况下，对于任意微扰:$\begin{bmatrix}0&H'_{12}\\H'_{21}&0\end{bmatrix}  $先得到完整的Hamiltonian。
+
+(b):直接用久期方程求完整的Hamiltonian的本征值本征态。
+
+(c):讨论H'对结果的影响。
+\section{一些技巧}
+这些技巧是从经验里得来的，可以用于偷懒。
+
+1:易知推难知原则：
+
+在Pauli和自旋的关系中，我们直到的是$\sigma_x$而不是$\sigma_{\pm}$,相对应的，在角动量的关系中，我们直到的是$l_{\pm}$，在简谐粒子数表象中，易知的是$a$和$a^{\dagger}$，总结出易求推难求原则：
+\begin{align}
+&
+  \sigma_{\pm}=\frac12(\sigma_x\pm i\sigma_y)
+\\
+&\begin{cases}
+  &l_x=\frac12(l_++l_-)\\
+  &l_y=\frac1{2i}(l_+-l_-)
+\end{cases}\\
+&\begin{cases}
+  & x=\frac1{\sqrt{2}}(a^{\dagger}+a)\\
+  & p=\frac1{\sqrt{2}i}(a-a^{\dagger})
+\end{cases}
+\end{align}
+
+2:通用公式:
+\begin{align}
+  j_{\pm}\psi=\sqrt{j(j+1)-m(m\pm1)}\hbar \psi\\
+  j_z\psi=m\hbar\psi
+\end{align}
+33式为通用的表达式，34式为使用条件。下面是一些例子:
+(a):\begin{align}
+  l_+Y_{lm}=\sqrt{l(l+1)-m(m+1)}\hbar Y_{lm+1}
+\end{align}
+
+(b):\begin{align}
+  j_-Y_{lm}=\sqrt{l(l+1)-m(m-1)}\hbar Y_{lm-1}
+\end{align}
+
+(c):\textcolor{red}{有点重要}:\begin{align}
+  s_+\chi_{-\frac12}=\sqrt{\frac34+\frac14}\hbar \chi_{\frac12}
+\end{align}
+c的解释：把$\chi_{\pm\frac12}$看作$Y_{\frac12\pm\frac12}$代入通用公式。
+
+
 
 \end{document}
