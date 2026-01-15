@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1767960569.45857 "homework.tex" "homework.pdf" "homework" 1767960569.92969 0
+["pdflatex"] 1768484514.62719 "homework.tex" "homework.pdf" "homework" 1768484515.16785 0
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1755987285 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1755987285 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1755987285 1004 54797486969f23fa377b128694d548df ""
@@ -33,7 +33,9 @@
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1755987285 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1755987285 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1755987285 37944 359e864bd06cde3b1cf57bb20757fb06 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb" 1755987285 30457 bc0868ebece724ed7c3d37e3d9bff7bd ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1755987285 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb" 1755987285 35457 884c5a936fbb3fae6a4c18058662d654 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb" 1755987285 35309 940e81a5b9e04201a07e8b33a3ae6e64 ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1755987285 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty" 1755987285 12594 0d51ac3a545aaaa555021326ff22a6cc ""
@@ -58,8 +60,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1762857738 5462436 27cd050b37751b994114e730b3e1e2b9 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1762857714 2008243 47b175168a03d6b03f68db3753c884a6 ""
-  "homework.aux" 1767960569.87303 2010 dd531f4d3130ab66b88726ee2844a1fa "pdflatex"
-  "homework.tex" 1767960567.57747 48771 56db6710addb73a74f109a5ea5610c5f ""
+  "homework.aux" 1768484515.10033 3063 f700735c4fa68001a9a5324b3d44ea2f "pdflatex"
+  "homework.tex" 1768484514.05991 56545 cad29ad52bae2c470955b48eaf403ef6 ""
   (generated)
   "homework.aux"
   "homework.log"
