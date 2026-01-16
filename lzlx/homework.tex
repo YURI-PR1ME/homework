@@ -250,6 +250,75 @@
   (b)\begin{align*}
   & P=\int \psi^*\psi rdr \cdot sin\theta d\theta d\phi
   \end{align*}
+  \section{Chapter 2 HWs}
+  2.2\begin{align*}
+    & -\frac{\hbar^2}{2m}\nabla^2\psi-E\psi=0 \\
+    &\psi =Asin\sqrt{\frac{2mE}{\hbar^2}}x,\sqrt{\frac{2mE}{\hbar^2}}=\frac{n\pi}a \\
+    &1=A^2\int ^a_0 sin^2\frac{n\pi x}a dx=A^2\int^a_0 \frac12 -\frac12cos\frac{2n\pi x}adx\\
+    & 1=A^2 \frac a2\Rightarrow A=\sqrt{\frac2a}\Rightarrow \psi=\sqrt{\frac2a}sin\frac{n\pi x}a \\
+    &\overline {x}=\int^a_0 \frac2a x sin^2\frac{n\pi x}a dx=\int^a_0\frac1a x-\frac1axcos\frac{2n\pi x}a dx \\
+    & =\frac a2  \\
+    &\overline{x^2}=\int^a_0 x^2 \frac2a sin^2\frac{n\pi x}a dx=\frac1a\int^a_0x^2-x^2cos\frac{2n\pi x}adx \\
+    &=\frac{a^2}3-\frac1a\int^a_0x^2cos\frac{2n\pi x}a dx \\
+    &=\frac{a^2}3-\frac1a\frac{a}{2n\pi}x^2sin\frac{2n\pi x}a+\frac1{2n\pi}\int^a_0 2x sin\frac{2n\pi x}adx  \\
+    &=\frac{a^2}3+\frac1{n\pi}\int^a_0 x sin\frac{2n\pi x}adx  \\
+    &=\frac{a^2}3-\frac{a}{2n^2\pi^2} \int^a_0 xdcos\frac{2n\pi x}a=\frac{a^2}3-\frac{a^2}{2n^2\pi^2}+0 \\
+    &\Delta x^2=\frac{a^2}3-\frac{a^2}{2n^2\pi^2}-\frac{a^2}4=\frac{a^2}{12}-\frac{a^2}{2n^2\pi^2} \\
+  \end{align*}
+
+  2.3
+  \begin{align*}
+    & \psi=\sqrt{\frac2a}cos\frac{\pi x}a\\
+    & \psi(p)=\frac1{\sqrt{2\pi\hbar}}\int^{\frac a2}_{ -\frac a2} \sqrt{\frac2a}cos\frac{\pi x}a e^{-ipx/\hbar}dx \\
+    &=\frac1{\sqrt{a\pi\hbar}}\int^{\frac a2}_{-\frac a2}\frac12(e^{i\frac{\pi x}a}+e^{-i\frac{ \pi x}a})e^{-ipx/\hbar}dx \\
+    &=\frac1{2\sqrt{a\pi \hbar}}(\frac1{i(\frac{\pi}a-p/\hbar)})e^{i\frac{\pi x}a-ipx/\hbar}-\frac1{2\sqrt{a\pi \hbar}}(\frac1{i(\frac{\pi}a+p/\hbar)})e^{-i\frac{\pi x}a-ipx/\hbar} \\
+    &=\frac1{\sqrt{a\pi\hbar}}(\frac1{(\frac{\pi}a-p/\hbar)})sin(\frac{\pi}a-p/\hbar)\frac a2+\frac1{\sqrt{a\pi\hbar}}(\frac1{(\frac{\pi}a+p/\hbar)})sin(\frac{\pi}a+p/\hbar)\frac a2 \\
+  \end{align*}
+
+  2.4\begin{align*}
+    &1=\int^a_0 A^2x^2(x-a)^2dx=\int^a_0 A^2(x^2(x^2-2ax+a^2))dx\\
+    &1=\int^a_0 A^2(x^4-2ax^3+a^2x^2)dx=A^2[\frac15 a^5-\frac12a^5+\frac13a^5]=\frac1{30}a^5 \\
+    &\Rightarrow A=\sqrt{\frac{30}{a^5}} \\
+    &C=\int^a_0\sqrt{\frac2a}sin\frac{n\pi x}aAx(x-a)dx=A\sqrt{\frac2a}\int^a_0 sin\frac{n\pi x}a x(x-a)dx \\
+    &=A\sqrt{\frac2a}\int^a_0 x^2 sin\frac{n\pi x}adx-A\sqrt{2a}\int^a_0 sin\frac{ n \pi x}a xdx \\
+    &(1)=A\sqrt{\frac2a}\frac{a}{n\pi}a^2 (-1)^{n+1}+A\sqrt{\frac2a}\frac{a}{n\pi}\int^a_0 2x cos\frac{n\pi x}a dx  \\
+  \end{align*}
+
+  \begin{align*}
+    &(1)(2)=A\sqrt{\frac2a}\frac{2a}{n\pi}\int^a_0 x cos\frac{n\pi x}a dx =A\sqrt{\frac2a}\frac{2a}{n\pi}\frac{a}{n\pi} xsin\frac{n\pi x}a-A\sqrt{\frac2a}\frac{2a}{n\pi}\frac{a}{n\pi} \int^a_0sin\frac{n\pi x}adx  \\
+    & = A\sqrt{\frac2a}\frac{2a}{n\pi}\frac{a}{n\pi}\frac{a}{n\pi}[(-1)^n-1]=A\sqrt{2a}\frac{2a^2}{n^3\pi^3}[(-1)^n-1]\\
+    &(2)=-A\sqrt{2a}\int^a_0 sin\frac{n\pi x}axdx=-A\sqrt{2a}\frac{a}{n\pi}(-cos\frac{n\pi x}a)x+0\\
+    &=A\sqrt{2a}\frac{a^2}{n\pi}(-1)^n \\
+    &(1)+(1)(2)+(2)= A\sqrt{2a}\frac{2a^2}{n^3\pi^3}[(-1)^n-1]\\
+    &n=1\Rightarrow C=A\sqrt{2a}\frac{-4a^2}{\pi^3} \\
+    &P_1=\frac{30}{a^5}\frac{32a^5}{\pi^6}=\frac{960}{\pi^6} \\
+  \end{align*}
+
+  2.6\begin{align*}
+  & \psi=\begin{cases}
+    &e^{ikx}+Re^{-ikx}\quad x<0\\
+    &Te^{ik'x} \quad x>0
+  \end{cases}\\
+  &-\frac{\hbar^2}{2m}\nabla^2 \psi-(V+E)\psi =0\Rightarrow k=\sqrt{\frac{2m(V+E)}{\hbar^2}}\\
+  &k'=\sqrt{\frac{2mE}{\hbar^2}} \\
+  &1+R=T;k-kR=k'T \Rightarrow R=\frac{k-k'}{k+k'}\Rightarrow |R|^2=\frac{(k-k')^2}{(k+k')^2}\\
+  &Tran=1-\frac{(k-k')^2}{(k+k')^2}=
+  \frac{4kk'}{(k+k')^2}\\
+  \end{align*}
+
+  2.7,2.8,2.9\begin{align*}
+  & x=\frac1{\sqrt{2}}(a+a^{\dagger}) \\
+  &\frac1{\sqrt{2}}(a+a^{\dagger})|n>=\frac1{\sqrt{2}}(\sqrt{n}|n-1>+\sqrt{n+1}|n+1>) \\
+  &x^2=\frac12(a^2+(2N+1)+a^{\dagger2}) \\
+  &x^2|n>=\frac12(\sqrt{n}\sqrt{n-1}|n-2>+(2n+1)|n>+\sqrt{n+1}\sqrt{n+2}|n+2>) \\
+  &p=\frac1{\sqrt{2}i}(a-a^{\dagger}) \\
+  & p|n>=\frac1{\sqrt{2}i}(\sqrt{n}|n-1>+\sqrt{n+1}|n+1>)\\
+  &p^2 |n>=-\frac12(a^2-(2N+1)+a^{\dagger2})|n>\\& =-\frac12(\sqrt{n}\sqrt{n-1}|n-2>-(2n+1)|n>+\sqrt{n+1}\sqrt{n+2}|n+2>) \\
+  &\overline{p}=\overline{x}=0 \\
+  &\overline{x^2}=(n+\frac12)\frac{\hbar}{\mu\omega},\overline{p^2}=(n+\frac12)\hbar\omega\mu \\
+  &\Delta x=\sqrt{(n+\frac12)\frac{\hbar}{\mu\omega}},\Delta p=\sqrt{(n+\frac12)\hbar\omega\mu} \\
+  &\Delta x\Delta p=(n+\frac12)\hbar \\
+  \end{align*}
  \section{Oct 20 HW}
 Oct 20 homework: Proov 3 equation 
 
