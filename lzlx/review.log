@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2026/dev/Arch Linux) (preloaded format=xelatex 2025.10.26)  12 JAN 2026 19:45
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2026/dev/Arch Linux) (preloaded format=xelatex 2025.10.26)  17 JAN 2026 20:59
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -495,9 +495,7 @@ Overfull \hbox (0.75845pt too wide) detected at line 151
 
 
 
-[3
-
-] (./review.aux)
+[3] (./review.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/08/05>
@@ -516,4 +514,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  74i,15n,100p,333b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on review.xdv (3 pages, 51528 bytes).
+Output written on review.xdv (3 pages, 54240 bytes).

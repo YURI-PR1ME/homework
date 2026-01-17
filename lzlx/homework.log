@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.11)  16 JAN 2026 20:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.11)  17 JAN 2026 17:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -298,62 +298,33 @@ Overfull \hbox (12.58612pt too wide) in paragraph at lines 558--559
 [17]
 
 [18]
-Overfull \hbox (14.69376pt too wide) detected at line 666
-[]
- []
-
-
 
 [19]
-Overfull \hbox (36.39978pt too wide) detected at line 718
-[]
- []
-
-
-
-[20]
-Overfull \vbox (74.54503pt too high) has occurred while \output is active []
-
-
-
-[21]
-Overfull \hbox (46.9554pt too wide) detected at line 735
-[]
- []
-
-
-Overfull \vbox (10.36877pt too high) has occurred while \output is active []
-
-
-
-[22]
-
-[23]
 Overfull \hbox (363.45041pt too wide) detected at line 795
 []
  []
 
 
 
-[24]
+[20]
 
-[25]
+[21]
 Overfull \hbox (32.9272pt too wide) detected at line 839
 []
  []
 
 
 
-[26]
+[22]
 
-[27]
+[23]
 Overfull \hbox (11.20656pt too wide) detected at line 903
 []
  []
 
 
 
-[28]
+[24]
 Overfull \hbox (51.68391pt too wide) detected at line 933
 []
  []
@@ -365,15 +336,38 @@ Overfull \hbox (18.55916pt too wide) detected at line 946
 
 
 
-[29]
+[25]
 Overfull \hbox (44.79865pt too wide) detected at line 957
 []
  []
 
 
 
-[30]
+[26]
 Overfull \hbox (72.75046pt too wide) detected at line 1038
+[]
+ []
+
+
+
+[27]
+
+[28]
+Overfull \hbox (99.18552pt too wide) detected at line 1090
+[]
+ []
+
+
+
+[29]
+Overfull \hbox (79.67798pt too wide) detected at line 1108
+[]
+ []
+
+
+
+[30]
+Overfull \hbox (32.77321pt too wide) detected at line 1151
 []
  []
 
@@ -382,32 +376,22 @@ Overfull \hbox (72.75046pt too wide) detected at line 1038
 [31]
 
 [32]
-Overfull \hbox (99.18552pt too wide) detected at line 1090
-[]
- []
-
-
 
 [33]
-Overfull \hbox (79.67798pt too wide) detected at line 1108
+Overfull \hbox (17.88242pt too wide) detected at line 1239
 []
  []
 
 
 
 [34]
-Overfull \hbox (32.77321pt too wide) detected at line 1151
-[]
- []
-
-
 
 [35]
 
 [36]
 
 [37]
-Overfull \hbox (17.88242pt too wide) detected at line 1239
+Overfull \hbox (9.26434pt too wide) detected at line 1358
 []
  []
 
@@ -419,20 +403,7 @@ Overfull \hbox (17.88242pt too wide) detected at line 1239
 
 [40]
 
-[41]
-Overfull \hbox (9.26434pt too wide) detected at line 1358
-[]
- []
-
-
-
-[42]
-
-[43]
-
-[44]
-
-[45] (./homework.aux)
+[41] (./homework.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -441,16 +412,16 @@ L3 programming layer <2025-01-18>
 Here is how much of TeX's memory you used:
  2902 strings out of 475171
  39881 string characters out of 5767094
- 464121 words of memory out of 5000000
+ 457121 words of memory out of 5000000
  25899 multiletter control sequences out of 15000+600000
  564244 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,15n,65p,766b,245s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on homework.pdf (45 pages, 306280 bytes).
+Output written on homework.pdf (41 pages, 293753 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
+ 228 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
