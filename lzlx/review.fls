@@ -1,10 +1,10 @@
 PWD /home/yuri/books/homework_notes/lzlx
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
-INPUT /home/yuri/.texlive/texmf-var/web2c/xetex/xelatex.fmt
+INPUT /var/lib/texmf/web2c/xetex/xelatex.fmt
 INPUT review.tex
 OUTPUT review.log
-INPUT /home/yuri/texmf/tex/latex/ieeetran/IEEEtran.cls
-INPUT /home/yuri/texmf/tex/latex/ieeetran/IEEEtran.cls
+INPUT /usr/share/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
+INPUT /usr/share/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 INPUT /usr/share/texmf-dist/tex/latex/cite/cite.sty
 INPUT /usr/share/texmf-dist/tex/latex/cite/cite.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -101,4 +101,13 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 OUTPUT review.xdv
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT review.aux

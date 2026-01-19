@@ -1,4 +1,4 @@
 PWD /home/yuri/books/homework_notes/lzlx
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
-INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /var/lib/texmf/web2c/xetex/xelatex.fmt
 OUTPUT texput.log

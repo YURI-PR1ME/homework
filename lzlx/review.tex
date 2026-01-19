@@ -17,6 +17,8 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \usepackage{fancyhdr}
 \begin{document}
+kErrb3rt sCh1ld
+
 \section{第一章}
 *\textcolor{red}{基础章节}
 
@@ -341,6 +343,90 @@ $\alpha=-n_r$其中$n_r$为径向量子数，衡量镜像的节点。
 \end{align}
 c的解释：把$\chi_{\pm\frac12}$看作$Y_{\frac12\pm\frac12}$代入通用公式。
 
+\newpage
 
+\section{所有用到过的公式}
+
+\subsection{第一章}
+
+\begin{align*}
+  &-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi=i\hbar\frac{ \partial }{ \partial t}\psi=E\psi \\
+  & \int pdq=nh \\
+  &\textcolor{red}{\Delta u=\sqrt{\overline{u^2}-\overline{u}^2}} \\
+  &\psi(p)=\frac1{\sqrt{2\pi\hbar}}\int\psi(x)e^{-ipx/\hbar}dx,\\ &\psi(x)=\frac1{\sqrt{2\pi\hbar}}\int \psi(p)e^{ipx/\hbar}dp \\
+  &\textcolor{red}{ C_n=\int \psi^*_n \psi \quad ;\;\psi(t)=\Sigma_n C_n\psi_n e^{-iEt/\hbar}} \\
+  &\textcolor{red}{ \int^{\infty}_{-\infty}e^{-\alpha x^2}dx=\sqrt{\frac{\pi}{\alpha}} }\\
+  &\textcolor{red}{ \int^{\infty}_{-\infty}x^2e^{-\alpha x^2}dx=\frac{1}{2\alpha}\sqrt{\frac{\pi}{\alpha}}} \\
+\end{align*}
+
+\subsection{第二章}
+
+\begin{align*}
+  & \psi=\begin{cases}e^{ikx}+Re^{-ikx}\\ Se^{ik'x}\end{cases};T\ne |S|^2,T+|R|^2=1 \\
+\end{align*}
+
+\subsection{第三章}
+
+\begin{align*}
+  &\textcolor{red}{ [l_i,A_j]=i\hbar\epsilon_{ijk}A_k,A=l,x,p} \\
+  &\textcolor{red}{ j_{\pm}=j_x\pm ij_y }\\
+  &\textcolor{red}{ j_{\pm}|nlm>=\sqrt{l(l+1)-m(m\pm1)}\hbar|nlm\pm1> } \\
+  &\textcolor{red}{ \text{久期方程}} \\
+  &[A,B]=i\hbar(\frac{ \partial A}{ \partial q}\frac{ \partial B}{ \partial p}-\frac{ \partial A}{ \partial p}\frac{ \partial B}{ \partial q}) \\
+\end{align*}
+
+\subsection{第四章}
+
+\begin{align*}
+  &\textcolor{red}{ \frac{dA}{dt}=\frac1{i\hbar}[A,H]=\frac1{-\hbar^2}\{A,B\} }\\
+  &2\overline{T}=\overline{r\cdot \nabla V} \\
+\end{align*}
+
+\subsection{第七章}
+
+没有关键公式
+
+\subsection{第八章}
+
+\begin{align*}
+  &\sigma_x=\begin{bmatrix}0&1\\1&0\end{bmatrix},\sigma_y=\begin{bmatrix}0&-i\\i&0\end{bmatrix}  \\
+  &\sigma_z=\begin{bmatrix}1&0\\0&-1\end{bmatrix} ,\textcolor{red}{ \sigma_\pm=\frac12(\sigma_x\pm i\sigma_y)} \\
+\end{align*}
+
+\subsection{第五章}
+
+\begin{align*}
+&\text{$n_l=0$时，有}u(r)=1\rightarrow R_{nl}=r^le^{-\beta r} \\
+&\chi(r)=r^{l+1}e^{-\beta r},\beta =\frac1n,n=l+1 \\
+\end{align*}
+
+
+\subsection{第九章}
+
+\begin{align*}
+    & \textcolor{red}{ a|n>=\sqrt{n}|n-1>,a^{\dagger}|n>=\sqrt{n+1}|n+1> }\\
+    &\hat N=a^{\dagger}a,aa^{\dagger}=\hat N+1 \\
+    &\textcolor{red}{ x=\frac1{\sqrt{2}}(a+a^{\dagger}),p=\frac1{\sqrt{2}i}(a-a^{\dagger}) }\\
+    &\text{x和p的单位是：}\textcolor{red}{ |x|=\sqrt{\frac{\hbar}{\mu\omega}},|p|=\sqrt{\hbar\omega\mu} }\\
+  \end{align*}
+
+  \subsection{第十章}
+
+  非简并微扰:
+  \begin{align*}
+    &E_n=E^{(0)}_n+H'_{nn}+\textcolor{red}{ \Sigma_m\frac{|H'_{mn}|^2}{E^{(0)}_n-E^{(0)}_m}}\\
+    &\psi_n=\psi^{(0)}_n+\Sigma_m\frac{|H'_{mn}|}{E^{(0)}_n-E^{(0)}_m}\psi^{(0)}_m
+  \end{align*}
+
+  简并态微扰:
+
+  \begin{align*}
+  & det|H'-\lambda|=0\rightarrow v_n,\lambda_n\\
+  &\psi'_n=v_n,E_n=E_n^{(0)}+\lambda_n\\
+  \end{align*}
+
+  逼近简并的非简并:
+
+  久期方程
 
 \end{document}
